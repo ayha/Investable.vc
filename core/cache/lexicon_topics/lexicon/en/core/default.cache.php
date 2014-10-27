@@ -537,6 +537,7 @@
   'thursday' => 'Thursday',
   'friday' => 'Friday',
   'saturday' => 'Saturday',
+  'investable.backtohome' => '&lt; Back to Home',
   'setting_firstname' => 'First Name',
   'setting_firstname_desc' => '',
 );

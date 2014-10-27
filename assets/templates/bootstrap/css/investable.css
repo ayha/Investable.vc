@@ -178,7 +178,7 @@ h1{
 
 h2{
 	font-size:1.1em;
-	padding:3px 10px 3px 0;
+	padding:5px 10px;
 	background-color:#ffffff;	
 	display:inline-block;
 	line-height:1.2em;
@@ -403,6 +403,69 @@ h5.team_name{
 	
 }
 
+.hidden{
+	display:none;
+	
+}
+
+
+.login_form_wrapper{
+	
+}
+
+#register_form_wrapper{
+	
+}
+
+.cd-tabs-navigation li a#tab-investor{
+	/*background:url(/assets/images/investor_icon.png) 30px center no-repeat transparent;*/
+}
+
+.cd-tabs-navigation li a#tab-startup{
+	/*background:url(/assets/images/startup_icon.png) 30px center no-repeat transparent;*/
+}
+
+
+.form_header{
+	display:block;
+	background-color:#7e0a42;
+	color:#fff;
+	font-size:1.1em;
+	padding:5px 15px;
+}
+
+.form_section{
+	
+	border-bottom:1px solid #ccc;
+	padding:15px;
+	
+}
+
+.form_row{
+	display:block;
+	margin-bottom:8px;
+	
+}
+
+.form_section.submit{
+	border-bottom:none;
+	
+}
+
+
+.cd-tabs-content li .form_section li{
+	display:block;
+}
+
+.cd-tabs-content li .form_section ol {
+	list-style:decimal outside none;
+}
+
+.cd-tabs-content li .form_section ol li{
+	list-style:decimal outside none;
+	
+} 
+
 /* end homepage content */
 
 @media (max-width: 768px){
@@ -427,6 +490,12 @@ h5.team_name{
 		background:#a40a42;
 		color:#fff;
 	}
+	
+	.navbar-social{
+		display:none;
+		
+	}
+	
 	/*
 	#contact_info{
 		width:100%;

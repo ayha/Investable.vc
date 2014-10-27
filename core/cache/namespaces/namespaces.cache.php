@@ -23,6 +23,12 @@
     'path' => '/var/www/vhosts/v2.investable.vc/html/manager/',
     'assets_path' => '/var/www/vhosts/v2.investable.vc/html/manager/assets/',
   ),
+  'formit' => 
+  array (
+    'name' => 'formit',
+    'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/formit/',
+    'assets_path' => '',
+  ),
   'htmltopdf' => 
   array (
     'name' => 'htmltopdf',
@@ -46,6 +52,12 @@
     'name' => 'investable',
     'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/investable/',
     'assets_path' => '/var/www/vhosts/v2.investable.vc/html/assets/components/investable/',
+  ),
+  'login' => 
+  array (
+    'name' => 'login',
+    'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/login/',
+    'assets_path' => '/Users/theboxer/www/modx/pkgs/login/assets/components/login/',
   ),
   'phpthumbof' => 
   array (

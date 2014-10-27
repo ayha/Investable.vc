@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="[[++cultureKey]]">
+	<head>
+		[[$Head]]
+	</head>
+	<body>
+		[[$Navbar]]
+		<div class="container main_content">
+                <div class="backhome"><a href="[[~[[UltimateParent? &topLevel=`2`]]]]">&lt; Back to Home</a></div>
+		[[If?
+			&subject=`[[*longtitle]]`
+			&operator=`!empty`
+			&then=`<div class="page-header">
+				<h1>[[*longtitle]]</h1>
+			</div>`
+		]]
+<div id="register_form_wrapper" class="cd-tabs">
+	 <nav>
+        <ul class="cd-tabs-navigation">
+            <li><a data-content="investor" class="selected" id="tab-investor" href="#0">Investor</a></li>
+            <li><a data-content="startup" href="#0" id="tab-startup">Startup</a></li>
+           
+        </ul> <!-- cd-tabs-navigation -->
+    </nav>
+     <ul class="cd-tabs-content">
+        <li data-content="investor" class="selected">
+        	<div class="investor_form_wrapper"  action="[[~[[*id]]]]" method="post">
+   		<form name="investor_register_form"  action="comment.php" method="post">
+   			<input type="hidden" name="usertype" value="investor" />
+      		<div class="form_section" id="investor_login_details">
+      			<div class="form_row"><input type="text" name="username" placeholder="Email address" /></div>
+      			<div class="form_row"><input type="password" name="password" placeholder="Password" /></div>
+      		</div>
+      		<div class="form_section" id="investor_contact">
+         		<div class="form_row"><input type="text" name="firstname" id="investor_firstname" placeholder="First Name" /></div>
+         		<div class="form_row"><input type="text" name="lastname" id="investor_lastname" placeholder="Last Name" /></div>
+      		</div>
+      		<div class="form_section" id="investor_disclaimer">
+         		<div class="form_row"><input type="checkbox" name="promote" id="investor_promote" value="1"> I would like to receive updates from Investable</div>
+         		<div class="form_row"><input type="checkbox" name="disclaimer" id="investor_disclaimer" value="1"> I understand and agree to the following statements:
+            		<ol>
+               			<li>You can confirm that you, either alone or with any of your associates on a joint account, have a portfolio of not less that HK$8 million or its equivalent in any foreign currency.</li>
+               			<li>You represent that you have such knowledge and experience in financial and business matters that you are capable of evaluating the merits and risks of an investment in illiquid securities, and you are able to bear the economic risk of such investments including the risk of complete loss.</li>
+               			<li>You (a) understand that Investable will rely on the foregoing representations to, among other things, maintain compliance with securities laws, (b) certify that your answers to the foregoing questions are correctly stated to the best of your knowledge and information, (c) you further agree that Investable may require (in order for you to remain a member of Investable or participate in any fund investment) that you (or your accountant or attorney) furnish any additional information to Investable that it deems reasonably necessary in order to verify your answers to the foregoing questions, (d) you promise to keep the information you learn about these companies confidential, and (e) agree to the Investable terms and conditions.</li>
+            		</ol>
+         		</div>
+      		</div>
+      		<div class="form_section submit">
+         		<div class="form_row"><input type="submit" name="investor_submit" value="Submit" /></div>
+      		</div>
+  		 </form>
+   </div>
+        </li>
+        <li data-content="startup">
+        	 <div class="startup_form_wrapper">
+      <form name="startup_register_form"   action="[[~[[*id]]]]" method="post">
+      	 <input type="hidden" name="usertype" value="startup" />
+         <div class="form_section" id="#startup_contact">
+            <div class="form_row"><input type="text" /> </div>
+         </div>
+         		<div class="form_section" id="#startup_moreinfo"></div>
+         <div class="form_section submit">
+         	<div class="form_row"><input type="submit" name="startup_submit" value="Submit" /></div>
+		 </div>
+      </form>
+	</div>
+        </li>
+	
+  
+</div>
+</div>
+		[[$Footer]]
+	</body>
+</html>

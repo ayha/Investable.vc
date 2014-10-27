@@ -91,7 +91,7 @@
 
 <!-- Video JS -->
 
-<link href="/assets/lib/video-js/video-js.css" rel="stylesheet" media="screen">
+<link href="/assets/lib/video-js/video-js.css" rel="stylesheet" media="screen" />
 <script src="/assets/lib/video-js/video.js" ></script>
 <script>
   videojs.options.flash.swf = "[[!++site_url]]assets/lib/video-js/video-js.swf"
@@ -99,13 +99,29 @@
 
 <!-- end Video JS -->
 
-<script src="/assets/lib/js/investable.js"></script>
+<!-- Fancybox -->
+<link href="/assets/lib/fancybox/jquery.fancybox.css" rel="stylesheet" media="screen" />
+<script src="/assets/lib/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- end Fancybox -->
+
+<script src="/assets/lib/jquery.form.min.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<link href="/assets/lib/tabs/tabs.style.css" rel="stylesheet" media="screen" />
+<script src="/assets/lib/tabs/tabs.main.js" type="text/javascript" ></script>
+<!-- end tabs -->
 
 <!-- Share This -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "cb8997a7-1122-4810-957a-6445eb13f708", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <!-- End Share This -->
+
+
+<script src="/assets/lib/js/investable.js"></script>
+
+
+
 <base href="[[!++site_url]]" />
 	</head>
 	<body>
@@ -121,7 +137,9 @@
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
       <div class="navbar-signin col-md-6">
+         [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
+         `]]
 
       </div>
       <div class="allclear"></div>
@@ -189,6 +207,16 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 
+
+<!-- include hidden elements on the page -->
+<div class="hidden">
+
+[[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
+
+
+</div>
+
+
 	</body>
 </html>',
     '_isForward' => false,
@@ -249,7 +277,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Video JS -->
 
-<link href="/assets/lib/video-js/video-js.css" rel="stylesheet" media="screen">
+<link href="/assets/lib/video-js/video-js.css" rel="stylesheet" media="screen" />
 <script src="/assets/lib/video-js/video.js" ></script>
 <script>
   videojs.options.flash.swf = "[[!++site_url]]assets/lib/video-js/video-js.swf"
@@ -257,13 +285,29 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- end Video JS -->
 
-<script src="/assets/lib/js/investable.js"></script>
+<!-- Fancybox -->
+<link href="/assets/lib/fancybox/jquery.fancybox.css" rel="stylesheet" media="screen" />
+<script src="/assets/lib/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- end Fancybox -->
+
+<script src="/assets/lib/jquery.form.min.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<link href="/assets/lib/tabs/tabs.style.css" rel="stylesheet" media="screen" />
+<script src="/assets/lib/tabs/tabs.main.js" type="text/javascript" ></script>
+<!-- end tabs -->
 
 <!-- Share This -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "cb8997a7-1122-4810-957a-6445eb13f708", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <!-- End Share This -->
+
+
+<script src="/assets/lib/js/investable.js"></script>
+
+
+
 <base href="[[!++site_url]]" />',
     '[[UltimateParent? &topLevel=`1`]]' => 2,
     '[[UltimateParent?  &topLevel=`1`]]' => 2,
@@ -321,7 +365,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
       <div class="navbar-signin col-md-6">
+         [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
+         `]]
 
       </div>
       <div class="allclear"></div>
@@ -386,12 +432,27 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<!-- include hidden elements on the page -->
+<div class="hidden">
+
+[[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
+
+
+</div>
+
 ',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
     '[[~11]]' => 'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html',
     '[[~34]]' => 'en/news/techcrunch2.html',
     '[[~35]]' => 'en/news/techcrunch3.html',
+    '[[%login? &topic=`default` &namespace=`login` &language=`en`]]' => 'Login',
+    '[[%login.username]]' => 'Username',
+    '[[%login.password]]' => 'Password',
+    '[[~44]]' => 'en/member/forgot-password.html',
+    '[[%login.forgot_password]]' => 'Forgot your password?',
   ),
   'sourceCache' => 
   array (
@@ -447,7 +508,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Video JS -->
 
-<link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen">
+<link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen" />
 <script src="[[++assets_url]]lib/video-js/video.js" ></script>
 <script>
   videojs.options.flash.swf = "[[!++site_url]]assets/lib/video-js/video-js.swf"
@@ -455,13 +516,29 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- end Video JS -->
 
-<script src="[[++assets_url]]lib/js/investable.js"></script>
+<!-- Fancybox -->
+<link href="[[++assets_url]]lib/fancybox/jquery.fancybox.css" rel="stylesheet" media="screen" />
+<script src="[[++assets_url]]lib/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- end Fancybox -->
+
+<script src="[[++assets_url]]lib/jquery.form.min.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<link href="[[++assets_url]]lib/tabs/tabs.style.css" rel="stylesheet" media="screen" />
+<script src="[[++assets_url]]lib/tabs/tabs.main.js" type="text/javascript" ></script>
+<!-- end tabs -->
 
 <!-- Share This -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "cb8997a7-1122-4810-957a-6445eb13f708", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <!-- End Share This -->
+
+
+<script src="[[++assets_url]]lib/js/investable.js"></script>
+
+
+
 <base href="[[!++site_url]]" />',
           'locked' => false,
           'properties' => 
@@ -507,7 +584,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Video JS -->
 
-<link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen">
+<link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen" />
 <script src="[[++assets_url]]lib/video-js/video.js" ></script>
 <script>
   videojs.options.flash.swf = "[[!++site_url]]assets/lib/video-js/video-js.swf"
@@ -515,13 +592,29 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- end Video JS -->
 
-<script src="[[++assets_url]]lib/js/investable.js"></script>
+<!-- Fancybox -->
+<link href="[[++assets_url]]lib/fancybox/jquery.fancybox.css" rel="stylesheet" media="screen" />
+<script src="[[++assets_url]]lib/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- end Fancybox -->
+
+<script src="[[++assets_url]]lib/jquery.form.min.js" type="text/javascript"></script>
+
+<!-- tabs -->
+<link href="[[++assets_url]]lib/tabs/tabs.style.css" rel="stylesheet" media="screen" />
+<script src="[[++assets_url]]lib/tabs/tabs.main.js" type="text/javascript" ></script>
+<!-- end tabs -->
 
 <!-- Share This -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "cb8997a7-1122-4810-957a-6445eb13f708", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <!-- End Share This -->
+
+
+<script src="[[++assets_url]]lib/js/investable.js"></script>
+
+
+
 <base href="[[!++site_url]]" />',
         ),
         'policies' => 
@@ -555,7 +648,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
       <div class="navbar-signin col-md-6">
+         [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
+         `]]
 
       </div>
       <div class="allclear"></div>
@@ -602,7 +697,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
       <div class="navbar-signin col-md-6">
+         [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
+         `]]
 
       </div>
       <div class="allclear"></div>
@@ -661,6 +758,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<!-- include hidden elements on the page -->
+<div class="hidden">
+
+[[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
+
+
+</div>
+
 ',
           'locked' => false,
           'properties' => 
@@ -678,6 +785,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<!-- include hidden elements on the page -->
+<div class="hidden">
+
+[[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
+
+
+</div>
+
 ',
         ),
         'policies' => 
@@ -1073,6 +1190,84 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
       }
       google.maps.event.addDomListener(window, \'load\', initialize);
     </script>',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'login_form' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 33,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'login_form',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 10,
+          'cache_type' => 0,
+          'snippet' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
+  
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+      <div class="form_section">
+         <div class="form_row"><p>Login with LinkedIn</p></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
+      
+      </div>
+   </form>
+</div>',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
+  
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+      <div class="form_section">
+         <div class="form_row"><p>Login with LinkedIn</p></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
+      
+      </div>
+   </form>
+</div>',
         ),
         'policies' => 
         array (
@@ -1534,7 +1729,9 @@ if ($id && $id != $top) {
 }
 return $id;',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'moduleguid' => '',
           'static' => false,
           'static_file' => '',
@@ -4353,6 +4550,171 @@ return $output;',
         array (
         ),
       ),
+      'checkLogin' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 48,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'checkLogin',
+          'description' => 'Checks to see if the user is logged in. return true / false',
+          'editor_type' => 0,
+          'category' => 16,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * checkLoggedIn
+ *
+ * Copyright 2009-2011 by Shaun McCormick <shaun@modx.com>
+ *
+ * isLoggedIn is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * isLoggedIn is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * isLoggedIn; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx isLoggedIn Snippet. Will check to see if user is logged into the current
+ * or specific context. If not, redirects to unauthorized page.
+ *
+ * @package login
+ */
+/* setup default properties */
+$ctxs = !empty($ctxs) ? $ctxs : $modx->context->get(\'key\');
+if (!is_array($ctxs)) $ctxs = explode(\',\',$ctxs);
+
+/*
+if (!$modx->user->hasSessionContext($ctxs)) {
+    if (!empty($redirectTo)) {
+        $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : \'\';
+        $url = $modx->makeUrl($redirectTo,\'\',$redirectParams,\'full\');
+        $modx->sendRedirect($url);
+    } else {
+        $modx->sendUnauthorizedPage();
+    }
+}
+return $modx->user->hasSessionContext($ctxs);
+*/
+
+if($modx->user->hasSessionContext($ctxs)){
+   return 1;
+}else{
+   return 0;
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+            'contexts' => 
+            array (
+              'name' => 'contexts',
+              'desc' => 'prop_isloggedin.contexts_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'A comma-separated list of contexts to check authenticated status for. If not set, will default to current context.',
+              'area_trans' => '',
+            ),
+            'redirectparams' => 
+            array (
+              'name' => 'redirectparams',
+              'desc' => 'prop_isloggedin.redirectparams_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If using redirectTo, a JSON object of REQUEST params to send with the redirect.',
+              'area_trans' => '',
+            ),
+            'redirectto' => 
+            array (
+              'name' => 'redirectto',
+              'desc' => 'prop_isloggedin.redirectto_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The ID of a Resource to redirect to should the user not be logged in. Will default to the unauthorized_page.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * checkLoggedIn
+ *
+ * Copyright 2009-2011 by Shaun McCormick <shaun@modx.com>
+ *
+ * isLoggedIn is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * isLoggedIn is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * isLoggedIn; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx isLoggedIn Snippet. Will check to see if user is logged into the current
+ * or specific context. If not, redirects to unauthorized page.
+ *
+ * @package login
+ */
+/* setup default properties */
+$ctxs = !empty($ctxs) ? $ctxs : $modx->context->get(\'key\');
+if (!is_array($ctxs)) $ctxs = explode(\',\',$ctxs);
+
+/*
+if (!$modx->user->hasSessionContext($ctxs)) {
+    if (!empty($redirectTo)) {
+        $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : \'\';
+        $url = $modx->makeUrl($redirectTo,\'\',$redirectParams,\'full\');
+        $modx->sendRedirect($url);
+    } else {
+        $modx->sendUnauthorizedPage();
+    }
+}
+return $modx->user->hasSessionContext($ctxs);
+*/
+
+if($modx->user->hasSessionContext($ctxs)){
+   return 1;
+}else{
+   return 0;
+}',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
       'parseChunk' => 
       array (
         'fields' => 
@@ -4498,6 +4860,489 @@ return $output;',
           array (
           ),
           'is_stream' => true,
+        ),
+      ),
+      'Login' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 31,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'Login',
+          'description' => 'Displays a login and logout form.',
+          'editor_type' => 0,
+          'category' => 16,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * Login
+ *
+ * Copyright 2010 by Jason Coward <jason@modx.com> and Shaun McCormick
+ * <shaun@modx.com>
+ *
+ * Login is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option) any
+ * later version.
+ *
+ * Login is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Login; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx Login Snippet
+ *
+ * This snippet handles login POSTs, sending the user back to where they came from or to a specific
+ * location if specified in the POST.
+ *
+ * @package login
+ *
+ * @property textfield actionKey The REQUEST variable containing the action to take.
+ * @property textfield loginKey The actionKey for login.
+ * @property textfield logoutKey The actionKey for logout.
+ * @property list tplType The type of template to expect for the views:
+ *  modChunk - name of chunk to use
+ *  file - full path to file to use as tpl
+ *  embedded - the tpl is embedded in the page content
+ *  inline - the tpl is inline content provided directly
+ * @property textfield loginTpl The template for the login view (content based on tplType)
+ * @property textfield logoutTpl The template for the logout view (content based on tplType)
+ * @property textfield errTpl The template for any errors that occur when processing an view
+ * @property list errTplType The type of template to expect for the error messages:
+ *  modChunk - name of chunk to use
+ *  file - full path to file to use as tpl
+ *  inline - the tpl is inline content provided directly
+ * @property integer logoutResourceId An explicit resource id to redirect users to on logout
+ * @property string loginMsg The string to use for the login action. Defaults to
+ * the lexicon string "login".
+ * @property string logoutMsg The string to use for the logout action. Defaults
+ * to the lexicon string "login.logout"
+ */
+require_once $modx->getOption(\'login.core_path\',null,$modx->getOption(\'core_path\').\'components/login/\').\'model/login/login.class.php\';
+$login = new Login($modx,$scriptProperties);
+if (!is_object($login) || !($login instanceof Login)) return \'\';
+
+$controller = $login->loadController(\'Login\');
+$output = $controller->run($scriptProperties);
+return $output;',
+          'locked' => false,
+          'properties' => 
+          array (
+            'actionKey' => 
+            array (
+              'name' => 'actionKey',
+              'desc' => 'prop_login.actionkey_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'service',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The REQUEST variable that indicates what action to take.',
+              'area_trans' => '',
+            ),
+            'loginKey' => 
+            array (
+              'name' => 'loginKey',
+              'desc' => 'prop_login.loginkey_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'login',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The login action key.',
+              'area_trans' => '',
+            ),
+            'logoutKey' => 
+            array (
+              'name' => 'logoutKey',
+              'desc' => 'prop_login.logoutkey_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'logout',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The logout action key.',
+              'area_trans' => '',
+            ),
+            'tplType' => 
+            array (
+              'name' => 'tplType',
+              'desc' => 'prop_login.tpltype_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'value' => 'modChunk',
+                  'text' => 'opt_register.chunk',
+                  'name' => 'Chunk',
+                ),
+                1 => 
+                array (
+                  'value' => 'file',
+                  'text' => 'opt_register.file',
+                  'name' => 'File',
+                ),
+                2 => 
+                array (
+                  'value' => 'inline',
+                  'text' => 'opt_register.inline',
+                  'name' => 'Inline',
+                ),
+                3 => 
+                array (
+                  'value' => 'embedded',
+                  'text' => 'opt_register.embedded',
+                  'name' => 'Embedded',
+                ),
+              ),
+              'value' => 'modChunk',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The type of tpls being provided for the login and logout forms.',
+              'area_trans' => '',
+            ),
+            'loginTpl' => 
+            array (
+              'name' => 'loginTpl',
+              'desc' => 'prop_login.logintpl_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'lgnLoginTpl',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The login form tpl.',
+              'area_trans' => '',
+            ),
+            'logoutTpl' => 
+            array (
+              'name' => 'logoutTpl',
+              'desc' => 'prop_login.logouttpl_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'lgnLogoutTpl',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The logout tpl.',
+              'area_trans' => '',
+            ),
+            'preHooks' => 
+            array (
+              'name' => 'preHooks',
+              'desc' => 'prop_login.prehooks_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'What scripts to fire, if any, before the user is logged in or out. This can be a comma-separated list of hooks, and if the first fails, the proceeding ones will not fire. A hook can also be a Snippet name that will execute that Snippet.',
+              'area_trans' => '',
+            ),
+            'postHooks' => 
+            array (
+              'name' => 'postHooks',
+              'desc' => 'prop_login.posthooks_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'What scripts to fire, if any, after the user has been logged in or out. This can be a comma-separated list of hooks, and if the first fails, the proceeding ones will not fire. A hook can also be a Snippet name that will execute that Snippet.',
+              'area_trans' => '',
+            ),
+            'errTpl' => 
+            array (
+              'name' => 'errTpl',
+              'desc' => 'prop_login.errtpl_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'lgnErrTpl',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The error tpl.',
+              'area_trans' => '',
+            ),
+            'errTplType' => 
+            array (
+              'name' => 'errTplType',
+              'desc' => 'prop_login.errtpltype_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'value' => 'modChunk',
+                  'text' => 'opt_register.chunk',
+                  'name' => 'Chunk',
+                ),
+                1 => 
+                array (
+                  'value' => 'file',
+                  'text' => 'opt_register.file',
+                  'name' => 'File',
+                ),
+                2 => 
+                array (
+                  'value' => 'inline',
+                  'text' => 'opt_register.inline',
+                  'name' => 'Inline',
+                ),
+                3 => 
+                array (
+                  'value' => 'embedded',
+                  'text' => 'opt_register.embedded',
+                  'name' => 'Embedded',
+                ),
+              ),
+              'value' => 'modChunk',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The type of error tpl.',
+              'area_trans' => '',
+            ),
+            'loginResourceId' => 
+            array (
+              'name' => 'loginResourceId',
+              'desc' => 'prop_login.loginresourceid_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 0,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The resource to direct users to on successful login. 0 will redirect to self.',
+              'area_trans' => '',
+            ),
+            'loginResourceParams' => 
+            array (
+              'name' => 'loginResourceParams',
+              'desc' => 'prop_login.loginresourceparams_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'A JSON object of parameters to append to the login redirection URL. Ex: {"test":123}',
+              'area_trans' => '',
+            ),
+            'logoutResourceId' => 
+            array (
+              'name' => 'logoutResourceId',
+              'desc' => 'prop_login.logoutresourceid_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 0,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'Resource ID to redirect to on successful logout. 0 will redirect to self.',
+              'area_trans' => '',
+            ),
+            'logoutResourceParams' => 
+            array (
+              'name' => 'logoutResourceParams',
+              'desc' => 'prop_login.logoutresourceparams_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'A JSON object of parameters to append to the logout redirection URL. Ex: {"test":123}',
+              'area_trans' => '',
+            ),
+            'loginMsg' => 
+            array (
+              'name' => 'loginMsg',
+              'desc' => 'prop_login.loginmsg_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'Optional label message for login action. If blank, will default to lexicon string for Login.',
+              'area_trans' => '',
+            ),
+            'logoutMsg' => 
+            array (
+              'name' => 'logoutMsg',
+              'desc' => 'prop_login.logoutmsg_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'Optional label message for logout action. If blank, will default to lexicon string for Logout.',
+              'area_trans' => '',
+            ),
+            'redirectToPrior' => 
+            array (
+              'name' => 'redirectToPrior',
+              'desc' => 'prop_login.redirecttoprior_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If true, will redirect to the referring page (HTTP_REFERER) on successful login.',
+              'area_trans' => '',
+            ),
+            'redirectToOnFailedAuth' => 
+            array (
+              'name' => 'redirectToOnFailedAuth',
+              'desc' => 'prop_login.redirecttoonfailedauth_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If set to a non-zero number, will redirect the user to this page if their attempt to login is unsuccessful.',
+              'area_trans' => '',
+            ),
+            'rememberMeKey' => 
+            array (
+              'name' => 'rememberMeKey',
+              'desc' => 'prop_login.remembermekey_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'rememberme',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'prop_login.remembermekey_desc',
+              'area_trans' => '',
+            ),
+            'contexts' => 
+            array (
+              'name' => 'contexts',
+              'desc' => 'prop_login.contexts_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => '(Experimental) A comma-separated list of contexts to log in to. Defaults to the current context if not explicitly set.',
+              'area_trans' => '',
+            ),
+            'toPlaceholder' => 
+            array (
+              'name' => 'toPlaceholder',
+              'desc' => 'prop_login.toplaceholder_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If set, will set the output of the login snippet to a placeholder of this name rather than directly outputting the return contents.',
+              'area_trans' => '',
+            ),
+            'recaptchaTheme' => 
+            array (
+              'name' => 'recaptchaTheme',
+              'desc' => 'prop_register.recaptchatheme_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'opt_register.red',
+                  'value' => 'red',
+                  'name' => 'Red',
+                ),
+                1 => 
+                array (
+                  'text' => 'opt_register.white',
+                  'value' => 'white',
+                  'name' => 'White',
+                ),
+                2 => 
+                array (
+                  'text' => 'opt_register.clean',
+                  'value' => 'clean',
+                  'name' => 'Clean',
+                ),
+                3 => 
+                array (
+                  'text' => 'opt_register.blackglass',
+                  'value' => 'blackglass',
+                  'name' => 'Black Glass',
+                ),
+              ),
+              'value' => 'clean',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If `recaptcha` is set as a preHook, this will select a theme for the reCaptcha widget.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * Login
+ *
+ * Copyright 2010 by Jason Coward <jason@modx.com> and Shaun McCormick
+ * <shaun@modx.com>
+ *
+ * Login is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option) any
+ * later version.
+ *
+ * Login is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Login; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx Login Snippet
+ *
+ * This snippet handles login POSTs, sending the user back to where they came from or to a specific
+ * location if specified in the POST.
+ *
+ * @package login
+ *
+ * @property textfield actionKey The REQUEST variable containing the action to take.
+ * @property textfield loginKey The actionKey for login.
+ * @property textfield logoutKey The actionKey for logout.
+ * @property list tplType The type of template to expect for the views:
+ *  modChunk - name of chunk to use
+ *  file - full path to file to use as tpl
+ *  embedded - the tpl is embedded in the page content
+ *  inline - the tpl is inline content provided directly
+ * @property textfield loginTpl The template for the login view (content based on tplType)
+ * @property textfield logoutTpl The template for the logout view (content based on tplType)
+ * @property textfield errTpl The template for any errors that occur when processing an view
+ * @property list errTplType The type of template to expect for the error messages:
+ *  modChunk - name of chunk to use
+ *  file - full path to file to use as tpl
+ *  inline - the tpl is inline content provided directly
+ * @property integer logoutResourceId An explicit resource id to redirect users to on logout
+ * @property string loginMsg The string to use for the login action. Defaults to
+ * the lexicon string "login".
+ * @property string logoutMsg The string to use for the logout action. Defaults
+ * to the lexicon string "login.logout"
+ */
+require_once $modx->getOption(\'login.core_path\',null,$modx->getOption(\'core_path\').\'components/login/\').\'model/login/login.class.php\';
+$login = new Login($modx,$scriptProperties);
+if (!is_object($login) || !($login instanceof Login)) return \'\';
+
+$controller = $login->loadController(\'Login\');
+$output = $controller->run($scriptProperties);
+return $output;',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
         ),
       ),
     ),

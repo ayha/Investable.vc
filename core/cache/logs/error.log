@@ -5724,3 +5724,33 @@
 [2014-10-24 17:19:50] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-10-24 17:23:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-10-24 17:24:23] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:35:36] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:35:59] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:36:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:36:34] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:36:42] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:39:17] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:39:27] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:39:50] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:40:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:40:07] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:40:27] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 14:43:48] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 14:49:09] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 14:55:38] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 14:58:51] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 15:25:52] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 15:26:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 15:27:54] (ERROR @ /index.php) `[[!UltimateParent_dup` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 15:28:15] (ERROR @ /index.php) `[[!UltimateParent_dup` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 15:29:22] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 15:29:49] (ERROR @ /index.php) `[[!UltimateParent` is not a valid integer and may not be passed to makeUrl()
+[2014-10-27 15:53:17] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 15:53:51] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 15:55:15] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 16:05:39] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 16:33:28] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 16:33:46] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 17:15:37] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 17:22:22] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-27 17:26:23] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!

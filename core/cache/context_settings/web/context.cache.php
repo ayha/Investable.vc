@@ -8,6 +8,8 @@
     array (
       0 => 2,
       1 => 36,
+      2 => 38,
+      3 => 42,
     ),
     2 => 
     array (
@@ -49,6 +51,10 @@
     array (
       0 => 9,
       1 => 10,
+      2 => 43,
+      3 => 44,
+      4 => 45,
+      5 => 46,
     ),
     14 => 
     array (
@@ -77,11 +83,19 @@
     array (
       0 => 37,
     ),
+    38 => 
+    array (
+      0 => 39,
+      1 => 40,
+      2 => 41,
+    ),
   ),
   'aliasMap' => 
   array (
     'en/' => 2,
     'startup-companies/' => 36,
+    'processors/' => 38,
+    'index.html' => 42,
     'en/index.html' => 1,
     'en/news/' => 3,
     'en/how/' => 4,
@@ -105,6 +119,10 @@
     'en/about/becoming-a-member.html' => 27,
     'en/member/join-us.html' => 9,
     'en/member/login.html' => 10,
+    'en/member/investor-profile.html' => 43,
+    'en/member/forgot-password.html' => 44,
+    'en/member/reset-password.html' => 45,
+    'en/member/registration-activation.html' => 46,
     'en/misc/terms-and-conditions.html' => 15,
     'en/misc/privacy-policies.html' => 16,
     'en/misc/legal-documents.html' => 17,
@@ -117,11 +135,15 @@
     'en/team/investable-team/alex-au-yeung.html' => 32,
     'en/team/investable-team/jess-cheung.html' => 33,
     'startup-companies/bitspark.html' => 37,
+    'processors/login-action.html' => 39,
+    'processors/investor-register-action.html' => 40,
+    'processors/startup-register-action.html' => 41,
   ),
   'webLinkMap' => 
   array (
     2 => '1',
     8 => 'http://',
+    42 => '2',
   ),
   'eventMap' => 
   array (
