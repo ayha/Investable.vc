@@ -202,7 +202,7 @@
   'site_start' => '42',
   'site_status' => '1',
   'site_unavailable_message' => 'The site is currently unavailable',
-  'site_unavailable_page' => '0',
+  'site_unavailable_page' => '42',
   'strip_image_paths' => '1',
   'symlink_merge_fields' => '1',
   'topmenu_show_descriptions' => '1',
@@ -210,7 +210,7 @@
   'tree_root_id' => '0',
   'tvs_below_content' => '0',
   'udperms_allowroot' => '',
-  'unauthorized_page' => '42',
+  'unauthorized_page' => '10',
   'upload_files' => 'txt,html,htm,xml,js,css,zip,gz,rar,z,tgz,tar,htaccess,mp3,mp4,aac,wav,au,wmv,avi,mpg,mpeg,pdf,doc,docx,xls,xlsx,ppt,pptx,jpg,jpeg,png,gif,psd,ico,bmp,odt,ods,odp,odb,odg,odf',
   'upload_flash' => 'swf,fla',
   'upload_images' => 'jpg,jpeg,png,gif,psd,ico,bmp',
@@ -220,7 +220,7 @@
   'use_browser' => '1',
   'use_editor' => '1',
   'use_multibyte' => '1',
-  'use_weblink_target' => '',
+  'use_weblink_target' => '0',
   'webpwdreminder_message' => '<p>Hello [[+uid]],</p>
 
     <p>To activate your new password click the following link:</p>

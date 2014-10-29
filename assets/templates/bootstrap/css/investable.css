@@ -5,6 +5,12 @@
 	
 }
 
+img{
+	border:0;
+	display:block;
+	
+}
+
 ::selection{
 	color:#fff;
 	background:#7e0a42;
@@ -216,6 +222,20 @@ blockquote h2{
 	color:#666;
 }
 
+a.btn.profile_button{
+	
+	
+}
+
+a.btn.logout_button{
+	background-color:#454545;
+	
+}
+
+a.btn.logout_button:hover{
+	background-color:#666;
+}
+
 .backhome{
 	
 	display:block;
@@ -417,12 +437,39 @@ h5.team_name{
 	
 }
 
+label{
+	font-size:0.9em;
+	color:#666;
+	display:block;
+	
+}
+
+#register_form_wrapper textarea{
+	width:80%;
+	
+}
+
+#register_form_wrapper .cd-tabs-navigation{
+	width:100% !important;
+	
+}
+
+#register_form_wrapper .cd-tabs-navigation li{
+	width:50%;
+}
+
 .cd-tabs-navigation li a#tab-investor{
 	/*background:url(/assets/images/investor_icon.png) 30px center no-repeat transparent;*/
+	width:100%;
 }
 
 .cd-tabs-navigation li a#tab-startup{
 	/*background:url(/assets/images/startup_icon.png) 30px center no-repeat transparent;*/
+	width:100%;
+}
+
+#register_form_wrapper .cd-tabs-content{
+	background-color:#fafafa;
 }
 
 
@@ -468,6 +515,46 @@ h5.team_name{
 
 /* end homepage content */
 
+
+
+
+/* member area */
+
+.member_greeting{
+	color:#666;
+	font-size:1.1em;
+	font-style:italic;
+	
+	
+}
+
+.member_tools{
+	text-align:right;
+	
+}
+
+.member_tools a.tool_button{
+	
+	display:inline-block;
+	width:24px;
+	
+	margin-left:10px;
+	
+}
+
+
+
+.dashboard_module {
+	
+}
+
+h2.module_head {
+	padding:0;
+	margin:0;
+}
+
+/* end member area */
+
 @media (max-width: 768px){
 	
 	.container>.navbar-collapse{
@@ -496,15 +583,8 @@ h5.team_name{
 		
 	}
 	
-	/*
-	#contact_info{
-		width:100%;
+	.member_greeting{
+		display:none;
 		
 	}
-    
-    #map{
-    	width:100%;
-    	
-    }
- */   
 }

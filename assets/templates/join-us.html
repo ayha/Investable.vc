@@ -4,40 +4,63 @@
 		[[$Head]]
 	</head>
 	<body>
+	
+[[!Register?
+    &submitVar=`register_submit`
+    &activationResourceId=`47`
+    &activationEmailTpl=`lgnActivateEmailTpl`
+    &activationEmailSubject=`Thanks for Registering!`
+   &submittedResourceId=`46`
+    &usergroups=`member`
+    &validate=`nospam:blank, 
+  username:required:minLength=^6^,
+  password:required:minLength=^6^,
+  confirm_password:password_confirm=^password^,
+  fullname:required,
+  email:required:email`
+    &placeholderPrefix=`reg.`
+    &excludeExtended=`register_submit`
+]]
 		[[$Navbar]]
 		<div class="container main_content">
-                <div class="backhome"><a href="[[~[[UltimateParent? &topLevel=`2`]]]]">&lt; Back to Home</a></div>
-		[[If?
-			&subject=`[[*longtitle]]`
-			&operator=`!empty`
-			&then=`<div class="page-header">
+                <div class="backhome"><a href="[[~42]]">
+					[[%investable.backtohome? &topic=`default` &namespace=`investable` &language=`en`]]</a></div>
+		<div class="page-header">
 				<h1>[[*longtitle]]</h1>
-			</div>`
-		]]
+			</div>
 <div id="register_form_wrapper" class="cd-tabs">
 	 <nav>
         <ul class="cd-tabs-navigation">
-            <li><a data-content="investor" class="selected" id="tab-investor" href="#0">Investor</a></li>
-            <li><a data-content="startup" href="#0" id="tab-startup">Startup</a></li>
+            <li><a data-content="investor" class="selected" id="tab-investor" href="#0">[[%investable.investor? &topic=`default` &namespace=`investable` &language=`en`]]</a></li>
+            <li><a data-content="startup" href="#0" id="tab-startup">[[%investable.startup? &topic=`default` &namespace=`investable` &language=`en`]]</a></li>
            
         </ul> <!-- cd-tabs-navigation -->
     </nav>
      <ul class="cd-tabs-content">
         <li data-content="investor" class="selected">
-        	<div class="investor_form_wrapper"  action="[[~[[*id]]]]" method="post">
-   		<form name="investor_register_form"  action="comment.php" method="post">
-   			<input type="hidden" name="usertype" value="investor" />
+        	<div class="investor_form_wrapper"  >
+   		<form name="investor_register_form"  action="[[++site_url]][[~[[*id]]]]" method="post">
+   			<input type="hidden" name="usertype" value="investor" id=""/>
+   			<input type="hidden" name="fullname" value="" id="investor_fullname" />
+   			<div class="form_header">Login Information</div>
       		<div class="form_section" id="investor_login_details">
-      			<div class="form_row"><input type="text" name="username" placeholder="Email address" /></div>
-      			<div class="form_row"><input type="password" name="password" placeholder="Password" /></div>
+      			<div class="form_row"><label>Username</label><input type="text" name="username" placeholder="Username" /> <span class="error">[[!+reg.error.username]]</span></div>
+      			<div class="form_row"><label>Password</label><input type="password" name="password" placeholder="Password" /> <span class="error">[[!+reg.error.password]]</span></div>
+      			<div class="form_row"><label>Confirm your password</label><input type="password" name="confirm_password" placeholder="Confirm Your Password" /> <span class="error">[[!+reg.error.confirm_password]]</span></div>
       		</div>
+      		<div class="form_header">Personal Information</div>
       		<div class="form_section" id="investor_contact">
-         		<div class="form_row"><input type="text" name="firstname" id="investor_firstname" placeholder="First Name" /></div>
-         		<div class="form_row"><input type="text" name="lastname" id="investor_lastname" placeholder="Last Name" /></div>
+         		<div class="form_row"><label>First Name</label><input type="text" name="firstname" id="investor_firstname" placeholder="First Name" /> <span class="error">[[!+reg.error.firstname]]</span> </div>
+         		<div class="form_row"><label>Last Name</label><input type="text" name="lastname" id="investor_lastname" placeholder="Last Name" /> <span class="error">[[!+reg.error.lastname]]</span></div>
+         		<div class="form_row"><label>Email</label><input type="email" name="email" id="investor_email" placeholder="Email Address" /> <span class="error">[[!+reg.error.email]]</span></div>
       		</div>
+      		
       		<div class="form_section" id="investor_disclaimer">
-         		<div class="form_row"><input type="checkbox" name="promote" id="investor_promote" value="1"> I would like to receive updates from Investable</div>
-         		<div class="form_row"><input type="checkbox" name="disclaimer" id="investor_disclaimer" value="1"> I understand and agree to the following statements:
+         		<div class="form_row"><input type="checkbox" name="promote" id="investor_promote" value="Yes"> I would like to receive updates from Investable</div>
+         		<div class="form_row">
+         			<span class="error">[[!+reg.error.disclaimer:ne=``:then=`<br />`]]</span>
+         			<input type="checkbox" name="disclaimer" id="investor_disclaimer" value="Yes"> I understand and agree to the following statements:
+            		
             		<ol>
                			<li>You can confirm that you, either alone or with any of your associates on a joint account, have a portfolio of not less that HK$8 million or its equivalent in any foreign currency.</li>
                			<li>You represent that you have such knowledge and experience in financial and business matters that you are capable of evaluating the merits and risks of an investment in illiquid securities, and you are able to bear the economic risk of such investments including the risk of complete loss.</li>
@@ -46,21 +69,31 @@
          		</div>
       		</div>
       		<div class="form_section submit">
-         		<div class="form_row"><input type="submit" name="investor_submit" value="Submit" /></div>
+         		<div class="form_row"><input type="submit" name="register_submit" id="investor_submit" value="Submit" /></div>
       		</div>
   		 </form>
    </div>
         </li>
         <li data-content="startup">
         	 <div class="startup_form_wrapper">
-      <form name="startup_register_form"   action="[[~[[*id]]]]" method="post">
+      <form name="startup_register_form"   action="[[~41]]" method="post">
       	 <input type="hidden" name="usertype" value="startup" />
+      	 	<div class="form_header">Founder Information</div>
          <div class="form_section" id="#startup_contact">
-            <div class="form_row"><input type="text" /> </div>
+         
+            <div class="form_row"><label>First Name</label><input type="text" name="firstname" id="startup_firstname" placeholder="First Name"/> </div>
+            <div class="form_row"><label>Last Name</label><input type="text" name="lastname" id="startup_lastname" placeholder="Last Name"/> </div>
+            <div class="form_row"><label>Primary Email</label><input type="text" name="email" id="startup_email" placeholder="email"/> </div>
          </div>
-         		<div class="form_section" id="#startup_moreinfo"></div>
+         <div class="form_header">Founder Information</div>
+         <div class="form_section" id="#startup_moreinfo">
+         	<div class="form_row"><input type="text" name="startup_name" id="startup_company_name" placeholder="Company Name" /></div>
+         	<div class="form_row"><label>Describe your business in 50 words or less</label><textarea rows="3" name="company_description" id="company_description"></textarea></div>
+         	<div class="form_row"><label>Highlight market opportunities in 100 words or less</label><textarea rows="5" name="market_opportunities" id="market_opportunities"></textarea></div>
+            <div class="form_row"><label>Describe your competitive advantage in 100 words or less</label><textarea rows="5" name="competitive_advantage" id="competitive_advantage"></textarea></div>
+         </div>
          <div class="form_section submit">
-         	<div class="form_row"><input type="submit" name="startup_submit" value="Submit" /></div>
+         	<div class="form_row"><input type="submit" name="register_submit" id="startup_submit" value="Submit" /></div>
 		 </div>
       </form>
 	</div>
@@ -70,5 +103,19 @@
 </div>
 </div>
 		[[$Footer]]
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#investor_firstname, #investor_lastname").change(function(e){
+			$("#investor_fullname").val($("#investor_firstname").val() + " " +$("#investor_lastname").val());
+			
+		});
+		
+	
+		
+	});
+	
+</script>
+
 	</body>
 </html>

@@ -55,6 +55,13 @@
       3 => 44,
       4 => 45,
       5 => 46,
+      6 => 47,
+      7 => 48,
+      8 => 49,
+      9 => 50,
+      10 => 51,
+      11 => 53,
+      12 => 52,
     ),
     14 => 
     array (
@@ -122,7 +129,14 @@
     'en/member/investor-profile.html' => 43,
     'en/member/forgot-password.html' => 44,
     'en/member/reset-password.html' => 45,
-    'en/member/registration-activation.html' => 46,
+    'en/member/registration-submitted.html' => 46,
+    'en/member/regsitration-activated.html' => 47,
+    'en/member/company-list.html' => 48,
+    'en/member/startup-submitted.html' => 49,
+    'en/member/member-profile.html' => 50,
+    'en/member/investor-portfolio.html' => 51,
+    'en/member/member-newsfeed.html' => 53,
+    'en/member/message-center.html' => 52,
     'en/misc/terms-and-conditions.html' => 15,
     'en/misc/privacy-policies.html' => 16,
     'en/misc/legal-documents.html' => 17,
@@ -758,6 +772,21 @@ return;',
         3 => 
         array (
           'principal' => 3,
+          'authority' => 9999,
+          'policy' => 
+          array (
+            'load' => true,
+            'list' => true,
+            'view' => true,
+            'save' => true,
+            'remove' => true,
+            'copy' => true,
+            'view_unpublished' => true,
+          ),
+        ),
+        4 => 
+        array (
+          'principal' => 5,
           'authority' => 9999,
           'policy' => 
           array (
