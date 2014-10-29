@@ -1,4 +1,25 @@
 <?php  return array (
   'investable.backtohome' => '&lt; Back to home',
+  'investable.dashboard' => 'Dashboard',
+  'investable.investor' => 'Investor',
+  'investable.logout' => 'Logout',
+  'investable.profile' => 'My Profile',
   'investable.source' => 'Source',
+  'investable.startup' => 'Startup',
+  'investable.startup_opportunities' => 'Startup Opportunities',
+  'member.company_search' => 'Company Search',
+  'member.connections' => 'Connections',
+  'member.dashboard' => 'Dashboard',
+  'member.favourite_companies' => 'Favourite Companies
+',
+  'member.message_center' => 'Message Center',
+  'member.newsfeed' => 'News Feed',
+  'member.performance' => 'Performance',
+  'member.portfolio' => 'My Portfolio',
+  'member.portfolio_performance' => 'Performance',
+  'member.update_profile' => 'Update Profile',
+  'member.whatsnew' => 'What\'s New',
+  'startup.register_complete' => 'Your information has been submitted',
+  'startup.register_complete_message' => '<h3>Thank you for choosing Investable.vc.</h3> <p>Your information has been submitted. We will contact you within 3 working days.</p>
+',
 );

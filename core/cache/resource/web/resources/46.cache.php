@@ -2,68 +2,56 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 1,
+    'id' => 46,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Home',
+    'pagetitle' => 'Registration Submitted',
     'longtitle' => '',
     'description' => '',
-    'alias' => 'index',
+    'alias' => 'registration-submitted',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
     'unpub_date' => 0,
-    'parent' => 2,
+    'parent' => 8,
     'isfolder' => 0,
     'introtext' => '',
-    'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
-<h1 class="site-tagline" style="text-align: center;">CONNECTING INVESTORS TO CURATED STARTUPS</h1>
-<blockquote>
-<h2 style="text-align: center;"><a href="[[~10]]">Sign up</a> for an investor account to start browsing through start up opportunities now</h2>
-</blockquote>',
+    'content' => '',
     'richtext' => 1,
-    'template' => 2,
-    'menuindex' => 0,
+    'template' => 39,
+    'menuindex' => 5,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1413180619,
+    'createdon' => 1414401742,
     'editedby' => 1,
-    'editedon' => 1414036455,
+    'editedon' => 1414468797,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 0,
-    'publishedby' => 0,
+    'publishedon' => 1414401720,
+    'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
     'privatemgr' => 0,
     'content_dispo' => 0,
-    'hidemenu' => 1,
+    'hidemenu' => 0,
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'en/index.html',
+    'uri' => 'en/member/registration-submitted.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
-    'output_tvs' => 
-    array (
-      0 => 'output_tvs',
-      1 => '',
-      2 => 'text',
-      3 => NULL,
-      4 => 'text',
-    ),
     '_content' => '<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Investable.vc - Home</title>
+<title>Investable.vc - Registration Submitted</title>
 <meta name="description" content=""/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -196,8 +184,15 @@
 	</div><!--/.nav-collapse -->
   </div>
 </div>
-		<div class="container main_content" id="home_content">
-		   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:!=":0}` ]]
+		<div class="container main_content">
+                  <div class="backhome"><a href="http://v2.investable.vc/">
+&lt; Back to home
+</a></div>
+		<div class="page-header">
+				<h1>Activate your account</h1>
+			</div>
+                An activation email has been sent to you. Follow the instructions to activate your account on investable.vc. 
+
 		</div>
 		<div id="footer">
 	<div class="container">
@@ -239,7 +234,7 @@
   ),
   'elementCache' => 
   array (
-    '[[*pagetitle]]' => 'Home',
+    '[[*pagetitle]]' => 'Registration Submitted',
     '[[*description]]' => '',
     '[[If? 
     &subject=`0`
@@ -252,7 +247,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     '[[$Head]]' => '<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Investable.vc - Home</title>
+<title>Investable.vc - Registration Submitted</title>
 <meta name="description" content=""/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -431,6 +426,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	</div><!--/.nav-collapse -->
   </div>
 </div>',
+    '[[~42]]' => 'http://v2.investable.vc/',
+    '[[%investable.backtohome? &topic=`default` &namespace=`investable` &language=`en`]]' => '&lt; Back to home',
+    '[[%register.activate_account? &topic=`register` &namespace=`login` &language=`en`]]' => 'Activate your account',
+    '[[%register.activation_required? &topic=`register` &namespace=`login` &language=`en`]]' => 'An activation email has been sent to you. Follow the instructions to activate your account on investable.vc. ',
     '[[Years]]' => '2014',
     '[[$Footer]]' => '<div id="footer">
 	<div class="container">
@@ -455,9 +454,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 ',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
-    '[[~11]]' => 'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html',
-    '[[~34]]' => 'en/news/techcrunch2.html',
-    '[[~35]]' => 'en/news/techcrunch3.html',
+    '[[%login? &topic=`default` &namespace=`login` &language=`en`]]' => 'Login',
+    '[[%login.username]]' => 'Username',
+    '[[%login.password]]' => 'Password',
+    '[[~44]]' => 'en/member/forgot-password.html',
+    '[[%login.forgot_password]]' => 'Forgot your password?',
   ),
   'sourceCache' => 
   array (
@@ -824,458 +825,67 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         array (
         ),
       ),
-      'home_index' => 
+      'login_form' => 
       array (
         'fields' => 
         array (
-          'id' => 19,
+          'id' => 33,
           'source' => 1,
           'property_preprocess' => false,
-          'name' => 'home_index',
+          'name' => 'login_form',
           'description' => '',
           'editor_type' => 0,
-          'category' => 9,
+          'category' => 10,
           'cache_type' => 0,
-          'snippet' => '[[+content]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[+content]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_news' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 22,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_news',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '<div class="news_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_news_row` &processTVs=`1` &includeTVs=`1` &prepareTVs=`1` &limit=`10` &showHidden=`1`  &sortby=`{"publishedon":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div class="news_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_news_row` &processTVs=`1` &includeTVs=`1` &prepareTVs=`1` &limit=`10` &showHidden=`1`  &sortby=`{"publishedon":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_how' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 21,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_how',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_faqs' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 26,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_faqs',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_about' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 20,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_about',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="about-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#about-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`about_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#about-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#about-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="about-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#about-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`about_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#about-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#about-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_team' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 31,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_team',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '<div class="team_intro section_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_team_type` &limit=`100` &showHidden=`1` &depth=`0` &sortby=`{"menuindex":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div class="team_intro section_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_team_type` &limit=`100` &showHidden=`1` &depth=`0` &sortby=`{"menuindex":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_contact' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 18,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_contact',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '<div id="contact_info" class="col-md-4">
-   [[+content]]
+          'snippet' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
   
-</div>
-<div id="map" class="col-md-8"></div>
-<div class="allclear"></div>
-
-<script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg">
-</script>
-
-<script type="text/javascript">
-      var gmap;
-      var marker;
-      function initialize() {
-        var latlng = new google.maps.LatLng([[+tv.lat]],[[+tv.lng]]);
-        var mapOptions = {
-          center: latlng,
-          zoom: 17
-        };
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+      <div class="form_section">
+         <div class="form_row"><p>Login with LinkedIn</p></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
       
-        gmap = new google.maps.Map(document.getElementById(\'map\'),
-            mapOptions);
-
-        marker =  new google.maps.Marker({
-            position: latlng,
-            map: gmap,
-            icon: "[[!++site_url]]assets/images/investable-icon.png",
-            title: \'Investable\'
-            });
-      }
-      google.maps.event.addDomListener(window, \'load\', initialize);
-    </script>',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div id="contact_info" class="col-md-4">
-   [[+content]]
-  
-</div>
-<div id="map" class="col-md-8"></div>
-<div class="allclear"></div>
-
-<script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg">
-</script>
-
-<script type="text/javascript">
-      var gmap;
-      var marker;
-      function initialize() {
-        var latlng = new google.maps.LatLng([[+tv.lat]],[[+tv.lng]]);
-        var mapOptions = {
-          center: latlng,
-          zoom: 17
-        };
-      
-        gmap = new google.maps.Map(document.getElementById(\'map\'),
-            mapOptions);
-
-        marker =  new google.maps.Marker({
-            position: latlng,
-            map: gmap,
-            icon: "[[!++site_url]]assets/images/investable-icon.png",
-            title: \'Investable\'
-            });
-      }
-      google.maps.event.addDomListener(window, \'load\', initialize);
-    </script>',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'lgnLogoutTpl' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 36,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'lgnLogoutTpl',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 16,
-          'cache_type' => 0,
-          'snippet' => '<div class="loginMessage">[[+errors]]</div>
-<br />
-<div class="loginLogin">
-    <div class="loginRegister">
-        <a href="[[+logoutUrl]]" title="[[+actionMsg]]">[[+actionMsg]]</a>
-    </div>
+      </div>
+   </form>
 </div>',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div class="loginMessage">[[+errors]]</div>
-<br />
-<div class="loginLogin">
-    <div class="loginRegister">
-        <a href="[[+logoutUrl]]" title="[[+actionMsg]]">[[+actionMsg]]</a>
-    </div>
+          'content' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
+  
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+      <div class="form_section">
+         <div class="form_row"><p>Login with LinkedIn</p></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
+      
+      </div>
+   </form>
 </div>',
         ),
         'policies' => 
@@ -1286,6 +896,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'source' => 
         array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
     ),
@@ -4737,156 +4355,6 @@ if($modx->user->hasSessionContext($ctxs)){
         array (
         ),
       ),
-      'parseChunk' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 27,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'parseChunk',
-          'description' => '&chunk, &contentid, &tvs, &showDefault',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '/**
- * parseChunk
- *
- * DESCRIPTION
- *
- * Parse the content of an existing document into a chunk
- * 
- *
- * PROPERTIES:
- *
- * &chunk - required
- * &contentid - requierd
- * &tvs - list of TVs to process
- * &showDefault : 0/1
- *
- * USAGE:
- *
- * [[!parseChunk? &chunk=`CHUNK_NAME` &contentid=`DOCUMENT_ID` &tvs=`content,pagetitle,alias...` &showDefault=`1` ]]
- *
- */
-
-$page = $modx->getObject(\'modResource\', $contentid);
-$tvoutput = Array();
-
-$default =  "pagetitle,longtitle,content,alias"; 
-
-if($showDefault){
-   $tvoutput = $page->get($defaults);
-}
-
-if(!empty($tvs)){
-   $tv_list = explode(",",$tvs);
-  
-   foreach($tv_list as $v){
-      $tvvalue = $page->getTVValue($v);
-      //$tvoutput["output"] .= $v.": ".$tvvalue;
-      $tvoutput[] = Array($v=>$tvvalue);
-   }
-}
-
-
-
-
-
-$alltvs = "";
-
-foreach($tvoutput as $k=>$v){
-   $alltvs = $k ." contains ".$v."<br /><br />";
-
-}
-
-$tvoutput["output"] .= $tvs;
-
-
-$output = $modx->getChunk($chunk,$tvoutput);
-return $output;',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'moduleguid' => '',
-          'static' => false,
-          'static_file' => '',
-          'content' => '/**
- * parseChunk
- *
- * DESCRIPTION
- *
- * Parse the content of an existing document into a chunk
- * 
- *
- * PROPERTIES:
- *
- * &chunk - required
- * &contentid - requierd
- * &tvs - list of TVs to process
- * &showDefault : 0/1
- *
- * USAGE:
- *
- * [[!parseChunk? &chunk=`CHUNK_NAME` &contentid=`DOCUMENT_ID` &tvs=`content,pagetitle,alias...` &showDefault=`1` ]]
- *
- */
-
-$page = $modx->getObject(\'modResource\', $contentid);
-$tvoutput = Array();
-
-$default =  "pagetitle,longtitle,content,alias"; 
-
-if($showDefault){
-   $tvoutput = $page->get($defaults);
-}
-
-if(!empty($tvs)){
-   $tv_list = explode(",",$tvs);
-  
-   foreach($tv_list as $v){
-      $tvvalue = $page->getTVValue($v);
-      //$tvoutput["output"] .= $v.": ".$tvvalue;
-      $tvoutput[] = Array($v=>$tvvalue);
-   }
-}
-
-
-
-
-
-$alltvs = "";
-
-foreach($tvoutput as $k=>$v){
-   $alltvs = $k ." contains ".$v."<br /><br />";
-
-}
-
-$tvoutput["output"] .= $tvs;
-
-
-$output = $modx->getChunk($chunk,$tvoutput);
-return $output;',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
       'Login' => 
       array (
         'fields' => 
@@ -5376,110 +4844,6 @@ return $output;',
     ),
     'modTemplateVar' => 
     array (
-      'lat' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 3,
-          'source' => 1,
-          'property_preprocess' => false,
-          'type' => 'text',
-          'name' => 'lat',
-          'caption' => 'Latitutde',
-          'description' => 'Latitude value of Google Maps Coordinates',
-          'editor_type' => 0,
-          'category' => 9,
-          'locked' => false,
-          'elements' => '',
-          'rank' => 151,
-          'display' => 'default',
-          'default_text' => '',
-          'properties' => 
-          array (
-          ),
-          'input_properties' => 
-          array (
-            'allowBlank' => 'true',
-            'maxLength' => '',
-            'minLength' => '',
-          ),
-          'output_properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'lng' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 1,
-          'source' => 1,
-          'property_preprocess' => false,
-          'type' => 'text',
-          'name' => 'lng',
-          'caption' => 'Longitude',
-          'description' => 'Longitude value of Google Maps Coordinates',
-          'editor_type' => 0,
-          'category' => 9,
-          'locked' => false,
-          'elements' => '',
-          'rank' => 152,
-          'display' => 'default',
-          'default_text' => '',
-          'properties' => 
-          array (
-          ),
-          'input_properties' => 
-          array (
-            'allowBlank' => 'true',
-            'maxLength' => '',
-            'minLength' => '',
-          ),
-          'output_properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
     ),
   ),
 );

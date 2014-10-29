@@ -553,6 +553,21 @@ h2.module_head {
 	margin:0;
 }
 
+.error{
+	
+	font-style:italic;
+	font-size:1em;
+	
+	
+}
+
+.form_message{
+	padding:5px 10px;
+	color:#666;
+	font-size:1.2em;
+	font-style:italic;
+}
+
 /* end member area */
 
 @media (max-width: 768px){

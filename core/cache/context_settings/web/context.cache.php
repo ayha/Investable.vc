@@ -62,6 +62,7 @@
       10 => 51,
       11 => 53,
       12 => 52,
+      13 => 54,
     ),
     14 => 
     array (
@@ -137,6 +138,7 @@
     'en/member/investor-portfolio.html' => 51,
     'en/member/member-newsfeed.html' => 53,
     'en/member/message-center.html' => 52,
+    'en/member/connections.html' => 54,
     'en/misc/terms-and-conditions.html' => 15,
     'en/misc/privacy-policies.html' => 16,
     'en/misc/legal-documents.html' => 17,

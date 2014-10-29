@@ -5882,3 +5882,28 @@ Array
 [2014-10-29 12:44:33] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-10-29 12:44:50] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-10-29 12:45:29] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-29 15:46:37] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-29 15:53:33] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-29 16:03:40] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-10-29 16:03:40] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-10-29 16:03:40] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 4' at line 1
+)
+
+[2014-10-29 16:52:51] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-10-29 16:52:51] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-10-29 17:27:29] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-10-29 17:27:29] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-10-29 17:27:34] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-10-29 17:27:34] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-10-29 17:35:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-29 17:37:43] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
+[2014-10-29 17:39:19] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-29 17:39:58] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
+[2014-10-29 17:40:00] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
+[2014-10-29 17:40:08] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
+[2014-10-29 17:40:09] (ERROR @ /index.php) Could not retrieve data to cache for resource 37

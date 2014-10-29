@@ -10,16 +10,18 @@
     &activationResourceId=`47`
     &activationEmailTpl=`lgnActivateEmailTpl`
     &activationEmailSubject=`Thanks for Registering!`
-   &submittedResourceId=`46`
-    &usergroups=`member`
+    &submittedResourceId=`46`
+    &usergroups=`Members`
     &validate=`nospam:blank, 
   username:required:minLength=^6^,
   password:required:minLength=^6^,
   confirm_password:password_confirm=^password^,
   fullname:required,
-  email:required:email`
+  email:required:email,disclaimer:checkDisclaimer=^^,firstname:checkEmpty=^First Name^,lastname:checkEmpty=^Last Name^`  
+ 	&customValidators=`checkEmpty,checkDisclaimer` 
     &placeholderPrefix=`reg.`
-    &excludeExtended=`register_submit`
+    &excludeExtended=`register_submit,confirm_password`
+    
 ]]
 		[[$Navbar]]
 		<div class="container main_content">
@@ -56,10 +58,10 @@
       		</div>
       		
       		<div class="form_section" id="investor_disclaimer">
-         		<div class="form_row"><input type="checkbox" name="promote" id="investor_promote" value="Yes"> I would like to receive updates from Investable</div>
+      			<input type="hidden" name="promote" id="hidden_promote" value="No" />
+         		<div class="form_row"><input type="checkbox" name="promote" id="investor_promote" value="Yes"> I would like to receive updates from Investable via email</div>
          		<div class="form_row">
-         			<span class="error">[[!+reg.error.disclaimer:ne=``:then=`<br />`]]</span>
-         			<input type="checkbox" name="disclaimer" id="investor_disclaimer" value="Yes"> I understand and agree to the following statements:
+         			<span class="error">[[!+reg.error.disclaimer]]</span><input type="checkbox" name="disclaimer" id="investor_disclaimer" value="Yes"> I understand and agree to the following statements:
             		
             		<ol>
                			<li>You can confirm that you, either alone or with any of your associates on a joint account, have a portfolio of not less that HK$8 million or its equivalent in any foreign currency.</li>
