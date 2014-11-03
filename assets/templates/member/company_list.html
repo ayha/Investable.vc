@@ -15,13 +15,41 @@
 				<div class="allclear"></div>
 			</div>
 			<div class="member_content">
-
-				
+				 <div class="startup_filters">
+				 	<span class="filter_title">[[%member.filter_by? &topic=`default` &namespace=`investable` &language=`en`]]:</span>
+				 	<select name="startup_category" id="startup_category">
+				 		<option value="">All Categories</option>
+				 		<option value="seed">Seed</option>
+				 		<option value="growth">Growth</option>
+				 		<option value="social_venture">Social Venture</option>
+				 	</select>
+				 	<select name="startup_industry" id="startup_industry">
+				 		<option value="">All Industries</option>
+				 	</select>
+				 	<select name="startup_status" id="startup_status">
+				 		
+				 		<option value="">Successful Deals</option>
+				 		<option value="completed">Completed Deals</option>
+				 	</select> 
+				 </div>
+				 <div class="startup_list">
+				    [[!getResources? &parents=`36`  &tpl=`startup_list_chunk` &sortby=`{"publishedon":"DESC","menuindex":"ASC"}` &limit=`100` &depth=`0` &showHidden=`1` &includeContent=`0` &hideContainers=`0` &includeTVs=`1` &processTVs=`1` ]]
+				    <div class="allclear"></div>
+				 </div>
 			</div>
 		</div>
 		[[$Footer]]
+		[[$member_footer]]
 		<script type="text/javascript">
-			
+			$(document).ready(function(){
+				$(".startup_item").click(function(e){
+					e.preventDefault();
+					 
+					window.location.href=$(this).data("url");
+					
+				});
+				
+			});		
 
 		</script>
 	</body>

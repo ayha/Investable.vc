@@ -320,4 +320,5 @@
   'formit.recaptcha_public_key' => '',
   'formit.recaptcha_private_key' => '',
   'formit.recaptcha_use_ssl' => '',
+  'modavatar.default_media_source' => '1',
 );

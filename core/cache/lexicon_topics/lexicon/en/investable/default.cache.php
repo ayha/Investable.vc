@@ -1,4 +1,14 @@
 <?php  return array (
+  'connection.add_connection' => 'Expand Your Network
+',
+  'connection.connect' => 'Connect',
+  'connection.connect_with' => 'Connect with',
+  'connection.message_sent' => 'Your message has been sent. ',
+  'connection.new_connections' => 'New Connection Requests',
+  'connection.request_sent' => 'Request Sent',
+  'connection.send_message' => 'Send Message',
+  'connection.your_connections' => 'Your Connections',
+  'connections.no_connection' => 'You are not connected to anyone yet!',
   'investable.backtohome' => '&lt; Back to home',
   'investable.dashboard' => 'Dashboard',
   'investable.investor' => 'Investor',
@@ -11,6 +21,8 @@
   'member.connections' => 'Connections',
   'member.dashboard' => 'Dashboard',
   'member.favourite_companies' => 'Favourite Companies
+',
+  'member.filter_by' => 'Filter
 ',
   'member.message_center' => 'Message Center',
   'member.newsfeed' => 'News Feed',

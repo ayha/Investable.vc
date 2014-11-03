@@ -15,11 +15,39 @@
 				<div class="allclear"></div>
 			</div>
 			<div class="member_content">
-
-				
+				 [[!get_connection_request_action:ne=`0`:then=`
+				<div id="new_connections">
+				   <h2>[[%connection.new_connections? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+  				    <div class="connection_list">
+  				          [[!get_connection_request_action? &chunk=`connection_request_item`]]
+  				    <div class="allclear"></div>
+  				    </div>
+  				    
+  				    
+					
+				</div>
+				`? &getCount=`1`]]
+				<div id="my_connections">
+					<h2>[[%connection.your_connections? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+  				    <div class="connection_list">
+  				    [[!get_my_connections? &chunk=`connection_item`]]
+  				    <div class="allclear"></div>
+  				    </div>
+  				    
+  				    
+				</div>
+				<div id="add_connections">
+					<h2>[[%connection.add_connection? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+					<div class="connection_list">
+  				    [[!get_more_connections? &chunk=`new_connection_item`]]
+  				    <div class="allclear"></div>
+  				    </div>
+				</div>
+				<div class="allclear"></div>
 			</div>
 		</div>
 		[[$Footer]]
+		[[$member_footer]]
 		<script type="text/javascript">
 			
 

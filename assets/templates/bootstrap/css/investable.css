@@ -15,7 +15,7 @@ img{
 	color:#fff;
 	background:#7e0a42;
 	
-}
+} 
 
 a:link, a:hover, a:active, a:visited{
 	color:#a40a42;
@@ -534,7 +534,7 @@ label{
 }
 
 .member_tools a.tool_button{
-	
+	position:relative;
 	display:inline-block;
 	width:24px;
 	
@@ -542,6 +542,21 @@ label{
 	
 }
 
+
+.member_tools a.tool_button span.count{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	background-color:#a40a42;
+	color:#fff;
+	z-index:100;
+	padding:2px 2px;
+	font-size:0.7em;
+	line-height:0.8em;
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+}
 
 
 .dashboard_module {
@@ -567,6 +582,255 @@ h2.module_head {
 	font-size:1.2em;
 	font-style:italic;
 }
+
+.startup_filters{
+	margin-bottom:20px;
+	text-align:right;
+	
+	
+}
+
+.startup_filters .filter_title{
+	color:#a40a42;
+	font-weight:bold;
+	
+	font-size:0.85em;
+	
+}
+
+.startup_filters select{
+	margin-left:5px;
+	
+}
+
+.startup_list{
+	margin-bottom:25px;
+}
+
+.startup_item{
+	height:350px;
+	background-repeat:no-repeat;
+	background-size: contain;
+position:relative;
+padding:0;
+	  background:#fff;
+	  cursor:pointer;
+}
+
+.startup_item h3{
+   text-align:center;
+   color:#fff; 
+   background:#73072a;
+   padding:10px 0;
+   
+   opacity:0;
+   -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+} 
+
+.startup_item img{
+	
+	max-width:80%;
+	
+	max-height:350px;
+	z-index:1;
+}
+
+.startup_item .company_short_desc{
+	z-index:5;
+	position:absolute;
+	bottom:0;
+	padding:5px;
+	color:#333;
+	background-color:#ededed;
+	width:100%;
+	opacity:0;
+	min-height:80px;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.startup_item:hover h3, .startup_item:hover .company_short_desc{
+	opacity:0.8;
+}
+
+
+.quick_facts{
+	display:block;
+	margin-bottom:15px;
+	
+	background-color:#ccc;
+	
+}
+
+.quick_facts .project_chart{
+	
+	
+}
+
+.quick_facts .project_chart h3{
+	text-align:center;
+	font-size:1.2em;
+}
+
+.quick_facts .fund_status {
+	background: #73072C;
+	display:block;
+	width:100%;	
+}
+
+.quick_facts .fund_status .status_item{
+	
+}
+
+.status_item .status_name{
+	
+	
+}
+
+.status_item .status_number{
+	
+}
+
+.floating_content{
+	display:block;
+	position:absolute;
+	right:35px;
+	z-index:100;
+	text-align:right;
+	width:100%;
+	
+	
+}
+
+
+
+.floating_content .support_company{
+	text-align:right;
+}
+
+.support_company a.support_button{
+	color:#fff;
+	background:#73072E;
+	padding:5px 10px;
+	border: 1px solid #73072E;
+	display:inline-block;
+	font-size:1.2em;
+}
+
+.support_company a.support_button:hover{
+	color:#ededed;
+	background-color:#a40a42;
+	text-decoration:none;
+}
+
+.floating_content .company_intro .company_logo{
+	background-color:#fff;
+	width:150px;
+	text-align:center;
+}
+
+.floating_content .company_intro .company_logo img{
+	margin:0px auto;
+	
+}
+
+
+.connection_list{
+	margin-bottom:25px;
+	
+	
+}
+
+.connection_item{
+	margin-bottom:10px;
+
+}
+
+.connection_item{
+	
+	
+}
+
+.connection_item .pic_wrapper img{
+	width:100%;
+	
+}
+
+
+.message_table_row{
+	background:#fff;
+	color:#999;
+	padding:5px;
+	cursor:pointer;
+	
+}
+
+.message_table_row.unread{
+	font-weight:bold;
+	color:#a04a42;
+}
+
+.message_table_row.header_row{
+	background:#333;
+    color:#fff;
+    cursor:default;
+}
+
+.message_table_row .msg_date{
+	overflow:hidden;
+	width:25%;
+	float:left;
+	
+}
+
+.message_table_row .msg_subject{
+	width:50%;
+	float:left;
+	min-width:200px;
+	overflow:hidden;
+	
+}
+
+.message_table_row .msg_sender{
+	width:25%;
+	overflow:hidden;
+	float:left;
+	
+	
+}
+
+.message_details{
+		
+
+}
+
+.message_details .row_name{
+	color:#a04a42;
+	font-size:0.85em;
+	font-weight:bold;
+}
+
+.message_details .row_content{
+	color:#333;
+	font-size:1em;
+	margin-bottom:10px;
+	
+}
+
+.form_message{
+	display:none;
+	color:#a04a42;
+	font-weight:bold;
+	font-size: 1em;
+}
+
 
 /* end member area */
 
@@ -595,11 +859,15 @@ h2.module_head {
 	
 	.navbar-social{
 		display:none;
-		
+		 
 	}
 	
-	.member_greeting{
+	.connection_list{
 		display:none;
-		
 	}
+	
+	#my_connections .connection_list{
+		display:block;
+	}
+	
 }

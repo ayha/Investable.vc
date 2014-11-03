@@ -140,7 +140,7 @@
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="en/member/investor-profile.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
+           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
            <a class="btn logout_button" href="en/index.html?service=logout" title="Logout" id="[[+alias]]">Logout</a> 
          `]]
 
@@ -159,6 +159,7 @@
 	  <a class="navbar-brand" href="http://v2.investable.vc/">Investable.vc</a>
 	</div>
 	<div class="collapse navbar-collapse">
+
 	  <ul class="nav navbar-nav">
 	<li  class="first">
 	<a href="[[*url]]#news"  data-alias="news">News & Events</a>
@@ -313,14 +314,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <base href="[[!++site_url]]" />',
     '[[UltimateParent? &topLevel=`1`]]' => 2,
-    '[[~43]]' => 'en/member/investor-profile.html',
+    '[[~43]]' => 'en/member/dashboard.html',
     '[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Dashboard',
     '[[~1? &service=logout]]' => 'en/index.html?service=logout',
     '[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Logout',
     '[[UltimateParent?  &topLevel=`1`]]' => 2,
     '[[Wayfinder?
 		&startId=`2`
-		&level=`2`
+		&level=`1`
 		&outerTpl=`Wayfinder.outerTpl`
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`
@@ -375,7 +376,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="en/member/investor-profile.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
+           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
            <a class="btn logout_button" href="en/index.html?service=logout" title="Logout" id="[[+alias]]">Logout</a> 
          `]]
 
@@ -394,6 +395,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="http://v2.investable.vc/">Investable.vc</a>
 	</div>
 	<div class="collapse navbar-collapse">
+
 	  <ul class="nav navbar-nav">
 	<li  class="first">
 	<a href="[[*url]]#news"  data-alias="news">News & Events</a>
@@ -678,9 +680,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="[[++site_url]]">[[++site_name]]</a>
 	</div>
 	<div class="collapse navbar-collapse">
+
 	  [[Wayfinder?
 		&startId=`[[UltimateParent?  &topLevel=`1`]]`
-		&level=`2`
+		&level=`1`
 		&outerTpl=`Wayfinder.outerTpl`
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`
@@ -730,9 +733,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="[[++site_url]]">[[++site_name]]</a>
 	</div>
 	<div class="collapse navbar-collapse">
+
 	  [[Wayfinder?
 		&startId=`[[UltimateParent?  &topLevel=`1`]]`
-		&level=`2`
+		&level=`1`
 		&outerTpl=`Wayfinder.outerTpl`
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`

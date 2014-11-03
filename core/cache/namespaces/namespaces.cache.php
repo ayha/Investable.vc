@@ -59,6 +59,12 @@
     'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/login/',
     'assets_path' => '/Users/theboxer/www/modx/pkgs/login/assets/components/login/',
   ),
+  'modavatar' => 
+  array (
+    'name' => 'modavatar',
+    'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/modavatar/',
+    'assets_path' => '',
+  ),
   'phpthumbof' => 
   array (
     'name' => 'phpthumbof',
@@ -87,6 +93,12 @@
   array (
     'name' => 'wayfinder',
     'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/wayfinder/',
+    'assets_path' => '',
+  ),
+  'youtubeid' => 
+  array (
+    'name' => 'youtubeid',
+    'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/youtubeid/',
     'assets_path' => '',
   ),
 );

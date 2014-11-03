@@ -7,9 +7,8 @@
     0 => 
     array (
       0 => 2,
-      1 => 36,
-      2 => 38,
-      3 => 42,
+      1 => 38,
+      2 => 42,
     ),
     2 => 
     array (
@@ -23,6 +22,7 @@
       7 => 7,
       8 => 8,
       9 => 14,
+      10 => 36,
     ),
     3 => 
     array (
@@ -90,18 +90,24 @@
     36 => 
     array (
       0 => 37,
+      1 => 55,
     ),
     38 => 
     array (
       0 => 39,
       1 => 40,
       2 => 41,
+      3 => 56,
+      4 => 57,
+      5 => 58,
+      6 => 59,
+      7 => 60,
+      8 => 61,
     ),
   ),
   'aliasMap' => 
   array (
     'en/' => 2,
-    'startup-companies/' => 36,
     'processors/' => 38,
     'index.html' => 42,
     'en/index.html' => 1,
@@ -114,6 +120,7 @@
     'en/contact.html' => 7,
     'en/member/' => 8,
     'en/misc/' => 14,
+    'en/startup-companies/' => 36,
     'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html' => 11,
     'en/news/techcrunch2.html' => 34,
     'en/news/techcrunch3.html' => 35,
@@ -127,7 +134,7 @@
     'en/about/becoming-a-member.html' => 27,
     'en/member/join-us.html' => 9,
     'en/member/login.html' => 10,
-    'en/member/investor-profile.html' => 43,
+    'en/member/dashboard.html' => 43,
     'en/member/forgot-password.html' => 44,
     'en/member/reset-password.html' => 45,
     'en/member/registration-submitted.html' => 46,
@@ -150,10 +157,17 @@
     'en/team/investable-team/emmanuelle-norchet.html' => 31,
     'en/team/investable-team/alex-au-yeung.html' => 32,
     'en/team/investable-team/jess-cheung.html' => 33,
-    'startup-companies/bitspark.html' => 37,
+    'en/startup-companies/bitspark.html' => 37,
+    'en/startup-companies/foodie.html' => 55,
     'processors/login-action.html' => 39,
     'processors/investor-register-action.html' => 40,
     'processors/startup-register-action.html' => 41,
+    'processors/send-message-action.html' => 56,
+    'processors/add-connection-action.html' => 57,
+    'processors/get-message.html' => 58,
+    'processors/delete-connection-action.html' => 59,
+    'processors/load-message-action.html' => 60,
+    'processors/approve-connection-action.html' => 61,
   ),
   'webLinkMap' => 
   array (
@@ -199,6 +213,10 @@
     'OnSiteRefresh' => 
     array (
       3 => '3',
+    ),
+    'OnUserFormPrerender' => 
+    array (
+      6 => '6',
     ),
   ),
   'pluginCache' => 
@@ -553,6 +571,78 @@ if ($modx->event->name === \'OnDocFormRender\') {
 }
 
 return;',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    6 => 
+    array (
+      'id' => '6',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'modavatar',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '19',
+      'cache_type' => '0',
+      'plugincode' => 'switch($modx->event->name){
+    case \'OnUserFormPrerender\':
+        $modx->lexicon->load(\'modavatar:default\');
+        
+        $mgrUrl = $modx->getOption(\'manager_url\',null,MODX_MANAGER_URL);
+        $modx->regClientStartupScript($mgrUrl.\'assets/modext/widgets/element/modx.panel.tv.renders.js\');
+         
+        $photo;
+        
+        if($scriptProperties[\'user\']->Profile){
+            $photo = $scriptProperties[\'user\']->Profile->get(\'photo\');
+        }
+        
+        if(!$path = $modx->getOption(\'modavatar.manager_url\', null)){
+            $path = $modx->getOption(\'manager_url\', null).\'components/modavatar/\';
+        }
+        $path .= \'js/\';
+        
+        if(!$source = $modx->getOption(\'modavatar.default_media_source\', null)){
+            $source = $modx->getOption(\'default_media_source\', null, 1);
+        }
+        
+        $modx->regClientStartupScript($path.\'core/modavatar.js\');
+        
+        $lexicon = (array)$modx->lexicon->loadCache(\'modavatar\');
+        $modx->regClientStartupScript( \'<script type="text/javascript">
+            MODx.ux.modAvatar = new MODx.ux.modAvatar({
+                lexicon: \'.$modx->toJSON($lexicon).\'
+            });
+</script>\',true);
+        $modx->regClientStartupScript($path.\'widgets/userpanel.js\');
+        $modx->regClientStartupScript( \'<script type="text/javascript">
+            Ext.onReady(function(){
+                var tab = Ext.getCmp("modx-user-tabs");
+                var panel = Ext.getCmp("modx-panel-user");
+                var infotab = tab.find("title", _("general_information"));
+                var infopanel;
+                var user;
+                try{
+                    user = infotab[0].get(0);
+                    infopanel = user.get(0);
+                }
+                catch(e){
+                    return;
+                }  
+                var fieldset = new MODx.ux.modAvatar.widget.UserPanel({
+                    panel: panel
+                    ,photo: "\'.$photo.\'"
+                    ,source: \'.$source.\'
+                });
+                infopanel.add(fieldset);
+            });
+</script>\',true);
+        break;
+}',
       'locked' => '0',
       'properties' => NULL,
       'disabled' => '0',

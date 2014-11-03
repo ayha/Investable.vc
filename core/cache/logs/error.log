@@ -5907,3 +5907,693 @@ Array
 [2014-10-29 17:40:00] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
 [2014-10-29 17:40:08] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
 [2014-10-29 17:40:09] (ERROR @ /index.php) Could not retrieve data to cache for resource 37
+[2014-10-30 09:57:26] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 10:13:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 10:21:09] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 10:22:33] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 10:44:26] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 16:29:35] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 17:39:29] (ERROR @ /connectors/index.php) Error caching action map mgr/actions
+[2014-10-30 18:32:16] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 18:32:57] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-30 18:49:28] (ERROR @ /connectors/index.php) Error caching action map mgr/actions
+[2014-10-30 19:01:46] (ERROR @ /connectors/index.php) Error caching action map mgr/actions
+[2014-10-31 09:31:03] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 12:11:32] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 12:11:51] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 12:12:19] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 16:37:42] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 16:37:46] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:39:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 16:40:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/59.include.cache.php : 10) PHP warning: json_encode(): recursion detected
+[2014-10-31 17:02:05] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-10-31 17:05:09] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-02 14:41:58] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:42:22] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:42:55] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:43:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:43:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:44:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 14:45:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 15:46:27] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-02 15:46:27] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-02 15:46:29] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-02 15:46:29] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-02 17:48:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:58:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 17:59:36] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:00:45] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:01:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:02:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:04:48] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:05:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:06:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:27] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO)
+[2014-11-02 18:07:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysql_real_escape_string(): A link to the server could not be established
+[2014-11-02 18:09:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 3) PHP warning: mysqli_real_escape_string() expects exactly 2 parameters, 1 given
+[2014-11-02 18:09:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 7) PHP warning: mysqli_real_escape_string() expects exactly 2 parameters, 1 given
+[2014-11-02 18:09:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 11) PHP warning: mysqli_real_escape_string() expects exactly 2 parameters, 1 given
+[2014-11-02 18:09:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/61.include.cache.php : 15) PHP warning: mysqli_real_escape_string() expects exactly 2 parameters, 1 given
+[2014-11-02 23:16:26] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modparser.class.php : 279) Recoverable error: Object of class PDOStatement could not be converted to string
+[2014-11-02 23:34:07] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-03 00:21:18] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-03 06:53:22] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-03 06:53:22] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-03 12:31:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 44 and defined
+[2014-11-03 12:36:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 49 and defined
+[2014-11-03 12:36:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 49 and defined
+[2014-11-03 12:37:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 49 and defined
+[2014-11-03 12:38:20] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-03 12:38:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 49 and defined
+[2014-11-03 12:40:58] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-03 12:40:58] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modx.class.php : 1807) Recoverable error: Argument 2 passed to modX::getChunk() must be an array, null given, called in /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/65.include.cache.php on line 49 and defined
+[2014-11-03 12:42:16] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-03 12:42:31] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-03 12:44:30] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-03 13:24:27] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
