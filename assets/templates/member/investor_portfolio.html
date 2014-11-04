@@ -15,13 +15,43 @@
 				<div class="allclear"></div>
 			</div>
 			<div class="member_content">
-
+				<h2>[[%startups.favourite_companies? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+				<div class="favourite_company_list company_list">
+					[[!get_investor_favourite_companies?]]
+					<div class="allclear"></div>
+				</div>
+				
 				
 			</div>
 		</div>
 		[[$Footer]]
 		[[$member_footer]]
 		<script type="text/javascript">
+			$(document).ready(function(){
+			
+			$(".startup_item").click(function(e){
+					//e.preventDefault();
+					//window.location.href=$(this).data("url");
+				});
+				
+				$(".startup_item").each(function(ind){
+					updateCountdown($(this).attr("id"));
+				    updateFundedPercentage($(this).attr("id"));
+				});
+				
+				$(".video_badge a.watch_video").fancybox({
+					maxWidth	: 800,
+					maxHeight	: 600,
+					fitToView	: false,
+					width		: '70%',
+					height		: '70%',
+					autoSize	: false,
+					closeClick	: false,
+					openEffect	: 'none',
+					closeEffect	: 'none'
+				});
+							
+			});		
 			
 
 		</script>

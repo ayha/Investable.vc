@@ -1,2 +1,2 @@
 <?php
-return '/Files/assets/images/startups/foodie';
+return '/Files/assets/images/partners';

@@ -16,41 +16,87 @@
 			</div>
 			<div class="member_content">
 				<div class="quick_facts">
-					<div class="project_logo col-md-6">
-						<img src="[[*content_image:phpthumbof=`w=500&h=300`]]" title="[[*longtitle]]" /> 
+					<div class="project_logo col-md-4">
+						<div class="logo_holder" style="background-image:url([[*content_image:phpthumbof=`w=500&h=300`]]);"></div>
 						
 					</div>
-					<div class="project_chart col-md-6"> 
-						<div id="chart_div" style="width: 100%; height:300px"></div>
-						<h3><span class="funded_percentage"></span> Funded</h3>
+					<div class="project_status col-md-8"> 
+						<h2>[[*longtitle]]</h2>
+						<h3><span class="industry">[[*industry]]</span>[[*country:ne=``:then=`, <span class="country">[[*country]]`]]</span></h3>
+						<div class="intro">[[*introtext:nl2br]]</div>
+						<div class="fund_status">
+							
+							[[*stage:ne=``:then=`
+							<div class="status_item col-xs-6 col-sm-4" id="stage" data-value="[[*stage]]">
+								<div class="status_name">[[%startups.stage? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">[[*stage]]</div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							[[*raised:ne=``:then=`
+							<div class="status_item col-xs-6  col-sm-4" id="raised" data-value="[[*raised]]">
+								<div class="status_name">[[%startups.funded? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number"></div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							<div class="status_item col-xs-6  col-sm-4" id="goal" data-value="[[*goal]]">
+								<div class="status_name">[[%startups.goal? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">[[*goal:is=``:then=`0`:else=`[[*goal]]`]]</div>
+								<div class="allclear"></div>
+							</div>
+							
+							[[*equity:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="equity" data-value="[[*equity]]">
+								<div class="status_name">[[%startups.equity_offered? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">[[*equity]]</div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							[[*premoney:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="premoney" data-value="[[*premoney]]">
+								<div class="status_name">[[%startups.premoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">$[[*premoney]]</div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							[[*postmoney:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="postmoney" data-value="[[*postmoney]]">
+								<div class="status_name">[[%startups.postmoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">$[[*postmoney]]</div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							[[*round:ne=``:then=`
+							<div class="status_item col-xs-6  col-sm-4 " id="round" data-value="[[*round]]">
+								<div class="status_name">[[%startups.round? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number">[[*round]]</div>
+								<div class="allclear"></div>
+							</div>
+							`]]
+							
+							<div class="status_item col-xs-6  col-sm-4" id="countdown" data-target_date="[[*unpub_date]]">
+								<div class="status_name">[[%startups.time_left_to_support? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+								<div class="status_number"></div>
+								<div class="allclear"></div>
+							</div>
+							<div class="allclear"></div>
+						</div>
 					</div>
+					
 					<div class="allclear"></div>
-					<div class="fund_status">
-						<div class="status_item col-md-2" id="goal" data-value="[[*goal]]">
-							<div class="status_name">Goal</div>
-							<div class="status_number">[[*goal:is=``:then=`0`:else=`[[*goal]]`]]</div>
-						</div>
-						<div class="status_item col-md-2" id="raised" data-value="[[*raised]]">
-							<div class="status_name">Pledged</div>
-							<div class="status_number">[[*raised:is=``:then=`0`:else=`[[*raised]]`]]</div>
-						</div>
-						<div class="status_item col-md-2" id="backers" data-value="[[*backers]]">
-							<div class="status_name">Backers</div>
-							<div class="status_number">[[*backers:is=``:then=`0`:else=`[[*backers]]`]]</div>
-						</div>
-						<div class="status_item col-md-6" id="countdown" data-target_date="[[*unpub_date]]">
-							<div class="statu_name">Time left</div>
-							<div class="status_number"></div>
-						</div>
-						<div class="allclear"></div>
-					</div>
 					
 				</div>
 				
 				<div class="company_info">
 					<div class="company_details col-md-8">
-						<h2>[[*longtitle]]</h2>
-						<div class="intro">[[*introtext:nl2br]]</div>
+						
+						
 						
 						[[*youtube:ne=``:then=`
 							<iframe width="100%" height="300" src="//www.youtube.com/embed/[[getYouTubeId? &input=`[[*youtube]]`]]" frameborder="0" allowfullscreen></iframe>
@@ -60,14 +106,17 @@
 						<div class="company_description">
 							
 							
-							[[*content:ne=``:then=`<h3>Company Description</h3>[[*content]]`]]
-							[[*product_description:ne=``:then=`<h3>Product / Service Description</h3>[[*product_description]]`]]
-							[[*business_model:ne=``:then=`<h3>Business Model and Monetization</h3>[[*busines_model]]`]]
-							[[*market:ne=``:then=`<h3>Addressable Market</h3>[[*market]]`]]
-							[[*competitors:ne=``:then=`<h3>Competitve Landscape</h3>[[*competitors]]`]]
-							[[*news:ne=``:then=`<h3>News, Press and Testimonials</h3>[[*news]]`]]
-							[[*use_of_funds:ne=``:then=`<h3>Use of Funds</h3>[[*use_of_funds]]`]]
-							[[*investor_details:ne=``:then=`<h3>Investor Details</h3>[[*investor_details]]`]]
+							[[*content:ne=``:then=`<h3>[[%startups.company_description? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*content]]`]]
+							
+							[[*business_model:ne=``:then=`<h3>[[%startups.business_model? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*business_model]]`]]
+							[[*market:ne=``:then=`<h3>[[%startups.market_competition? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*market]]`]]
+							[[*product_description:ne=``:then=`<h3>[[%startups.product_description? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*product_description]]`]]
+							[[*projections:ne=``:then=`<h3>[[%startups.projections? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*projections]]`]]
+							[[*news:ne=``:then=`<h3>[[%startups.news_press? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*news]]`]]
+							[[*registered_ip:ne=``:then=`<h3>[[%startups.registered_ip? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*registered_ip]]`]]
+							[[*mobile_app:ne=``:then=`<h3>[[%startups.mobile_app? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*mobile_app]]`]]
+							[[*use_of_funds:ne=``:then=`<h3>[[%startups.use_of_funds? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*use_of_funds]]`]]
+							
 							
 						</div>
 					</div>
@@ -80,9 +129,9 @@
 				
 				<div class="floating_content">
 					<div class="support_company">
-						<a class="btn support_button" title="Support" href="#">Support</a>
-						<a class="btn support_button" title="Follow" href="#">Follow</a>
-						<a class="btn support_button" title="Meet The Startup" href="#">Meet</a>
+						<a class="btn support_button" id="support_company" title="Support" href="#">Support</a>
+						<a class="btn support_button" id="follow_company" title="Follow" href="#">Follow</a>
+						<a class="btn support_button" id="meet_company" title="Meet The Startup" href="#">Meet</a>
 					</div>
 				</div>
 			</div>
@@ -112,63 +161,96 @@
 				var investment_raised = $("#raised").data("value");
 				
 				percentage_raised = Math.ceil(investment_raised*100/investment_goal);
-				console.log(percentage_raised);
-				$(".project_chart h3 .funded_percentage").html(percentage_raised +"%"); 
+				if(percentage_raised >70){
+					$("#raised .status_number").html(percentage_raised + "%");
+				}else{
+					$("#raised").remove();
+				}
+				//$(".project_chart h3 .funded_percentage").html(percentage_raised +"%"); 
 				
 				setInterval(function(){
 					update_countdown($("#countdown").data("target_date"));
 					
 				}, 1000);
+							
+			    $("a#follow_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="[[*longtitle]]";
+			    	var companyid = "[[*id]]";
+			    	
+			    	$.ajax("[[~80]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a#support_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="[[*longtitle]]";
+			    	var companyid = "[[*id]]";
+			    	
+			    	$.ajax("[[~81]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a#meet_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="[[*longtitle]]";
+			    	var companyid = "[[*id]]";
+			    	
+			    	$.ajax("[[~82]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
 				
 			});
 			
 			
 			
 			function update_countdown(end_date){
-				var target_date = new Date(end_date).getTime();
+				//var target_date = new Date(end_date).getTime();
+				var end_date = end_date.split(" ")[0].split("-");
+   				 var target_date = new Date( end_date[0], (end_date[1]-1), end_date[2], 0, 0, 0 ).getTime();
+				
 				var days, hours, minutes, seconds;
 				var current_date = new Date().getTime();
                 var seconds_left = (target_date - current_date) / 1000;
                 
                 days = parseInt(seconds_left / 86400);
-				seconds_left = seconds_left % 86400;
- 
-				hours = parseInt(seconds_left / 3600);
-				seconds_left = seconds_left % 3600;
-  
-				minutes = parseInt(seconds_left / 60);
-				seconds = parseInt(seconds_left % 60);
-				$("#countdown .status_number").html(days + " <span class='countdown_unit'>Days</span> "+ hours +" <span class='countdown_unit'>Hours</span> "+minutes+" <span class='countdown_unit'>Minutes</span> "+seconds +" <span class='countdown_unit'>Seconds</span>");
+				
+				$("#countdown .status_number").html(days + " [[%startups.days? &topic=`default` &namespace=`investable` &language=`en`]]");
 				
 			}
 
 		</script>
 		
-		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-        google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Status', 'Percentage'],
-          ['Funded',    percentage_raised ],
-          ['Available',    (100-percentage_raised)]
-        ]);
-
-        var options = {
-          
-          pieHole: 0.3,
-         backgroundColor: "transparent",
-         tooltip : {text:'percentage'},
-          legend: 'none',
-          pieSliceText:'none',
-          pieSliceBorderColor: "a40a42",
-  		  colors: ['#a40a42', 'transparent']
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
+		
 	</body>
 </html>

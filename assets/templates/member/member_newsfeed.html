@@ -15,14 +15,56 @@
 				<div class="allclear"></div>
 			</div>
 			<div class="member_content">
-
+               <div id="feed_content"></div>
+			    	
 				
 			</div>
 		</div>
 		[[$Footer]]
 		[[$member_footer]]
+	
+		<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_wall.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_light.css" media="all" />
+		<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.1.5.4.js"></script>
+		<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.wall.1.3.js"></script>
 		<script type="text/javascript">
+			$('#feed_content').dcSocialStream({
+		feeds: {
 			
+			rss: {
+				id: '[[*rss_feeds]]'
+			},
+			facebook: {
+				id: '455528547892283',
+				out: 'intro,thumb,text,user,share'
+			},
+			
+			twitter: {
+				id: 'investableasia,#startup,#startuphk',
+				thumb: true,
+				url: '[[++assets_url]]lib/social_stream/twitter.php'
+			},
+			
+			
+			google: {
+				id: '101383478793760168461',
+				api_key: 'AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg'
+			}
+			
+		},
+		rotate: {
+			delay: 0
+		},
+		twitterId: 'investableasia',
+		control: false,
+		filter: true,
+		wall: true,
+		cache: false,
+		max: 'limit',
+		limit: 10,
+		iconPath: '[[++assets_url]]lib/social_stream/images/dcsns-dark/',
+		imagePath: '[[++assets_url]]lib/social_stream/images/dcsns-dark/'
+	});
 
 		</script>
 	</body>

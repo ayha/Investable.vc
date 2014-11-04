@@ -38,6 +38,7 @@ h1, h2, h3, h4,h5,h6{
 	font-family:'Oswald', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight:bold;
 	color:#a40a42;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 	
 }
 
@@ -608,100 +609,265 @@ h2.module_head {
 }
 
 .startup_item{
-	height:350px;
+	margin-bottom:15px;
+	padding:15px;
+	position:relative;
+	cursor:pointer;
+	background-color:#ededed;
+	border:1px solid #ccc;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.startup_item .startup_logo{
+	height:150px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	
+}
+
+.startup_item .founded_in{
+	display:block;
+	background-color:#73072e;
+	color:#fff;
+	background-image:url(/assets/images/location_white_icon_24.png);
+	background-position:15px center;
+	padding:10px 0 10px 40px;
+	background-repeat: no-repeat;
+	font-size:0.8em;
+	font-weight:bold;
+	
+}
+
+a.seefullpitch{
+	font-weight:bold;	
+}
+
+.company_badges{
+	text-align:right;
+	
+	padding: 10px 5px;
+}
+
+.startup_badge{
+	display:inline-block;
+	margin-left:15px;
+	padding:7px 10px;
+	border:2px solid #73072e;
+	background-color:#73072e;
+	font-size:0.7em;
+	
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:5px;
+	-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;  	
+}
+
+.startup_badge:hover{
+	background-color:#a40a42;
+}
+
+.video_badge{
+	padding-left:35px;
+	
+	background-image:url(/assets/images/video_icon_white_24.png);
+	background-position: 5px center;
 	background-repeat:no-repeat;
-	background-size: contain;
-position:relative;
-padding:0;
-	  background:#fff;
-	  cursor:pointer;
+}
+
+.video_badge a{
+	color:#fff;
+	
+}
+
+.video_badge a:hover{
+	text-decoration:none;
+}
+
+.reward_badge{
+	padding-left:35px;
+	background-image:url(/assets/images/reward_icon_white_24.png);
+	background-position: 5px center;
+	background-repeat:no-repeat;
+}  
+
+.nest_badge{
+	padding-right:75px;
+	background-image:url(/assets/images/nest_logo_white_small.png);
+	background-position: right center;
+	background-repeat:no-repeat;
+}
+
+.startup_item .startup_quickinfo{
+	padding:10px;
+	background:#fff;
+}
+
+.startup_item .startup_quickinfo .quickfacts{
+	width:100%;
+	
+}
+
+.startup_item .startup_quickinfo .fact_item{
+	text-align:right;
+	padding:5px 10px;
+	
+	border-left:1px solid #ccc;
+}
+
+
+
+.startup_item .startup_quickinfo .fact_item:nth-child(2n){
+	
+}
+
+.startup_item .startup_quickinfo .fact_item:first-child{
+ border-left:0;
+}
+
+.startup_item .startup_quickinfo .fact_item .fact_number{
+	display:block;
+    color:#a04a42;
+    font-size:1.1em;
+    font-weight:bold;
+}
+
+.startup_item .startup_quickinfo .fact_item .fact_title{
+	font-size:0.75em;
+
+	color:#666;
+	display:block;
+	
 }
 
 .startup_item h3{
-   text-align:center;
-   color:#fff; 
-   background:#73072a;
-   padding:10px 0;
-   
-   opacity:0;
-   -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  margin:0;
+
+  margin-bottom:10px;
+  font-size:1.2em;
+  text-transform: uppercase;
 } 
 
-.startup_item img{
+
+
+.startup_item .short_intro{
+	font-size:0.9em;
+	font-style:italic;
+	color:#666;
+	min-height:100px;
 	
-	max-width:80%;
 	
-	max-height:350px;
-	z-index:1;
+	margin-bottom:10px;
 }
 
-.startup_item .company_short_desc{
-	z-index:5;
-	position:absolute;
-	bottom:0;
-	padding:5px;
-	color:#333;
-	background-color:#ededed;
-	width:100%;
-	opacity:0;
-	min-height:80px;
-	-webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+.startup_item .quickfacts{
+	display:block;
+	background-color:#fff;
+	
 }
 
-.startup_item:hover h3, .startup_item:hover .company_short_desc{
-	opacity:0.8;
-}
 
 
 .quick_facts{
 	display:block;
 	margin-bottom:15px;
-	
-	background-color:#ccc;
-	
-}
-
-.quick_facts .project_chart{
-	
+	background-color:#73072e;
 	
 }
 
-.quick_facts .project_chart h3{
-	text-align:center;
-	font-size:1.2em;
+.quick_facts .project_logo{
+
+}
+
+.quick_facts .project_logo .logo_holder{
+	display:block;
+	width:80%;
+	margin:30px auto;
+	min-height:200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-color:#fff;
+	border: 3px solid #ccc;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	
+}
+
+.quick_facts h2{
+	color:#fff;
+	font-size: 1.5em;
+	background:none;
+	padding:0;
+	margin:0;
+	margin-bottom:10px;
+	
+	
+}
+
+.quick_facts h3{
+	color:#dddddd;
+	font-size:0.8em;
+	font-style:italic;
+}
+
+.quick_facts{
+	padding:15px;
+	color:#fff;
+}
+
+.quick_facts .intro{
+	margin-bottom:15px;
 }
 
 .quick_facts .fund_status {
-	background: #73072C;
+	
 	display:block;
-	width:100%;	
+	text-align:left;
 }
 
 .quick_facts .fund_status .status_item{
-	
+	display:block;
+	margin-bottom:10px;
 }
 
 .status_item .status_name{
-	
-	
+	font-size:0.8em;
+	font-style:italic;
+	color:#dddddd;
 }
 
 .status_item .status_number{
+	font-size:1.2em;
+	font-weight:bold;
 	
+}
+
+.founder_profile .profile_name{
+	margin-top:20px;
+}
+
+.founder_profile .profile_name h3{
+	padding:0;
+	margin:0;
+	
+}
+
+.founder_profile .founder_title{
+	font-size:0.8em;
+	color:#999;
+	font-style:italic;
 }
 
 .floating_content{
 	display:block;
 	position:absolute;
-	right:35px;
+	right:40px;
 	z-index:100;
 	text-align:right;
 	width:100%;
@@ -717,17 +883,37 @@ padding:0;
 
 .support_company a.support_button{
 	color:#fff;
-	background:#73072E;
+	background-color:#73072E;
 	padding:5px 10px;
 	border: 1px solid #73072E;
 	display:inline-block;
 	font-size:1.2em;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    padding-left:33px;
+    background-repeat:no-repeat;
+    background-position: 5px center;
+    
 }
 
 .support_company a.support_button:hover{
 	color:#ededed;
 	background-color:#a40a42;
 	text-decoration:none;
+	
+}
+
+.support_company a.support_button#support_company{
+	background-image:url(/assets/images/invest_white_icon_24.png);
+}
+
+.support_company a.support_button#follow_company{
+	background-image:url(/assets/images/favourite_white_icon_24.png);
+}
+
+.support_company a.support_button#meet_company{
+	background-image:url(/assets/images/meet_white_icon_24.png);
 }
 
 .floating_content .company_intro .company_logo{
@@ -832,7 +1018,23 @@ padding:0;
 }
 
 
+#feed_content{
+	width:100%;
+	
+}
+
 /* end member area */
+
+#footer p{
+	font-size:0.8em;
+	text-align:right;
+	width:100%;
+	
+}
+#footer p a{
+	color:#999;
+	
+}
 
 @media (max-width: 768px){
 	
@@ -870,4 +1072,16 @@ padding:0;
 		display:block;
 	}
 	
+	.startup_item .startup_quickinfo .fact_item{
+		border:none;
+	}
+	
+	.floating_content{
+		right:10px;
+		
+	}
+	
+	.support_company a.support_button{
+		font-size:1em;
+	}
 }

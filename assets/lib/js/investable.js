@@ -2,13 +2,14 @@ $(document).ready(function(){
 	
 	/* main nav animation */
 	$(".navbar-nav>li>a").click(function(e){
+		if($(".member_content").length ==0){
 		e.preventDefault();
 		var alias = $(this).data("alias");
 		scrollToSection(alias);
 		$(".navbar-collapse.in").removeClass("in");
-		return false;
 		
 		
+		}
 	});
 	
 	$(".home_news_row").click(function(e){
@@ -177,5 +178,34 @@ function scrollToSection(target_section){
 	
 }
 
+
+ function updateCountdown(company){
+            	var end_date = $("#"+company).data("enddate");
+            	//var target_date = new Date(end_date).getTime();
+				//var target_date = Date.parse(end_date);
+				var end_date = end_date.split(" ")[0].split("-");
+   				 var target_date = new Date( end_date[0], (end_date[1]-1), end_date[2], 0, 0, 0 ).getTime();
+				var days, hours, minutes, seconds;
+				var current_date = new Date().getTime();
+                var seconds_left = (target_date - current_date) / 1000;
+                
+                days = parseInt(seconds_left / 86400);
+				
+				$("#"+company).find(".timeleft").children(".fact_number").html(days);
+            }
+            
+            function updateFundedPercentage(company){
+            	var goal = $("#"+company).data("goal");
+            	var raised = $("#"+company).data("raised");
+            	
+            	var percentage = Math.ceil(raised*100/goal);
+            	
+            	if(percentage <70){ // hide the percentage
+            		$("#"+company).find(".quickfacts").children(".percentage").remove();
+            		
+            	}else{
+            		$("#"+company).find(".quickfacts").children(".percentage").children(".fact_number").html(percentage+"%");
+            	}
+            }
 
 

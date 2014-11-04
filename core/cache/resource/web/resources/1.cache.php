@@ -17,9 +17,9 @@
     'isfolder' => 0,
     'introtext' => '',
     'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
-<h1 class="site-tagline" style="text-align: center;">CONNECTING INVESTORS TO CURATED STARTUPS</h1>
+<h1 class="site-tagline" style="text-align: center;">Curated. Scalable. Diversified. Efficient. Transparent. User-friendly. Invest in Asia. No fees. Be part of it.</h1>
 <blockquote>
-<h2 style="text-align: center;"><a href="[[~10]]">Sign up</a> for an investor account to start browsing through start up opportunities now</h2>
+<h2 style="text-align: center;"><a href="[[~10]]">Get involved</a> in the startup landscape in Asia</h2>
 </blockquote>',
     'richtext' => 1,
     'template' => 2,
@@ -29,7 +29,7 @@
     'createdby' => 1,
     'createdon' => 1413180619,
     'editedby' => 1,
-    'editedon' => 1414036455,
+    'editedon' => 1415027212,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -129,14 +129,14 @@
 <div class="navbar navbar-grey navbar-fixed-top" role="navigation">
 <div class="navbar-top">
    <div class="container">
-      <div class="navbar-social col-md-6">
+      <div class="navbar-social col-sm-6">
          <a href="http://www.linkedin.com/company/investable-vc/" target="_blank" class="header_social_icon linkedin">LinkedIn</a>
          <a href="https://twitter.com/investableasia" target="_blank" class="header_social_icon twitter">Twitter</a>
          <a href="https://www.facebook.com/InvestableAsia" target="_blank" class="header_social_icon facebook">Facebook</a>
          <a href="https://plus.google.com/+InvestableAsia" target="_blank" class="header_social_icon gplus">Google Plus</a>
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
-      <div class="navbar-signin col-md-6">
+      <div class="navbar-signin col-sm-6">
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
@@ -162,17 +162,7 @@
 
 	  <ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">News & Events</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
+	<a href="[[*url]]#news"  data-alias="news">The Press</a>
 	
 </li>
 
@@ -183,6 +173,21 @@
 
 <li >
 	<a href="[[*url]]#team"  data-alias="team">Meet The Team</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
 	
 </li>
 
@@ -198,18 +203,22 @@
   </div>
 </div>
 		<div class="container main_content" id="home_content">
-		   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:!=":0}` ]]
+		   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:!=":0, "AND:template:!=":36}` ]]
 		</div>
 		<div id="footer">
 	<div class="container">
-		<p class="text-muted pull-right">&copy; Investable.vc 2014
+		<p class="text-muted pull-right">
+                
+[[!getResources? &parents=`14` &tpl=`footer_link_item` &limit=`10` &showHidden=`1` &includeContent=`0`  &sortby=`{"menuindex":"ASC"}`]]
+ 
+                &copy; Investable.vc, 2014
 			
 		</p>
 	</div>
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/components/bootstrap/dist/js/bootstrap.js"></script>
 
 
 <!-- include hidden elements on the page -->
@@ -219,7 +228,6 @@
 
 
 </div>
-
 
 	</body>
 </html>',
@@ -329,17 +337,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 		&rowTpl=`Wayfinder.rowTpl`                    
 	  ]]' => '<ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">News & Events</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
+	<a href="[[*url]]#news"  data-alias="news">The Press</a>
 	
 </li>
 
@@ -350,6 +348,21 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <li >
 	<a href="[[*url]]#team"  data-alias="team">Meet The Team</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
 	
 </li>
 
@@ -365,14 +378,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <div class="navbar navbar-grey navbar-fixed-top" role="navigation">
 <div class="navbar-top">
    <div class="container">
-      <div class="navbar-social col-md-6">
+      <div class="navbar-social col-sm-6">
          <a href="http://www.linkedin.com/company/investable-vc/" target="_blank" class="header_social_icon linkedin">LinkedIn</a>
          <a href="https://twitter.com/investableasia" target="_blank" class="header_social_icon twitter">Twitter</a>
          <a href="https://www.facebook.com/InvestableAsia" target="_blank" class="header_social_icon facebook">Facebook</a>
          <a href="https://plus.google.com/+InvestableAsia" target="_blank" class="header_social_icon gplus">Google Plus</a>
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
-      <div class="navbar-signin col-md-6">
+      <div class="navbar-signin col-sm-6">
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
@@ -398,17 +411,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 	  <ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">News & Events</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
-	
-</li>
-
-<li >
-	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
+	<a href="[[*url]]#news"  data-alias="news">The Press</a>
 	
 </li>
 
@@ -419,6 +422,21 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <li >
 	<a href="[[*url]]#team"  data-alias="team">Meet The Team</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#how"  data-alias="how">How It Works</a>
+	
+</li>
+
+<li >
+	<a href="[[*url]]#faqs"  data-alias="faqs">FAQs</a>
 	
 </li>
 
@@ -436,14 +454,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     '[[Years]]' => '2014',
     '[[$Footer]]' => '<div id="footer">
 	<div class="container">
-		<p class="text-muted pull-right">&copy; Investable.vc 2014
+		<p class="text-muted pull-right">
+                
+[[!getResources? &parents=`14` &tpl=`footer_link_item` &limit=`10` &showHidden=`1` &includeContent=`0`  &sortby=`{"menuindex":"ASC"}`]]
+ 
+                &copy; Investable.vc, 2014
 			
 		</p>
 	</div>
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/components/bootstrap/dist/js/bootstrap.js"></script>
 
 
 <!-- include hidden elements on the page -->
@@ -453,13 +475,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 </div>
-
 ',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
     '[[~11]]' => 'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html',
     '[[~34]]' => 'en/news/techcrunch2.html',
     '[[~35]]' => 'en/news/techcrunch3.html',
+    '[[~17]]' => 'en/misc/legal-documents.html',
+    '[[~15]]' => 'en/misc/terms-and-conditions.html',
+    '[[~16]]' => 'en/misc/privacy-policies.html',
   ),
   'sourceCache' => 
   array (
@@ -650,14 +674,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <div class="navbar navbar-grey navbar-fixed-top" role="navigation">
 <div class="navbar-top">
    <div class="container">
-      <div class="navbar-social col-md-6">
+      <div class="navbar-social col-sm-6">
          <a href="http://www.linkedin.com/company/investable-vc/" target="_blank" class="header_social_icon linkedin">LinkedIn</a>
          <a href="https://twitter.com/investableasia" target="_blank" class="header_social_icon twitter">Twitter</a>
          <a href="https://www.facebook.com/InvestableAsia" target="_blank" class="header_social_icon facebook">Facebook</a>
          <a href="https://plus.google.com/+InvestableAsia" target="_blank" class="header_social_icon gplus">Google Plus</a>
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
-      <div class="navbar-signin col-md-6">
+      <div class="navbar-signin col-sm-6">
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
@@ -703,14 +727,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <div class="navbar navbar-grey navbar-fixed-top" role="navigation">
 <div class="navbar-top">
    <div class="container">
-      <div class="navbar-social col-md-6">
+      <div class="navbar-social col-sm-6">
          <a href="http://www.linkedin.com/company/investable-vc/" target="_blank" class="header_social_icon linkedin">LinkedIn</a>
          <a href="https://twitter.com/investableasia" target="_blank" class="header_social_icon twitter">Twitter</a>
          <a href="https://www.facebook.com/InvestableAsia" target="_blank" class="header_social_icon facebook">Facebook</a>
          <a href="https://plus.google.com/+InvestableAsia" target="_blank" class="header_social_icon gplus">Google Plus</a>
          <!-- <a href="http://www.wechat.com" target="_blank" class="header_social_icon wechat">WeChat</a> -->
       </div>
-      <div class="navbar-signin col-md-6">
+      <div class="navbar-signin col-sm-6">
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
@@ -771,14 +795,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'cache_type' => 0,
           'snippet' => '<div id="footer">
 	<div class="container">
-		<p class="text-muted pull-right">&copy; [[++site_name]] [[Years]]
+		<p class="text-muted pull-right">
+                
+[[!getResources? &parents=`14` &tpl=`footer_link_item` &limit=`10` &showHidden=`1` &includeContent=`0`  &sortby=`{"menuindex":"ASC"}`]]
+ 
+                &copy; [[++site_name]], [[Years]]
 			
 		</p>
 	</div>
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.js"></script>
 
 
 <!-- include hidden elements on the page -->
@@ -788,7 +816,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 </div>
-
 ',
           'locked' => false,
           'properties' => 
@@ -798,14 +825,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'static_file' => '',
           'content' => '<div id="footer">
 	<div class="container">
-		<p class="text-muted pull-right">&copy; [[++site_name]] [[Years]]
+		<p class="text-muted pull-right">
+                
+[[!getResources? &parents=`14` &tpl=`footer_link_item` &limit=`10` &showHidden=`1` &includeContent=`0`  &sortby=`{"menuindex":"ASC"}`]]
+ 
+                &copy; [[++site_name]], [[Years]]
 			
 		</p>
 	</div>
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.js"></script>
 
 
 <!-- include hidden elements on the page -->
@@ -815,7 +846,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 </div>
-
 ',
         ),
         'policies' => 
@@ -897,118 +927,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 [[!getResources? &parents=`[[+id]]` &tpl=`home_news_row` &processTVs=`1` &includeTVs=`1` &prepareTVs=`1` &limit=`10` &showHidden=`1`  &sortby=`{"publishedon":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_how' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 21,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_how',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_faqs' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 26,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_faqs',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
         ),
         'policies' => 
         array (
@@ -1129,6 +1047,157 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 [[!getResources? &parents=`[[+id]]` &tpl=`home_team_type` &limit=`100` &showHidden=`1` &depth=`0` &sortby=`{"menuindex":"ASC"}`]]',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'home_partners' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 59,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'home_partners',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => '[[+content]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[+content]]',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'home_how' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 21,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'home_how',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => '
+    <!-- Carousel
+    ================================================== -->
+    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
+        
+      </ol>
+      <div class="carousel-inner">
+        
+       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
+       
+      </div>
+      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '
+    <!-- Carousel
+    ================================================== -->
+    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
+        
+      </ol>
+      <div class="carousel-inner">
+        
+       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
+       
+      </div>
+      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'home_faqs' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 26,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'home_faqs',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => '
+[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '
+[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
         ),
         'policies' => 
         array (

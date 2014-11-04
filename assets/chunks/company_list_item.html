@@ -1,0 +1,56 @@
+<div data-url="[[~[[+id]]]]" class="startup_item" id="company_[[+alias]]" data-rewards="[[+tv.rewards:ne=``:then=`1`]]" data-youtube="[[+tv.youtube]]" data-nest="[[+tv.invested_by_nest]]" data-alias="[[+alias]]" data-goal="[[+tv.goal]]" data-cid="[[+id]]" data-raised="[[+tv.raised]]" data-enddate="[[+unpub_date]]">
+	<div class="startup_img col-md-3 col-xs-5">
+		<div class="startup_logo" style="background-image:url([[+tv.content_image:phpthumbof=`w=400`]]); background-repeat:no-repeat;background-size:contain;background-position:center center"></div>
+		[[+tv.country:ne=``:then=`
+		<div class="founded_in">
+			[[+tv.country]]
+		</div>
+		`]]
+	</div>
+	<div class="startup_quickinfo col-md-9 col-xs-7">
+		<h3>[[+longtitle]]</h3>
+		<div class="short_intro">[[+introtext]]
+			<a href="[[~[[+id]]]]" class="seefullpitch">[[%startups.see_full_pitch? &topic=`default` &namespace=`investable` &language=`en`]]</a>
+		</div>
+		<div class="company_badges">
+			[[+tv.youtube:ne=``:then=`
+			   <div class="startup_badge video_badge"><a href="[[+tv.youtube]]" target="_blank" class="watch_video  fancybox.iframe">Watch Video</a></div>
+			`]]
+			
+			[[+tv.rewards:ne=``:then=`
+				<div class="startup_badge reward_badge">Rewards</div>
+			`]]
+			
+			[[+tv.invested_by_nest:ne=``:then=`
+				<div class="startup_badge nest_badge">Invested by </div>
+			`]]
+			
+		</div>
+		<div class="quickfacts">
+			<div class="col-md-2 col-xs-6 fact_item percentage" >
+				<span class="fact_number"></span><span class="fact_title">[[%startups.funded? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			<div class="col-md-2 col-xs-6 fact_item target">
+				<span class="fact_number">$[[+tv.goal]]</span><span class="fact_title">[[%startups.goal? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			[[+tv.equity:ne=``:then=`
+			<div class="col-md-2 col-xs-6 fact_item equity">
+				<span class="fact_number">[[+tv.equity]]</span><span class="fact_title">[[%startups.equity_offered? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			`]]
+			[[+tv.premoney:ne=``:then=`
+			<div class="col-md-2 col-xs-6 fact_item premoney">
+				<span class="fact_number">$[[+tv.premoney]]</span><span class="fact_title">[[%startups.premoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			`]]
+			<div class="col-md-2 col-xs-6 fact_item round">
+				<span class="fact_number">[[+tv.round]]</span><span class="fact_title">[[%startups.round? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			<div class="col-md-2 col-xs-6 fact_item timeleft">
+				<span class="fact_number"></span><span class="fact_title">[[%startups.days_left? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+			</div>
+			<div class="allclear"></div>
+		</div>
+	</div>
+	<div class="allclear"></div>
+</div>
