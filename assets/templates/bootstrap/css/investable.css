@@ -722,18 +722,29 @@ border-radius: 7px;
 
 .nest_badge{
 	padding-right:75px;
-	background-image:url(/assets/images/nest_logo_white_small.png);
+	background-image:url(/assets/images/nest_logo_wine.png);
 	background-position: right center;
 	background-repeat:no-repeat;
+	background-color:#fff;
+	color:#a40a42;
+	border:2px solid #8F3958;
 }
 
 .angellist_badge{
 	padding-right:103px;
-	background-image:url(/assets/images/angellist_logo_white_small.png);
+	background-image:url(/assets/images/angellist_logo_wine.png);
 	background-position: right center;
 	background-repeat:no-repeat;
+	background-color:#fff;
+	color:#a40a42;
+	cursor:pointer;
+	border:2px solid #8F3958;
+}
+.angellist_badge:hover, .nest_badge:hover{
+	background-color:#fff;
 	
 }
+
 
 .startup_item .startup_quickinfo{
 	padding:10px;
@@ -765,7 +776,7 @@ border-radius: 7px;
 .startup_item .startup_quickinfo .fact_item .fact_number{
 	display:block;
     color:#a04a42;
-    font-size:1.1em;
+    font-size:1.05em;
     font-weight:bold;
 }
 
@@ -891,6 +902,11 @@ border-radius: 7px;
 	margin-top:20px;
 }
 
+.founder_profile .profile_pic img{
+	max-width:100%;	
+
+}
+
 .founder_profile .profile_name h3{
 	padding:0;
 	margin:0;
@@ -936,6 +952,20 @@ border-radius: 7px;
     
 }
 
+.quick_support .support_company a.support_button{
+	-webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+    font-size:1.1em;
+    text-transform:none;
+	
+}
+
+.quick_support .support_company{
+	text-align:right;
+	
+}
+
 .support_company a.support_button:hover{
 	color:#ededed;
 	background-color:#a40a42;
@@ -943,15 +973,15 @@ border-radius: 7px;
 	
 }
 
-.support_company a.support_button#support_company{
+.support_company a.support_button.invest_company{
 	background-image:url(/assets/images/invest_white_icon_24.png);
 }
 
-.support_company a.support_button#follow_company{
+.support_company a.support_button.follow_company{
 	background-image:url(/assets/images/favourite_white_icon_24.png);
 }
 
-.support_company a.support_button#meet_company{
+.support_company a.support_button.meet_company{
 	background-image:url(/assets/images/meet_white_icon_24.png);
 }
 

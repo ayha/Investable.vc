@@ -256,6 +256,26 @@
         ),
         'controller' => '',
       ),
+      2 => 
+      array (
+        'text' => 'User Import',
+        'parent' => 'components',
+        'action' => 'index',
+        'description' => 'Imports users into the MODX user database.',
+        'icon' => '',
+        'menuindex' => 0,
+        'params' => '',
+        'handler' => '',
+        'permissions' => '',
+        'namespace' => 'userimport',
+        'action_controller' => NULL,
+        'action_namespace' => NULL,
+        'id' => 'userimport',
+        'children' => 
+        array (
+        ),
+        'controller' => '',
+      ),
     ),
     'controller' => '',
   ),

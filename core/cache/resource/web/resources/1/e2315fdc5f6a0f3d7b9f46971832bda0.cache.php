@@ -1,4 +1,4 @@
-<?php if(time() > 1415255018){return null;} return array (
+<?php if(time() > 1415268479){return null;} return array (
   1 => 
   array (
     2 => 
@@ -8,8 +8,8 @@
         'id' => 3,
         'type' => 'document',
         'contentType' => 'text/html',
-        'pagetitle' => 'The Press',
-        'longtitle' => 'The Press',
+        'pagetitle' => 'News',
+        'longtitle' => 'News',
         'description' => '',
         'alias' => 'news',
         'link_attributes' => '',
@@ -28,7 +28,7 @@
         'createdby' => 1,
         'createdon' => '2014-10-17 11:40:19',
         'editedby' => 1,
-        'editedon' => '2014-11-03 23:11:54',
+        'editedon' => '2014-11-06 15:05:41',
         'deleted' => false,
         'deletedon' => 0,
         'deletedby' => 0,
@@ -51,8 +51,8 @@
         'protected' => false,
         'link' => 'en/news/',
         'level' => 1,
-        'linktext' => 'The Press',
-        'title' => 'The Press',
+        'linktext' => 'News',
+        'title' => 'News',
       ),
       1 => 
       array (
@@ -161,8 +161,8 @@
         'id' => 79,
         'type' => 'document',
         'contentType' => 'text/html',
-        'pagetitle' => 'Partners',
-        'longtitle' => 'Partners',
+        'pagetitle' => 'Partners & Supporters',
+        'longtitle' => 'Partners & Supporters',
         'description' => '',
         'alias' => 'partners',
         'link_attributes' => '',
@@ -181,13 +181,13 @@
         'createdby' => 1,
         'createdon' => '2014-11-04 00:00:10',
         'editedby' => 1,
-        'editedon' => '2014-11-06 09:56:14',
+        'editedon' => '2014-11-06 13:33:42',
         'deleted' => false,
         'deletedon' => 0,
         'deletedby' => 0,
         'publishedon' => '2014-11-04 00:00:00',
         'publishedby' => 1,
-        'menutitle' => 'Partners',
+        'menutitle' => 'Partners & Supporters',
         'donthit' => false,
         'privateweb' => false,
         'privatemgr' => false,
@@ -204,8 +204,8 @@
         'protected' => false,
         'link' => 'en/partners.html',
         'level' => 1,
-        'linktext' => 'Partners',
-        'title' => 'Partners',
+        'linktext' => 'Partners & Supporters',
+        'title' => 'Partners & Supporters',
       ),
       4 => 
       array (

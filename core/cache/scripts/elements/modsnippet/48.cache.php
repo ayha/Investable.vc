@@ -42,9 +42,9 @@ return $modx->user->hasSessionContext($ctxs);
 */
 
 if($modx->user->hasSessionContext($ctxs)){
-   return 1;
+   return $modx->user->get("id");
 }else{
-   return 0;
+   return "false";
 }
 return;
 ';

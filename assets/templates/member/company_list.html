@@ -79,6 +79,63 @@
 					insertParam("industry", industry);
 				});
 				
+				 $("a.follow_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname =$(this).data("companyname");
+			    	var companyid = $(this).data("companyid");
+			    	
+			    	$.ajax("[[~80]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a.invest_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname =$(this).data("companyname");
+			    	var companyid = $(this).data("companyid");
+			    	
+			    	$.ajax("[[~81]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a.meet_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname =$(this).data("companyname");
+			    	var companyid = $(this).data("companyid");
+			    	
+			    	$.ajax("[[~82]]",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+				
 			});		
 			
 			

@@ -51,7 +51,7 @@
 							
 							<div class="status_item col-xs-6  col-sm-4" id="goal" data-value="[[*goal]]">
 								<div class="status_name">[[%startups.goal? &topic=`default` &namespace=`investable` &language=`en`]]</div>
-								<div class="status_number">[[*goal:is=``:then=`0`:else=`[[*goal]]`]]</div>
+								<div class="status_number">[[%startups.currency? &topic=`default` &namespace=`investable` &language=`en`]][[*goal:is=``:then=`0`:else=`[[*goal:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]`]]</div>
 								<div class="allclear"></div>
 							</div>
 							
@@ -66,7 +66,7 @@
 							[[*premoney:ne=``:then=`
 							<div class="status_item  col-xs-6  col-sm-4" id="premoney" data-value="[[*premoney]]">
 								<div class="status_name">[[%startups.premoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]</div>
-								<div class="status_number">$[[*premoney]]</div>
+								<div class="status_number">[[%startups.currency? &topic=`default` &namespace=`investable` &language=`en`]][[*premoney:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]</div>
 								<div class="allclear"></div>
 							</div>
 							`]]
@@ -74,18 +74,11 @@
 							[[*postmoney:ne=``:then=`
 							<div class="status_item  col-xs-6  col-sm-4" id="postmoney" data-value="[[*postmoney]]">
 								<div class="status_name">[[%startups.postmoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]</div>
-								<div class="status_number">$[[*postmoney]]</div>
+								<div class="status_number">[[%startups.currency? &topic=`default` &namespace=`investable` &language=`en`]][[*postmoney:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]</div>
 								<div class="allclear"></div>
 							</div>
 							`]]
 							
-							[[*round:ne=``:then=`
-							<div class="status_item col-xs-6  col-sm-4 " id="round" data-value="[[*round]]">
-								<div class="status_name">[[%startups.round? &topic=`default` &namespace=`investable` &language=`en`]]</div>
-								<div class="status_number">[[*round]]</div>
-								<div class="allclear"></div>
-							</div>
-							`]]
 							
 							<div class="status_item col-xs-6  col-sm-4" id="countdown" data-target_date="[[*unpub_date]]">
 								<div class="status_name">[[%startups.time_left_to_support? &topic=`default` &namespace=`investable` &language=`en`]]</div>
@@ -146,9 +139,9 @@
 				
 				<div class="floating_content">
 					<div class="support_company">
-						<a class="btn support_button" id="support_company" title="Support" href="#">[[%startups.invest? &topic=`default` &namespace=`investable` &language=`en`]]</a>
-						<a class="btn support_button" id="follow_company" title="Follow" href="#">[[%startups.add_favourite? &topic=`default` &namespace=`investable` &language=`en`]]</a>
-						<a class="btn support_button" id="meet_company" title="Meet The Startup" href="#">[[%startups.meet? &topic=`default` &namespace=`investable` &language=`en`]]</a>
+						<a class="btn support_button invest_company" title="Support" href="#">[[%startups.invest? &topic=`default` &namespace=`investable` &language=`en`]] (<span class="count">[[!get_company_investors? &companyid=`[[*id]]` &getCount=`1`]]</span>)</a>
+						<a class="btn support_button follow_company" title="Follow" href="#">[[%startups.add_favourite? &topic=`default` &namespace=`investable` &language=`en`]] (<span class="count">[[!get_company_followers? &companyid=`[[*id]]` &getCount=`1`]]</span>)</a>
+						<a class="btn support_button meet_company" title="Meet The Startup" href="#">[[%startups.meet? &topic=`default` &namespace=`investable` &language=`en`]]</a>
 					</div>
 				</div>
 			</div>
@@ -197,7 +190,7 @@
 					
 				}, 1000);
 							
-			    $("a#follow_company").click(function(e){
+			    $("a.follow_company").click(function(e){
 			    	e.preventDefault();
 			    	var companyname ="[[*longtitle]]";
 			    	var companyid = "[[*id]]";
@@ -216,7 +209,7 @@
 			    	
 			    });
 			    
-			    $("a#support_company").click(function(e){
+			    $("a.invest_company").click(function(e){
 			    	e.preventDefault();
 			    	var companyname ="[[*longtitle]]";
 			    	var companyid = "[[*id]]";
@@ -235,7 +228,7 @@
 			    	
 			    });
 			    
-			    $("a#meet_company").click(function(e){
+			    $("a.meet_company").click(function(e){
 			    	e.preventDefault();
 			    	var companyname ="[[*longtitle]]";
 			    	var companyid = "[[*id]]";

@@ -8,4 +8,10 @@ return array (
   5 => '/root/web_0/web_2/web_36/web_83',
   6 => '/root/web_0/web_2/web_36/web_37',
   7 => '/root/web_0/web_2/web_36/web_91',
+  8 => '/root/web_0/web_2/web_79',
+  9 => '/root/web_0/web_2/web_3',
+  10 => '/root/web_0/web_2/web_8',
+  11 => '/root/web_0/web_2/web_8/web_48',
+  12 => '/root/web_0/web_2/web_8/web_51',
+  13 => '/root/web_0/web_2/web_8/web_10',
 );

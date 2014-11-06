@@ -17,9 +17,10 @@
     'isfolder' => 0,
     'introtext' => '',
     'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
-<h1 class="site-tagline" style="text-align: center;">Invest in Asia. Curated. Scalable. Diversified. Efficient. No fees. <br />Be part of it.</h1>
+<!--<h1 class="site-tagline" style="text-align: center;">Invest in Asia. Curated. Scalable. Diversified. Efficient. No fees. <br />Be part of it.</h1>-->
+<h1 class="site-tagline" style="text-align: center;">Connects professional investors to curated startups</h1>
 <blockquote>
-<h2 style="text-align: center;">Connects professional investors to curated startups</h2>
+<h2 style="text-align: center;">Disruptive. Scalable. Curated. Transparent. Diversified. Opportunities. No fees. Be Part of It. Fund it.</h2>
 </blockquote>',
     'richtext' => 1,
     'template' => 2,
@@ -29,7 +30,7 @@
     'createdby' => 1,
     'createdon' => 1413180619,
     'editedby' => 1,
-    'editedon' => 1415161636,
+    'editedon' => 1415257371,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -178,7 +179,7 @@
            
             <ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">The Press</a>
+	<a href="[[*url]]#news"  data-alias="news">News</a>
 	
 </li>
 
@@ -193,7 +194,7 @@
 </li>
 
 <li >
-	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	<a href="[[*url]]#partners"  data-alias="partners">Partners & Supporters</a>
 	
 </li>
 
@@ -373,7 +374,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
                                 
 	  ]]' => '<ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">The Press</a>
+	<a href="[[*url]]#news"  data-alias="news">News</a>
 	
 </li>
 
@@ -388,7 +389,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 </li>
 
 <li >
-	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	<a href="[[*url]]#partners"  data-alias="partners">Partners & Supporters</a>
 	
 </li>
 
@@ -447,7 +448,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
            
             <ul class="nav navbar-nav">
 	<li  class="first">
-	<a href="[[*url]]#news"  data-alias="news">The Press</a>
+	<a href="[[*url]]#news"  data-alias="news">News</a>
 	
 </li>
 
@@ -462,7 +463,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 </li>
 
 <li >
-	<a href="[[*url]]#partners"  data-alias="partners">Partners</a>
+	<a href="[[*url]]#partners"  data-alias="partners">Partners & Supporters</a>
 	
 </li>
 
@@ -4726,7 +4727,7 @@ return $output;',
           'source' => 0,
           'property_preprocess' => false,
           'name' => 'checkLogin',
-          'description' => 'Checks to see if the user is logged in. return true / false',
+          'description' => 'Checks to see if the user is logged in. return userid or "false"',
           'editor_type' => 0,
           'category' => 16,
           'cache_type' => 0,
@@ -4774,9 +4775,9 @@ return $modx->user->hasSessionContext($ctxs);
 */
 
 if($modx->user->hasSessionContext($ctxs)){
-   return 1;
+   return $modx->user->get("id");
 }else{
-   return 0;
+   return "false";
 }',
           'locked' => false,
           'properties' => 
@@ -4871,9 +4872,9 @@ return $modx->user->hasSessionContext($ctxs);
 */
 
 if($modx->user->hasSessionContext($ctxs)){
-   return 1;
+   return $modx->user->get("id");
 }else{
-   return 0;
+   return "false";
 }',
         ),
         'policies' => 

@@ -89,6 +89,12 @@
     'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/ultimateparent/',
     'assets_path' => '',
   ),
+  'userimport' => 
+  array (
+    'name' => 'userimport',
+    'path' => '/var/www/vhosts/v2.investable.vc/html/core/components/userimport/',
+    'assets_path' => '/var/www/vhosts/v2.investable.vc/html/assets/components/userimport/',
+  ),
   'wayfinder' => 
   array (
     'name' => 'wayfinder',

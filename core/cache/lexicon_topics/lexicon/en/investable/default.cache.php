@@ -21,8 +21,7 @@
   'member.company_search' => 'Company Search',
   'member.connections' => 'Connections',
   'member.dashboard' => 'Dashboard',
-  'member.favourite_companies' => 'Favourite Companies
-',
+  'member.favourite_companies' => 'Watch List',
   'member.filter_by' => 'Filter
 ',
   'member.message_center' => 'Message Center',
@@ -35,9 +34,10 @@
   'startup.register_complete' => 'Your information has been submitted',
   'startup.register_complete_message' => '<h3>Thank you for choosing Investable.vc.</h3> <p>Your information has been submitted. We will contact you within 3 working days.</p>
 ',
-  'startups.add_favourite' => 'Favourite',
+  'startups.add_favourite' => 'Follow',
   'startups.business_model' => 'Business Model & Monetization',
   'startups.company_description' => 'Company Description',
+  'startups.currency' => '$',
   'startups.days' => 'Days',
   'startups.days_left' => 'Days Left',
   'startups.equity_offered' => 'Equity Offered',
@@ -65,6 +65,7 @@
   'startups.see_full_pitch' => 'See Full Pitch &raquo;',
   'startups.stage' => 'Stage',
   'startups.time_left_to_support' => 'Time left to support',
+  'startups.usd' => 'USD',
   'startups.use_of_funds' => 'Use of Funds',
   'startups.watch_live_pitch' => 'Watch Video',
 );

@@ -10,4 +10,12 @@ return array (
   7 => '/root/n_type_snippet/n_snippet_category_10/n_snippet_category_15',
   8 => '/root/n_type_snippet/n_snippet_category_9',
   9 => '/root/n_type_template',
+  10 => '/root/n_type_template/n_template_category_9',
+  11 => '/root/n_type_template/n_template_category_9/n_template_category_12',
+  12 => '/root/n_type_chunk',
+  13 => '/root/n_type_template/n_template_category_3',
+  14 => '/root/n_type_snippet/n_snippet_category_16',
+  15 => '/root/n_type_chunk/n_chunk_category_10',
+  16 => '/root/n_type_chunk/n_chunk_category_9',
+  17 => '/root/n_type_chunk/n_chunk_category_9/n_chunk_category_22',
 );
