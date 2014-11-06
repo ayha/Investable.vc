@@ -43,8 +43,20 @@ return $modx->user->hasSessionContext($ctxs);
 */
 
 if($modx->user->hasSessionContext($ctxs)){
-   return $modx->user->get("id");
+   if(!empty($authDocID)){
+      $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : '';
+        $url = $modx->makeUrl($authDocID,'',$redirectParams,'full');
+        $modx->sendRedirect($url);
+   }else{
+      return $modx->user->get("id");
+   }
 }else{
-   return "false";
+   if(!empty($unauthDocID)){
+        $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : '';
+        $url = $modx->makeUrl($unauthDocID,'',$redirectParams,'full');
+        $modx->sendRedirect($url);
+   }else{
+      return "";
+   }
 }
 return;

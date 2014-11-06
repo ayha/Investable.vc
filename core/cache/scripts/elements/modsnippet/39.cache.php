@@ -35,8 +35,10 @@ if (!$modx->user->hasSessionContext($ctxs)) {
         $modx->sendRedirect($url);
     } else {
         $modx->sendUnauthorizedPage();
-    }
+ }
+   
 }
+
 return \'\';
 return;
 ';

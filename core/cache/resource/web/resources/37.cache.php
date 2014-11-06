@@ -2,69 +2,277 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 1,
+    'id' => 37,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Home',
-    'longtitle' => '',
+    'pagetitle' => 'Bitspark',
+    'longtitle' => 'Bitspark',
     'description' => '',
-    'alias' => 'index',
+    'alias' => 'bitspark',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
-    'unpub_date' => 0,
-    'parent' => 2,
+    'unpub_date' => 1423732260,
+    'parent' => 36,
     'isfolder' => 0,
-    'introtext' => '',
-    'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
-<!--<h1 class="site-tagline" style="text-align: center;">Invest in Asia. Curated. Scalable. Diversified. Efficient. No fees. <br />Be part of it.</h1>-->
-<h1 class="site-tagline" style="text-align: center;">Connects professional investors to curated startups</h1>
-<blockquote>
-<h2 style="text-align: center;">Disruptive. Scalable. Curated. Transparent. Diversified. Opportunities. No fees. Be Part of It. Fund it.</h2>
-</blockquote>',
+    'introtext' => 'We make bitcoin easy',
+    'content' => '<p class="p1"><span class="s1">Bitspark makes bitcoin easy. We provide an easy to use web/mobile platform for people to buy and sell bitcoin (and other crypto-currencies), for businesses to accept bitcoin payments for their goods and services (why pay credit card fees?) and for anyone to send money overseas instantly, cheaply and to anywhere in the world. We aim to put people back in control of their own money through Bitcoin – a free, accountable, low barrier to entry and secure decentralised currency. We aim to foster the growth of ideas, trade and innovation on a global scale through our full suite of products seeking to engage the un-banked billions global finance. Bitspark is backed and supported by one of Hong Kong and Asia\'s largest incubators- the Cyberport and is staffed by a team with a vast array of skills ranging from technical to marketing to compliance. </span></p>',
     'richtext' => 1,
-    'template' => 2,
+    'template' => 35,
     'menuindex' => 0,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1413180619,
+    'createdon' => 1414142390,
     'editedby' => 1,
-    'editedon' => 1415257371,
+    'editedon' => 1415250660,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 0,
-    'publishedby' => 0,
+    'publishedon' => 1414142340,
+    'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
     'privatemgr' => 0,
     'content_dispo' => 0,
-    'hidemenu' => 1,
+    'hidemenu' => 0,
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'en/index.html',
+    'uri' => 'en/startup-companies/bitspark.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
-    'output_tvs' => 
+    'country' => 
     array (
-      0 => 'output_tvs',
-      1 => '',
-      2 => 'text',
+      0 => 'country',
+      1 => 'Hong Kong',
+      2 => 'default',
       3 => NULL,
       4 => 'text',
     ),
-    '_content' => '<!DOCTYPE html>
+    'invested_by_nest' => 
+    array (
+      0 => 'invested_by_nest',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'checkbox',
+    ),
+    'invested_by_angellist' => 
+    array (
+      0 => 'invested_by_angellist',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'checkbox',
+    ),
+    'founder' => 
+    array (
+      0 => 'founder',
+      1 => '7',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox-multiple',
+    ),
+    'youtube' => 
+    array (
+      0 => 'youtube',
+      1 => 'http://www.youtube.com/embed/ETYSNLDOkYI',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'content_image' => 
+    array (
+      0 => 'content_image',
+      1 => 'assets/images/startups/bitspark/bitspark.png',
+      2 => 'default',
+      3 => NULL,
+      4 => 'image',
+    ),
+    'stage' => 
+    array (
+      0 => 'stage',
+      1 => 'Seed',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'reg_date' => 
+    array (
+      0 => 'reg_date',
+      1 => '2014-04-14 23:48:00',
+      2 => 'default',
+      3 => NULL,
+      4 => 'date',
+    ),
+    'industry' => 
+    array (
+      0 => 'industry',
+      1 => 'FinTech',
+      2 => 'delim',
+      3 => NULL,
+      4 => 'listbox-multiple',
+    ),
+    'external_url' => 
+    array (
+      0 => 'external_url',
+      1 => 'https://bitspark.io/',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'goal' => 
+    array (
+      0 => 'goal',
+      1 => '100000',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'raised' => 
+    array (
+      0 => 'raised',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'backers' => 
+    array (
+      0 => 'backers',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'premoney' => 
+    array (
+      0 => 'premoney',
+      1 => '900000',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'business_model' => 
+    array (
+      0 => 'business_model',
+      1 => '<p class="p1"><span class="s1">Bitspark’s pricing model is broken down into our various target segments as below.</span></p>
+<p class="p2"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p1"><span class="s1">We charge a standard market commission of 0.2-0.3% per trade based on the users’ prior volume. Users trade currency between each other with bitspark facilitating the trade.</span></p>
+<p class="p2"><span class="s1"><strong>Payment Processing:</strong></span></p>
+<p class="p1"><span class="s1">We provide 3 pricing plans for businesses dependant on volume of transactions in USD equivalent. Plan1: No monthly subscription fee, 1% transaction fee (&lt;$1000 volume) Plan2: $30 monthly subscription fee, 0% transaction fee. ($1000-$10000 volume) Plan3: $300 monthly subscription fee, 0% transaction fee. ($10000+ volume)</span></p>
+<p class="p2"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p2"><span class="s1">We charge 1-2% commission on remittances starting with the Philippines market. We are implementing a referral rewards where users can get a cut of the commission earned by us whenever their friends send money overseas and a discount for using someones referral code. This will be implemented mid November. </span></p>',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'postmoney' => 
+    array (
+      0 => 'postmoney',
+      1 => '1000000',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'competitors' => 
+    array (
+      0 => 'competitors',
+      1 => '<p class="p1"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p2"><span class="s1">The existing Exchanges in Hong Kong are ANX and Bitfinex ($30m and $100m in monthly volumes respectively) with global competition including mainland (OKcoin, BTCchina), Europe (Kraken) and US (Coinbase) based exchanges. These exchanges focus on their respective currency of their home market and in the case of China- have approximately 10x the volume of their competitors as they charge no trading fees. Our competitors are often difficult to use for beginners, generally offer Bitspark offers 50+ crypto currencies in addition to 20 national currencies, we are easy to use with advanced options for experienced traders and we are entirely open and transparent about our security with user initiated third party auditing. We also offer many more additional products more than just an exchange and leverage this to create our full product suite.</span></p>
+<p class="p1"><span class="s1"><strong>Merchant Processing:</strong></span></p>
+<p class="p2"><span class="s1">There are two incumbents in Bitcoin payment processing- Bitpay and Coinbase. Both of these vendors are based in the US with their primary focus on US based merchants both at the low and high end (local shop to Billion dollar companies). Neither of these companies have much of a presence yet in Asia as they do not support many currencies other than USD and Euro. Bitspark offers cheaper pricing, local currency support and analytics with all of our plans. This allows our customers to better target their users and offer incentives to generate real volume, saving them money in credit card fees and giving us solid volumes and subscription revenue.</span></p>
+<p class="p1"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p1"><span class="s1">Our existing competitors are the incumbent banks, money transfer services and Western Union. People are familiar with these solutions and they have physical offices in many locations all around the world, stable revenues and profit margins and are huge companies in their own right. We are seeking to disrupt the market with lower transaction fees, mobile integration and instant payments 24/7 with no need to physically visit a bank branch or Western Union teller. We are partnering with existing disbursement facilities in receiver countries like the Philippines and Indonesia to complete our end to end solution. </span></p>',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'product_description' => 
+    array (
+      0 => 'product_description',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'equity' => 
+    array (
+      0 => 'equity',
+      1 => '10%',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'projections' => 
+    array (
+      0 => 'projections',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'news' => 
+    array (
+      0 => 'news',
+      1 => '<p class="p1"><span class="s1"><span class="s2" style="line-height: 1.5em;"><a href="https://coinreport.net/company-profile-bitspark/">Coinreport</a></span><span class="s1" style="line-height: 1.5em;">  - another interview about bitspark</span></span></p>
+<p class="p1"><span class="s2"><a href="http://entrepreneurhk.org/bitsparks-george-harrap-why-bitcoin-is-big-business/">EntrepreneurHK</a></span><span class="s1">  - Bitcoin in Hong Kong and why it matters</span></p>
+<p class="p1"><span class="s2"><a href="http://www.asianentrepreneur.org/why-bitcoin-is-changing-the-world/">The asian Entrepreneur</a></span><span class="s1">  - Bitcoin in business in Asia</span></p>
+<p class="p1"><span class="s2"><a href="https://www.cryptocoinsnews.com/introducing-bitspark-io-bitcoin-trading-platform/">Cryptocoinsnews</a></span><span class="s1">  - coverage on our launch </span></p>
+<p class="p1"><span class="s2"><a href="http://www.mmbiztoday.com/articles/bitcoin-myanmar-and-future-money">Myanmar Business Today</a></span><span class="s1"> - in depth on how Bitcoin can benefit Myanmar</span></p>
+<p class="p1"><span class="s2"><a href="http://bitcoinprbuzz.com/bitcoin-and-cryptocurrency-exchange-bitspark-io-launches-securing-cyberport-tech-incubator-seed-capital/">BitcoinPRBuzz</a></span><span class="s1">  - Press release coverage got coverage on another 30 websites</span></p>
+<p class="p1"><span class="s2"><a href="http://e27.co/bringing-transparency-bitcoin-bitsparks-george-harrap-20141028/">e27 in depth</a></span><span class="s1">   - the largest publication so far, second in depth interview</span></p>',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'rewards' => 
+    array (
+      0 => 'rewards',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'registered_ip' => 
+    array (
+      0 => 'registered_ip',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'mobile_app' => 
+    array (
+      0 => 'mobile_app',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    'use_of_funds' => 
+    array (
+      0 => 'use_of_funds',
+      1 => '<p class="p1"><span class="s1">Our use of funds is primarily in making new developer hires, ongoing marketing in bitcoin specific publications, translation of website and social media posts into 5 key languages and the costs associated with setting up new banking partners in other jurisdictions. </span></p>',
+      2 => 'default',
+      3 => NULL,
+      4 => 'richtext',
+    ),
+    '_content' => '[[!isLoggedIn?]]
+
+
+[[!Profile]]
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Investable.vc - Home</title>
+<title>Investable.vc - Bitspark</title>
 <meta name="description" content=""/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -228,12 +436,175 @@
 	</div><!--/.nav-collapse -->
   </div>
 </div>
-		<div class="container main_content" id="home_content">
-                   
-                   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:NOT IN":[0,36]}` ]]
-                 
+		<div class="container main_content">
+
+			<div class="page-header">
+				<h1>Startup Opportunities</h1>
+			
+				<div class="member_tools">
+   <a href="en/member/company-list.html" id="search_company"  class="tool_button" title="Company Search">
+   		<img src="/assets/images/search_icon_36.png" title="Company Search" />
+ 		<span class="member_tool_title">Company Search</span>
+ 	</a> 
+ 
+   <a href="en/member/investor-portfolio.html" id="porfolio"  class="tool_button" title="My Portfolio">
+   		<img src="/assets/images/investment_icon_36.png" title="My Portfolio" />
+   		<span class="member_tool_title">My Portfolio</span>
+   </a>
+  
+  
+   <a href="en/member/connections.html" id="my_connections"  class="tool_button" title="Connections">
+   		<img src="/assets/images/connection_icon_36.png" title="Connections" />
+   		<span class="member_tool_title">Connections</span>
+		<span class="count">[[!get_connection_request_action? &getCount=`1`]]
+   </a>
+
+   <a href="en/member/member-newsfeed.html" id="newsfeed"  class="tool_button" title="News Feed">
+   		<img src="/assets/images/news_icon_36.png" title="News Feed" />
+   		<span class="member_tool_title">News Feed</span>
+   </a>
+  <a href="en/member/member-profile.html" id="update_profile"  class="tool_button" title="Update Profile">
+  		<img src="/assets/images/profile_icon_36.png" title="Update Profile" />
+  		<span class="member_tool_title">Update Profile</span>
+  </a>
+</div>
+				<div class="allclear"></div>
+			</div>
+			<div class="member_content">
+				<div class="quick_facts">
+					<div class="project_logo col-md-4">
+						<div class="logo_holder" style="background-image:url(/assets/components/phpthumbof/cache/bitspark.5e6a4892fa86ca2b9b97dd5d6041a51a37.png);"></div>
+						<div class="company_badges">
+							
+							
+							
+							
+						</div>
+					</div>
+					<div class="project_status col-md-8"> 
+						<h2>Bitspark</h2>
+						<h3><span class="industry">FinTech</span>, <span class="country">Hong Kong</span></h3>
+						<div class="intro">We make bitcoin easy</div>
+						<div class="fund_status">
+							
+							
+							<div class="status_item col-xs-6 col-sm-4" id="stage" data-value="Seed">
+								<div class="status_name">Stage</div>
+								<div class="status_number">Seed</div>
+								<div class="allclear"></div>
+							</div>
+							
+							
+							
+							
+							<div class="status_item col-xs-6  col-sm-4" id="goal" data-value="100000">
+								<div class="status_name">Goal</div>
+								<div class="status_number">$100,000</div>
+								<div class="allclear"></div>
+							</div>
+							
+							
+							<div class="status_item  col-xs-6  col-sm-4" id="equity" data-value="10%">
+								<div class="status_name">Equity Offered</div>
+								<div class="status_number">10%</div>
+								<div class="allclear"></div>
+							</div>
+							
+							
+							
+							<div class="status_item  col-xs-6  col-sm-4" id="premoney" data-value="900000">
+								<div class="status_name">Pre-money Valuation
+
+</div>
+								<div class="status_number">$900,000</div>
+								<div class="allclear"></div>
+							</div>
+							
+							
+							
+							<div class="status_item  col-xs-6  col-sm-4" id="postmoney" data-value="1000000">
+								<div class="status_name">Post-money Valuation</div>
+								<div class="status_number">$1,000,000</div>
+								<div class="allclear"></div>
+							</div>
+							
+							
+							
+							<div class="status_item col-xs-6  col-sm-4" id="countdown" data-target_date="2015-02-12 17:11:00">
+								<div class="status_name">Time left to support</div>
+								<div class="status_number"></div>
+								<div class="allclear"></div>
+							</div>
+							<div class="allclear"></div>
+						</div>
+						<div class="investment_badges">
+							
+							
+							
+							
+						</div>
+					</div>
+					
+					<div class="allclear"></div>
+					
+				</div>
+				
+				<div class="company_info">
+					<div class="company_details col-md-8">
+						
+						
+						
+						
+							<iframe width="100%" height="300" src="//www.youtube.com/embed/ETYSNLDOkYI" frameborder="0" allowfullscreen></iframe>
+							
+							
+						
+						<div class="company_description">
+							
+							
+							<h3>Company Description</h3><p class="p1"><span class="s1">Bitspark makes bitcoin easy. We provide an easy to use web/mobile platform for people to buy and sell bitcoin (and other crypto-currencies), for businesses to accept bitcoin payments for their goods and services (why pay credit card fees?) and for anyone to send money overseas instantly, cheaply and to anywhere in the world. We aim to put people back in control of their own money through Bitcoin – a free, accountable, low barrier to entry and secure decentralised currency. We aim to foster the growth of ideas, trade and innovation on a global scale through our full suite of products seeking to engage the un-banked billions global finance. Bitspark is backed and supported by one of Hong Kong and Asia\'s largest incubators- the Cyberport and is staffed by a team with a vast array of skills ranging from technical to marketing to compliance. </span></p>
+							
+							<h3>Business Model & Monetization</h3><p class="p1"><span class="s1">Bitspark’s pricing model is broken down into our various target segments as below.</span></p>
+<p class="p2"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p1"><span class="s1">We charge a standard market commission of 0.2-0.3% per trade based on the users’ prior volume. Users trade currency between each other with bitspark facilitating the trade.</span></p>
+<p class="p2"><span class="s1"><strong>Payment Processing:</strong></span></p>
+<p class="p1"><span class="s1">We provide 3 pricing plans for businesses dependant on volume of transactions in USD equivalent. Plan1: No monthly subscription fee, 1% transaction fee (&lt;$1000 volume) Plan2: $30 monthly subscription fee, 0% transaction fee. ($1000-$10000 volume) Plan3: $300 monthly subscription fee, 0% transaction fee. ($10000+ volume)</span></p>
+<p class="p2"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p2"><span class="s1">We charge 1-2% commission on remittances starting with the Philippines market. We are implementing a referral rewards where users can get a cut of the commission earned by us whenever their friends send money overseas and a discount for using someones referral code. This will be implemented mid November. </span></p>
+							[[*market:ne=``:then=`<h3>startups.market_competition</h3>[[*market]]`]]
+							
+							
+							
+							
+							
+							<h3>Use of Funds</h3><p class="p1"><span class="s1">Our use of funds is primarily in making new developer hires, ongoing marketing in bitcoin specific publications, translation of website and social media posts into 5 key languages and the costs associated with setting up new banking partners in other jurisdictions. </span></p>
+							<h3>News & Press</h3><p class="p1"><span class="s1"><span class="s2" style="line-height: 1.5em;"><a href="https://coinreport.net/company-profile-bitspark/">Coinreport</a></span><span class="s1" style="line-height: 1.5em;">  - another interview about bitspark</span></span></p>
+<p class="p1"><span class="s2"><a href="http://entrepreneurhk.org/bitsparks-george-harrap-why-bitcoin-is-big-business/">EntrepreneurHK</a></span><span class="s1">  - Bitcoin in Hong Kong and why it matters</span></p>
+<p class="p1"><span class="s2"><a href="http://www.asianentrepreneur.org/why-bitcoin-is-changing-the-world/">The asian Entrepreneur</a></span><span class="s1">  - Bitcoin in business in Asia</span></p>
+<p class="p1"><span class="s2"><a href="https://www.cryptocoinsnews.com/introducing-bitspark-io-bitcoin-trading-platform/">Cryptocoinsnews</a></span><span class="s1">  - coverage on our launch </span></p>
+<p class="p1"><span class="s2"><a href="http://www.mmbiztoday.com/articles/bitcoin-myanmar-and-future-money">Myanmar Business Today</a></span><span class="s1"> - in depth on how Bitcoin can benefit Myanmar</span></p>
+<p class="p1"><span class="s2"><a href="http://bitcoinprbuzz.com/bitcoin-and-cryptocurrency-exchange-bitspark-io-launches-securing-cyberport-tech-incubator-seed-capital/">BitcoinPRBuzz</a></span><span class="s1">  - Press release coverage got coverage on another 30 websites</span></p>
+<p class="p1"><span class="s2"><a href="http://e27.co/bringing-transparency-bitcoin-bitsparks-george-harrap-20141028/">e27 in depth</a></span><span class="s1">   - the largest publication so far, second in depth interview</span></p>
+							
+						</div>
+					</div>
+					<div class="company_founder col-md-4">
+						
+						[[!getUserById? &uid=`7` &tpl=`founder_profile`]] 
+					</div>
+					<div class="allclear"></div>
+				</div>
+				
+				<div class="floating_content">
+					<div class="support_company">
+						<a class="btn support_button invest_company" title="Support" href="#">Invest (<span class="count">[[!get_company_investors? &companyid=`37` &getCount=`1`]]</span>)</a>
+						<a class="btn support_button follow_company" title="Follow" href="#">Follow (<span class="count">[[!get_company_followers? &companyid=`37` &getCount=`1`]]</span>)</a>
+						<a class="btn support_button meet_company" title="Meet The Startup" href="#">Meet</a>
+					</div>
+				</div>
+			</div>
+			 
 		</div>
-		
 		<div id="footer">
 	<div class="container">
 		<p class="text-muted pull-right">
@@ -259,7 +630,154 @@
 
 </div>
 		
+<!-- include hidden elements on the page -->
+<div class="hidden">
+   <div id="send_message_wrapper">
+      <form id="send_message_form" name="send_message" method="post" action="processors/send-message-action.html">
+         <input type="hidden" name="private_message" id="msg_action_page" value="processors/send-message-action.html" />
+         <input type="hidden" name="connect_message" id="connect_action_page" value="processors/add-connection-action.html" />
+         <input type="hidden" name="action_type" id="action_type" value="message" />
+         <input type="hidden" name="from" id="sender_id" value="[[+id]]" />
+         <input type="hidden" name="to" id="recipient_id" value="" />
+         <div class="form_header">Send Message</div>
+         <div class="form_section">
+            <div class="form_row"><label>Subject</label><input type="text" name="subject" id="msg_subject" /></div>  
+            <div class="form_row"><label>Message</label><textarea cols="40" rows="3" name="message" id="msg_message"></textarea></div>
+         </div> 
+         <div class="form_section form_submit">
+            <input type="submit" name="send_message_submit" id="send_message_submit" value="Send" />
+         </div>
+      </form>
+      <div class="form_message">Your message has been sent. 
+   </div>
+
+</div>
+
+<script type="text/javascript">
+   $(document).ready(function(){
+       
+   });
+</script>
+		<script type="text/javascript">  
+		    var percentage_raised = 0;
+			$(document).ready(function(){
+				var bottomPad = 80;
+				
+				$(window).scroll(function(e){
+					$(".floating_content").finish();
+					var wtop = $(window).scrollTop();
+					var wheight = $(window).height();
+					var currTop = $(".floating_content").offset().top;
+					var diff = currTop - (top+wheight);
+				   
+					$(".floating_content").animate({
+						top: (wtop+wheight-bottomPad)+"px",	
+					}, 1500, function(){});
+					
+				});
+				
+				$(".reward_badge").click(function(e){
+					e.preventDefault();
+				
+					
+				});
+				
+				
+				var investment_goal = $("#goal").data("value");
+				var investment_raised = $("#raised").data("value");
+				
+				percentage_raised = Math.ceil(investment_raised*100/investment_goal);
+				if(percentage_raised >70){
+					$("#raised .status_number").html(percentage_raised + "%");
+				}else{
+					$("#raised").remove();
+				}
+				//$(".project_chart h3 .funded_percentage").html(percentage_raised +"%"); 
+				
+				setInterval(function(){
+					update_countdown($("#countdown").data("target_date"));
+					
+				}, 1000);
+							
+			    $("a.follow_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="Bitspark";
+			    	var companyid = "37";
+			    	
+			    	$.ajax("processors/favourite-company-action.html",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a.invest_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="Bitspark";
+			    	var companyid = "37";
+			    	
+			    	$.ajax("processors/support-company-action.html",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+			    
+			    $("a.meet_company").click(function(e){
+			    	e.preventDefault();
+			    	var companyname ="Bitspark";
+			    	var companyid = "37";
+			    	
+			    	$.ajax("processors/follow-company-action.html",{
+			    		type:"POST",
+			    		data: {"companyid":companyid, "companyname":companyname},
+			    		complete:function(xhr, status){
+			    			if(status == "success"){
+			    				$.fancybox.open(xhr.responseText);
+			    			}else{
+			    				alert("There was an error sending the request, please try again.");
+			    			}
+			    		}
+			    	});
+			    	
+			    });
+				
+			});
 			
+			
+			
+			function update_countdown(end_date){
+				//var target_date = new Date(end_date).getTime();
+				var end_date = end_date.split(" ")[0].split("-");
+   				 var target_date = new Date( end_date[0], (end_date[1]-1), end_date[2], 0, 0, 0 ).getTime();
+				
+				var days, hours, minutes, seconds;
+				var current_date = new Date().getTime();
+                var seconds_left = (target_date - current_date) / 1000;
+                
+                days = parseInt(seconds_left / 86400);
+				
+				$("#countdown .status_number").html(days + " Days");
+				
+			}
+
+		</script>
+		
+		
 	</body>
 </html>',
     '_isForward' => false,
@@ -279,7 +797,11 @@
   ),
   'elementCache' => 
   array (
-    '[[*pagetitle]]' => 'Home',
+    '[[$member_head]]' => '[[!isLoggedIn?]]
+
+
+[[!Profile]]',
+    '[[*pagetitle]]' => 'Bitspark',
     '[[*description]]' => '',
     '[[If? 
     &subject=`0`
@@ -292,7 +814,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     '[[$Head]]' => '<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Investable.vc - Home</title>
+<title>Investable.vc - Bitspark</title>
 <meta name="description" content=""/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -509,6 +1031,222 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	</div><!--/.nav-collapse -->
   </div>
 </div>',
+    '[[%investable.startup_opportunities? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Startup Opportunities',
+    '[[~48]]' => 'en/member/company-list.html',
+    '[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Company Search',
+    '[[~51]]' => 'en/member/investor-portfolio.html',
+    '[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]' => 'My Portfolio',
+    '[[~54]]' => 'en/member/connections.html',
+    '[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Connections',
+    '[[~53]]' => 'en/member/member-newsfeed.html',
+    '[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]' => 'News Feed',
+    '[[~50]]' => 'en/member/member-profile.html',
+    '[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Update Profile',
+    '[[$member_navigation]]' => '<div class="member_tools">
+   <a href="en/member/company-list.html" id="search_company"  class="tool_button" title="Company Search">
+   		<img src="/assets/images/search_icon_36.png" title="Company Search" />
+ 		<span class="member_tool_title">Company Search</span>
+ 	</a> 
+ 
+   <a href="en/member/investor-portfolio.html" id="porfolio"  class="tool_button" title="My Portfolio">
+   		<img src="/assets/images/investment_icon_36.png" title="My Portfolio" />
+   		<span class="member_tool_title">My Portfolio</span>
+   </a>
+  
+  
+   <a href="en/member/connections.html" id="my_connections"  class="tool_button" title="Connections">
+   		<img src="/assets/images/connection_icon_36.png" title="Connections" />
+   		<span class="member_tool_title">Connections</span>
+		<span class="count">[[!get_connection_request_action? &getCount=`1`]]
+   </a>
+
+   <a href="en/member/member-newsfeed.html" id="newsfeed"  class="tool_button" title="News Feed">
+   		<img src="/assets/images/news_icon_36.png" title="News Feed" />
+   		<span class="member_tool_title">News Feed</span>
+   </a>
+  <a href="en/member/member-profile.html" id="update_profile"  class="tool_button" title="Update Profile">
+  		<img src="/assets/images/profile_icon_36.png" title="Update Profile" />
+  		<span class="member_tool_title">Update Profile</span>
+  </a>
+</div>',
+    '[[*content_image:phpthumbof=`w=500&h=300`]]' => '/assets/components/phpthumbof/cache/bitspark.5e6a4892fa86ca2b9b97dd5d6041a51a37.png',
+    '[[%startups.rewards? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Rewards',
+    '[[*rewards]]' => '',
+    '[[*rewards:ne=``:then=`
+								<div class="startup_badge reward_badge">Rewards<div class="hidden reward_content"></div></div>
+							`]]' => '',
+    '[[*longtitle]]' => 'Bitspark',
+    '[[*industry]]' => 'FinTech',
+    '[[*country]]' => 'Hong Kong',
+    '[[*country:ne=``:then=`, <span class="country">Hong Kong`]]' => ', <span class="country">Hong Kong',
+    '[[*introtext:nl2br]]' => 'We make bitcoin easy',
+    '[[*stage]]' => 'Seed',
+    '[[%startups.stage? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Stage',
+    '[[*stage:ne=``:then=`
+							<div class="status_item col-xs-6 col-sm-4" id="stage" data-value="Seed">
+								<div class="status_name">Stage</div>
+								<div class="status_number">Seed</div>
+								<div class="allclear"></div>
+							</div>
+							`]]' => '
+							<div class="status_item col-xs-6 col-sm-4" id="stage" data-value="Seed">
+								<div class="status_name">Stage</div>
+								<div class="status_number">Seed</div>
+								<div class="allclear"></div>
+							</div>
+							',
+    '[[*raised]]' => '',
+    '[[%startups.funded? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Funded',
+    '[[*raised:ne=``:then=`
+							<div class="status_item col-xs-6  col-sm-4" id="raised" data-value="">
+								<div class="status_name">Funded</div>
+								<div class="status_number"></div>
+								<div class="allclear"></div>
+							</div>
+							`]]' => '',
+    '[[*goal]]' => '100000',
+    '[[%startups.goal? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Goal',
+    '[[%startups.currency? &topic=`default` &namespace=`investable` &language=`en`]]' => '$',
+    '[[*goal:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]' => '100,000',
+    '[[*goal:is=``:then=`0`:else=`100,000`]]' => '100,000',
+    '[[*equity]]' => '10%',
+    '[[%startups.equity_offered? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Equity Offered',
+    '[[*equity:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="equity" data-value="10%">
+								<div class="status_name">Equity Offered</div>
+								<div class="status_number">10%</div>
+								<div class="allclear"></div>
+							</div>
+							`]]' => '
+							<div class="status_item  col-xs-6  col-sm-4" id="equity" data-value="10%">
+								<div class="status_name">Equity Offered</div>
+								<div class="status_number">10%</div>
+								<div class="allclear"></div>
+							</div>
+							',
+    '[[*premoney]]' => '900000',
+    '[[%startups.premoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Pre-money Valuation
+
+',
+    '[[*premoney:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]' => '900,000',
+    '[[*premoney:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="premoney" data-value="900000">
+								<div class="status_name">Pre-money Valuation
+
+</div>
+								<div class="status_number">$900,000</div>
+								<div class="allclear"></div>
+							</div>
+							`]]' => '
+							<div class="status_item  col-xs-6  col-sm-4" id="premoney" data-value="900000">
+								<div class="status_name">Pre-money Valuation
+
+</div>
+								<div class="status_number">$900,000</div>
+								<div class="allclear"></div>
+							</div>
+							',
+    '[[*postmoney]]' => '1000000',
+    '[[%startups.postmoney_valuation? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Post-money Valuation',
+    '[[*postmoney:numberformat=`&decimals=0&dec_point=.&thousands_sep=,`]]' => '1,000,000',
+    '[[*postmoney:ne=``:then=`
+							<div class="status_item  col-xs-6  col-sm-4" id="postmoney" data-value="1000000">
+								<div class="status_name">Post-money Valuation</div>
+								<div class="status_number">$1,000,000</div>
+								<div class="allclear"></div>
+							</div>
+							`]]' => '
+							<div class="status_item  col-xs-6  col-sm-4" id="postmoney" data-value="1000000">
+								<div class="status_name">Post-money Valuation</div>
+								<div class="status_number">$1,000,000</div>
+								<div class="allclear"></div>
+							</div>
+							',
+    '[[*unpub_date]]' => '2015-02-12 17:11:00',
+    '[[%startups.time_left_to_support? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Time left to support',
+    '[[%startups.invested_by? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Invested by ',
+    '[[*invested_by_nest:ne=``:then=`
+								<div class="startup_badge nest_badge">Invested by </div>
+							`]]' => '',
+    '[[*invested_by_angellist:ne=``:then=`
+								<div class="startup_badge angellist_badge">Invested by </div>
+							`]]' => '',
+    '[[*youtube]]' => 'http://www.youtube.com/embed/ETYSNLDOkYI',
+    '[[getYouTubeId? &input=`http://www.youtube.com/embed/ETYSNLDOkYI`]]' => 'ETYSNLDOkYI',
+    '[[*youtube:ne=``:then=`
+							<iframe width="100%" height="300" src="//www.youtube.com/embed/ETYSNLDOkYI" frameborder="0" allowfullscreen></iframe>
+							
+							
+						`]]' => '
+							<iframe width="100%" height="300" src="//www.youtube.com/embed/ETYSNLDOkYI" frameborder="0" allowfullscreen></iframe>
+							
+							
+						',
+    '[[%startups.company_description? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Company Description',
+    '[[*content:ne=``:then=`<h3>Company Description</h3><p class="p1"><span class="s1">Bitspark makes bitcoin easy. We provide an easy to use web/mobile platform for people to buy and sell bitcoin (and other crypto-currencies), for businesses to accept bitcoin payments for their goods and services (why pay credit card fees?) and for anyone to send money overseas instantly, cheaply and to anywhere in the world. We aim to put people back in control of their own money through Bitcoin – a free, accountable, low barrier to entry and secure decentralised currency. We aim to foster the growth of ideas, trade and innovation on a global scale through our full suite of products seeking to engage the un-banked billions global finance. Bitspark is backed and supported by one of Hong Kong and Asia\'s largest incubators- the Cyberport and is staffed by a team with a vast array of skills ranging from technical to marketing to compliance. </span></p>`]]' => '<h3>Company Description</h3><p class="p1"><span class="s1">Bitspark makes bitcoin easy. We provide an easy to use web/mobile platform for people to buy and sell bitcoin (and other crypto-currencies), for businesses to accept bitcoin payments for their goods and services (why pay credit card fees?) and for anyone to send money overseas instantly, cheaply and to anywhere in the world. We aim to put people back in control of their own money through Bitcoin – a free, accountable, low barrier to entry and secure decentralised currency. We aim to foster the growth of ideas, trade and innovation on a global scale through our full suite of products seeking to engage the un-banked billions global finance. Bitspark is backed and supported by one of Hong Kong and Asia\'s largest incubators- the Cyberport and is staffed by a team with a vast array of skills ranging from technical to marketing to compliance. </span></p>',
+    '[[%startups.business_model? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Business Model & Monetization',
+    '[[*business_model]]' => '<p class="p1"><span class="s1">Bitspark’s pricing model is broken down into our various target segments as below.</span></p>
+<p class="p2"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p1"><span class="s1">We charge a standard market commission of 0.2-0.3% per trade based on the users’ prior volume. Users trade currency between each other with bitspark facilitating the trade.</span></p>
+<p class="p2"><span class="s1"><strong>Payment Processing:</strong></span></p>
+<p class="p1"><span class="s1">We provide 3 pricing plans for businesses dependant on volume of transactions in USD equivalent. Plan1: No monthly subscription fee, 1% transaction fee (&lt;$1000 volume) Plan2: $30 monthly subscription fee, 0% transaction fee. ($1000-$10000 volume) Plan3: $300 monthly subscription fee, 0% transaction fee. ($10000+ volume)</span></p>
+<p class="p2"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p2"><span class="s1">We charge 1-2% commission on remittances starting with the Philippines market. We are implementing a referral rewards where users can get a cut of the commission earned by us whenever their friends send money overseas and a discount for using someones referral code. This will be implemented mid November. </span></p>',
+    '[[*business_model:ne=``:then=`<h3>Business Model & Monetization</h3><p class="p1"><span class="s1">Bitspark’s pricing model is broken down into our various target segments as below.</span></p>
+<p class="p2"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p1"><span class="s1">We charge a standard market commission of 0.2-0.3% per trade based on the users’ prior volume. Users trade currency between each other with bitspark facilitating the trade.</span></p>
+<p class="p2"><span class="s1"><strong>Payment Processing:</strong></span></p>
+<p class="p1"><span class="s1">We provide 3 pricing plans for businesses dependant on volume of transactions in USD equivalent. Plan1: No monthly subscription fee, 1% transaction fee (&lt;$1000 volume) Plan2: $30 monthly subscription fee, 0% transaction fee. ($1000-$10000 volume) Plan3: $300 monthly subscription fee, 0% transaction fee. ($10000+ volume)</span></p>
+<p class="p2"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p2"><span class="s1">We charge 1-2% commission on remittances starting with the Philippines market. We are implementing a referral rewards where users can get a cut of the commission earned by us whenever their friends send money overseas and a discount for using someones referral code. This will be implemented mid November. </span></p>`]]' => '<h3>Business Model & Monetization</h3><p class="p1"><span class="s1">Bitspark’s pricing model is broken down into our various target segments as below.</span></p>
+<p class="p2"><span class="s1"><strong>Exchange:</strong></span></p>
+<p class="p1"><span class="s1">We charge a standard market commission of 0.2-0.3% per trade based on the users’ prior volume. Users trade currency between each other with bitspark facilitating the trade.</span></p>
+<p class="p2"><span class="s1"><strong>Payment Processing:</strong></span></p>
+<p class="p1"><span class="s1">We provide 3 pricing plans for businesses dependant on volume of transactions in USD equivalent. Plan1: No monthly subscription fee, 1% transaction fee (&lt;$1000 volume) Plan2: $30 monthly subscription fee, 0% transaction fee. ($1000-$10000 volume) Plan3: $300 monthly subscription fee, 0% transaction fee. ($10000+ volume)</span></p>
+<p class="p2"><span class="s1"><strong>Remittances:</strong></span></p>
+<p class="p2"><span class="s1">We charge 1-2% commission on remittances starting with the Philippines market. We are implementing a referral rewards where users can get a cut of the commission earned by us whenever their friends send money overseas and a discount for using someones referral code. This will be implemented mid November. </span></p>',
+    '[[%startups.market_competition? &topic=`default` &namespace=`investable` &language=`en`]]' => 'startups.market_competition',
+    '[[%startups.product_description? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Product Description',
+    '[[*product_description]]' => '',
+    '[[*product_description:ne=``:then=`<h3>Product Description</h3>`]]' => '',
+    '[[%startups.projections? &topic=`default` &namespace=`investable` &language=`en`]]' => '3 Year Projections',
+    '[[*projections]]' => '',
+    '[[*projections:ne=``:then=`<h3>3 Year Projections</h3>`]]' => '',
+    '[[%startups.registered_ip? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Intellectual Property',
+    '[[*registered_ip]]' => '',
+    '[[*registered_ip:ne=``:then=`<h3>Intellectual Property</h3>`]]' => '',
+    '[[%startups.mobile_app? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Mobile App',
+    '[[*mobile_app]]' => '',
+    '[[*mobile_app:ne=``:then=`<h3>Mobile App</h3>`]]' => '',
+    '[[%startups.use_of_funds? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Use of Funds',
+    '[[*use_of_funds]]' => '<p class="p1"><span class="s1">Our use of funds is primarily in making new developer hires, ongoing marketing in bitcoin specific publications, translation of website and social media posts into 5 key languages and the costs associated with setting up new banking partners in other jurisdictions. </span></p>',
+    '[[*use_of_funds:ne=``:then=`<h3>Use of Funds</h3><p class="p1"><span class="s1">Our use of funds is primarily in making new developer hires, ongoing marketing in bitcoin specific publications, translation of website and social media posts into 5 key languages and the costs associated with setting up new banking partners in other jurisdictions. </span></p>`]]' => '<h3>Use of Funds</h3><p class="p1"><span class="s1">Our use of funds is primarily in making new developer hires, ongoing marketing in bitcoin specific publications, translation of website and social media posts into 5 key languages and the costs associated with setting up new banking partners in other jurisdictions. </span></p>',
+    '[[%startups.news_press? &topic=`default` &namespace=`investable` &language=`en`]]' => 'News & Press',
+    '[[*news]]' => '<p class="p1"><span class="s1"><span class="s2" style="line-height: 1.5em;"><a href="https://coinreport.net/company-profile-bitspark/">Coinreport</a></span><span class="s1" style="line-height: 1.5em;">  - another interview about bitspark</span></span></p>
+<p class="p1"><span class="s2"><a href="http://entrepreneurhk.org/bitsparks-george-harrap-why-bitcoin-is-big-business/">EntrepreneurHK</a></span><span class="s1">  - Bitcoin in Hong Kong and why it matters</span></p>
+<p class="p1"><span class="s2"><a href="http://www.asianentrepreneur.org/why-bitcoin-is-changing-the-world/">The asian Entrepreneur</a></span><span class="s1">  - Bitcoin in business in Asia</span></p>
+<p class="p1"><span class="s2"><a href="https://www.cryptocoinsnews.com/introducing-bitspark-io-bitcoin-trading-platform/">Cryptocoinsnews</a></span><span class="s1">  - coverage on our launch </span></p>
+<p class="p1"><span class="s2"><a href="http://www.mmbiztoday.com/articles/bitcoin-myanmar-and-future-money">Myanmar Business Today</a></span><span class="s1"> - in depth on how Bitcoin can benefit Myanmar</span></p>
+<p class="p1"><span class="s2"><a href="http://bitcoinprbuzz.com/bitcoin-and-cryptocurrency-exchange-bitspark-io-launches-securing-cyberport-tech-incubator-seed-capital/">BitcoinPRBuzz</a></span><span class="s1">  - Press release coverage got coverage on another 30 websites</span></p>
+<p class="p1"><span class="s2"><a href="http://e27.co/bringing-transparency-bitcoin-bitsparks-george-harrap-20141028/">e27 in depth</a></span><span class="s1">   - the largest publication so far, second in depth interview</span></p>',
+    '[[*news:ne=``:then=`<h3>News & Press</h3><p class="p1"><span class="s1"><span class="s2" style="line-height: 1.5em;"><a href="https://coinreport.net/company-profile-bitspark/">Coinreport</a></span><span class="s1" style="line-height: 1.5em;">  - another interview about bitspark</span></span></p>
+<p class="p1"><span class="s2"><a href="http://entrepreneurhk.org/bitsparks-george-harrap-why-bitcoin-is-big-business/">EntrepreneurHK</a></span><span class="s1">  - Bitcoin in Hong Kong and why it matters</span></p>
+<p class="p1"><span class="s2"><a href="http://www.asianentrepreneur.org/why-bitcoin-is-changing-the-world/">The asian Entrepreneur</a></span><span class="s1">  - Bitcoin in business in Asia</span></p>
+<p class="p1"><span class="s2"><a href="https://www.cryptocoinsnews.com/introducing-bitspark-io-bitcoin-trading-platform/">Cryptocoinsnews</a></span><span class="s1">  - coverage on our launch </span></p>
+<p class="p1"><span class="s2"><a href="http://www.mmbiztoday.com/articles/bitcoin-myanmar-and-future-money">Myanmar Business Today</a></span><span class="s1"> - in depth on how Bitcoin can benefit Myanmar</span></p>
+<p class="p1"><span class="s2"><a href="http://bitcoinprbuzz.com/bitcoin-and-cryptocurrency-exchange-bitspark-io-launches-securing-cyberport-tech-incubator-seed-capital/">BitcoinPRBuzz</a></span><span class="s1">  - Press release coverage got coverage on another 30 websites</span></p>
+<p class="p1"><span class="s2"><a href="http://e27.co/bringing-transparency-bitcoin-bitsparks-george-harrap-20141028/">e27 in depth</a></span><span class="s1">   - the largest publication so far, second in depth interview</span></p>`]]' => '<h3>News & Press</h3><p class="p1"><span class="s1"><span class="s2" style="line-height: 1.5em;"><a href="https://coinreport.net/company-profile-bitspark/">Coinreport</a></span><span class="s1" style="line-height: 1.5em;">  - another interview about bitspark</span></span></p>
+<p class="p1"><span class="s2"><a href="http://entrepreneurhk.org/bitsparks-george-harrap-why-bitcoin-is-big-business/">EntrepreneurHK</a></span><span class="s1">  - Bitcoin in Hong Kong and why it matters</span></p>
+<p class="p1"><span class="s2"><a href="http://www.asianentrepreneur.org/why-bitcoin-is-changing-the-world/">The asian Entrepreneur</a></span><span class="s1">  - Bitcoin in business in Asia</span></p>
+<p class="p1"><span class="s2"><a href="https://www.cryptocoinsnews.com/introducing-bitspark-io-bitcoin-trading-platform/">Cryptocoinsnews</a></span><span class="s1">  - coverage on our launch </span></p>
+<p class="p1"><span class="s2"><a href="http://www.mmbiztoday.com/articles/bitcoin-myanmar-and-future-money">Myanmar Business Today</a></span><span class="s1"> - in depth on how Bitcoin can benefit Myanmar</span></p>
+<p class="p1"><span class="s2"><a href="http://bitcoinprbuzz.com/bitcoin-and-cryptocurrency-exchange-bitspark-io-launches-securing-cyberport-tech-incubator-seed-capital/">BitcoinPRBuzz</a></span><span class="s1">  - Press release coverage got coverage on another 30 websites</span></p>
+<p class="p1"><span class="s2"><a href="http://e27.co/bringing-transparency-bitcoin-bitsparks-george-harrap-20141028/">e27 in depth</a></span><span class="s1">   - the largest publication so far, second in depth interview</span></p>',
+    '[[*founder]]' => '7',
+    '[[%startups.invest? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Invest',
+    '[[*id]]' => 37,
+    '[[%startups.add_favourite? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Follow',
+    '[[%startups.meet? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Meet',
     '[[Years]]' => '2014',
     '[[$Footer]]' => '<div id="footer">
 	<div class="container">
@@ -534,17 +1272,98 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 `]]
 
 </div>',
+    '[[~56]]' => 'processors/send-message-action.html',
+    '[[~57]]' => 'processors/add-connection-action.html',
+    '[[%connection.message_sent? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Your message has been sent. ',
+    '[[$member_footer]]' => '
+<!-- include hidden elements on the page -->
+<div class="hidden">
+   <div id="send_message_wrapper">
+      <form id="send_message_form" name="send_message" method="post" action="processors/send-message-action.html">
+         <input type="hidden" name="private_message" id="msg_action_page" value="processors/send-message-action.html" />
+         <input type="hidden" name="connect_message" id="connect_action_page" value="processors/add-connection-action.html" />
+         <input type="hidden" name="action_type" id="action_type" value="message" />
+         <input type="hidden" name="from" id="sender_id" value="[[+id]]" />
+         <input type="hidden" name="to" id="recipient_id" value="" />
+         <div class="form_header">Send Message</div>
+         <div class="form_section">
+            <div class="form_row"><label>Subject</label><input type="text" name="subject" id="msg_subject" /></div>  
+            <div class="form_row"><label>Message</label><textarea cols="40" rows="3" name="message" id="msg_message"></textarea></div>
+         </div> 
+         <div class="form_section form_submit">
+            <input type="submit" name="send_message_submit" id="send_message_submit" value="Send" />
+         </div>
+      </form>
+      <div class="form_message">Your message has been sent. 
+   </div>
+
+</div>
+
+<script type="text/javascript">
+   $(document).ready(function(){
+       
+   });
+</script>',
+    '[[~80]]' => 'processors/favourite-company-action.html',
+    '[[~81]]' => 'processors/support-company-action.html',
+    '[[~82]]' => 'processors/follow-company-action.html',
+    '[[%startups.days? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Days',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
-    '[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]' => '<h3><a href="en/member/join-us.html">Become a member</a> to get more updated industry news.</h3>',
-    '[[~17]]' => 'en/misc/legal-documents.html',
+    '[[%startups.founder? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Founder',
     '[[~15]]' => 'en/misc/terms.html',
     '[[~16]]' => 'en/misc/privacy-policies.html',
+    '[[~17]]' => 'en/misc/legal-documents.html',
   ),
   'sourceCache' => 
   array (
     'modChunk' => 
     array (
+      'member_head' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 47,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'member_head',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => '[[!isLoggedIn?]]
+
+
+[[!Profile]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!isLoggedIn?]]
+
+
+[[!Profile]]',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
       'Head' => 
       array (
         'fields' => 
@@ -897,6 +1716,97 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         array (
         ),
       ),
+      'member_navigation' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 48,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'member_navigation',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 12,
+          'cache_type' => 0,
+          'snippet' => '<div class="member_tools">
+   <a href="[[~48]]" id="search_company"  class="tool_button" title="[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/search_icon_36.png" title="[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]" />
+ 		<span class="member_tool_title">[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+ 	</a> 
+ 
+   <a href="[[~51]]" id="porfolio"  class="tool_button" title="[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/investment_icon_36.png" title="[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+   </a>
+  
+  
+   <a href="[[~54]]" id="my_connections"  class="tool_button" title="[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/connection_icon_36.png" title="[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+		<span class="count">[[!get_connection_request_action? &getCount=`1`]]
+   </a>
+
+   <a href="[[~53]]" id="newsfeed"  class="tool_button" title="[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/news_icon_36.png" title="[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+   </a>
+  <a href="[[~50]]" id="update_profile"  class="tool_button" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]">
+  		<img src="/assets/images/profile_icon_36.png" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]" />
+  		<span class="member_tool_title">[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+  </a>
+</div>',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => true,
+          'static_file' => 'assets/chunks/member_navigation.html',
+          'content' => '<div class="member_tools">
+   <a href="[[~48]]" id="search_company"  class="tool_button" title="[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/search_icon_36.png" title="[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]" />
+ 		<span class="member_tool_title">[[%member.company_search? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+ 	</a> 
+ 
+   <a href="[[~51]]" id="porfolio"  class="tool_button" title="[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/investment_icon_36.png" title="[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+   </a>
+  
+  
+   <a href="[[~54]]" id="my_connections"  class="tool_button" title="[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/connection_icon_36.png" title="[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.connections? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+		<span class="count">[[!get_connection_request_action? &getCount=`1`]]
+   </a>
+
+   <a href="[[~53]]" id="newsfeed"  class="tool_button" title="[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]">
+   		<img src="/assets/images/news_icon_36.png" title="[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]" />
+   		<span class="member_tool_title">[[%member.newsfeed? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+   </a>
+  <a href="[[~50]]" id="update_profile"  class="tool_button" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]">
+  		<img src="/assets/images/profile_icon_36.png" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]" />
+  		<span class="member_tool_title">[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+  </a>
+</div>',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
       'Footer' => 
       array (
         'fields' => 
@@ -974,26 +1884,82 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         array (
         ),
       ),
-      'home_index' => 
+      'member_footer' => 
       array (
         'fields' => 
         array (
-          'id' => 19,
-          'source' => 1,
+          'id' => 54,
+          'source' => 0,
           'property_preprocess' => false,
-          'name' => 'home_index',
+          'name' => 'member_footer',
           'description' => '',
           'editor_type' => 0,
-          'category' => 9,
+          'category' => 3,
           'cache_type' => 0,
-          'snippet' => '[[+content]]',
+          'snippet' => '
+<!-- include hidden elements on the page -->
+<div class="hidden">
+   <div id="send_message_wrapper">
+      <form id="send_message_form" name="send_message" method="post" action="[[~56]]">
+         <input type="hidden" name="private_message" id="msg_action_page" value="[[~56]]" />
+         <input type="hidden" name="connect_message" id="connect_action_page" value="[[~57]]" />
+         <input type="hidden" name="action_type" id="action_type" value="message" />
+         <input type="hidden" name="from" id="sender_id" value="[[+id]]" />
+         <input type="hidden" name="to" id="recipient_id" value="" />
+         <div class="form_header">Send Message</div>
+         <div class="form_section">
+            <div class="form_row"><label>Subject</label><input type="text" name="subject" id="msg_subject" /></div>  
+            <div class="form_row"><label>Message</label><textarea cols="40" rows="3" name="message" id="msg_message"></textarea></div>
+         </div> 
+         <div class="form_section form_submit">
+            <input type="submit" name="send_message_submit" id="send_message_submit" value="Send" />
+         </div>
+      </form>
+      <div class="form_message">[[%connection.message_sent? &topic=`default` &namespace=`investable` &language=`en`]]
+   </div>
+
+</div>
+
+<script type="text/javascript">
+   $(document).ready(function(){
+       
+   });
+</script>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '[[+content]]',
+          'content' => '
+<!-- include hidden elements on the page -->
+<div class="hidden">
+   <div id="send_message_wrapper">
+      <form id="send_message_form" name="send_message" method="post" action="[[~56]]">
+         <input type="hidden" name="private_message" id="msg_action_page" value="[[~56]]" />
+         <input type="hidden" name="connect_message" id="connect_action_page" value="[[~57]]" />
+         <input type="hidden" name="action_type" id="action_type" value="message" />
+         <input type="hidden" name="from" id="sender_id" value="[[+id]]" />
+         <input type="hidden" name="to" id="recipient_id" value="" />
+         <div class="form_header">Send Message</div>
+         <div class="form_section">
+            <div class="form_row"><label>Subject</label><input type="text" name="subject" id="msg_subject" /></div>  
+            <div class="form_row"><label>Message</label><textarea cols="40" rows="3" name="message" id="msg_message"></textarea></div>
+         </div> 
+         <div class="form_section form_submit">
+            <input type="submit" name="send_message_submit" id="send_message_submit" value="Send" />
+         </div>
+      </form>
+      <div class="form_message">[[%connection.message_sent? &topic=`default` &namespace=`investable` &language=`en`]]
+   </div>
+
+</div>
+
+<script type="text/javascript">
+   $(document).ready(function(){
+       
+   });
+</script>',
         ),
         'policies' => 
         array (
@@ -1003,74 +1969,63 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'source' => 
         array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
         ),
       ),
-      'home_news' => 
+      'modAvatar.output_tpl' => 
       array (
         'fields' => 
         array (
-          'id' => 22,
+          'id' => 51,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'modAvatar.output_tpl',
+          'description' => 'Template for userphoto output',
+          'editor_type' => 0,
+          'category' => 19,
+          'cache_type' => 0,
+          'snippet' => '<img src="[[+photo]]" title="[[+fullname]]" class="profile_picture" />',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<img src="[[+photo]]" title="[[+fullname]]" class="profile_picture" />',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'founder_profile' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 50,
           'source' => 1,
           'property_preprocess' => false,
-          'name' => 'home_news',
+          'name' => 'founder_profile',
           'description' => '',
           'editor_type' => 0,
-          'category' => 9,
+          'category' => 12,
           'cache_type' => 0,
-          'snippet' => '<div id="feed_content"></div>
-
-<script type="text/javascript">
-$(document).ready(function(){
-			$(\'#feed_content\').dcSocialStream({
-			feeds: {
-			
-			rss: {
-				id: \'[[++default_rss_feed]]\'
-			},
-			facebook: {
-				id: \'455528547892283\',
-				out: \'intro,thumb,text,user,share\'
-			},
-			
-			twitter: {
-				id: \'investableasia,#startup,#startuphk\',
-				thumb: true,
-				url: \'[[++assets_url]]lib/social_stream/twitter.php\'
-			},
-			
-			
-			google: {
-				id: \'101383478793760168461\',
-				api_key: \'AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg\'
-			}
-			
-		},
-		rotate: {
-			delay: 0
-		},
-		twitterId: \'investableasia\',
-		control: false,
-		filter: false,
-		wall: true,
-		cache: false,
-		max: \'limit\',
-		limit: 1,
-		iconPath: \'[[++assets_url]]lib/social_stream/images/dcsns-dark/\',
-		imagePath: \'[[++assets_url]]lib/social_stream/images/dcsns-dark/\'
-	});
-});
-
-		</script>
-<div class="section_content">
-[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]
+          'snippet' => '<div class="founder_profile">
+   <div class="profile_head">
+     <div class="col-xs-6 profile_name">
+        <div class="founder_title">[[%startups.founder? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+        <h3>[[+fullname]]</h3>
+     </div>
+     <div class="col-xs-6 profile_pic">
+        [[+photo]]
+     </div>
+     <div class="allclear"></div>   
+   </div>
+   <div class="profile_content"><p>[[+personal_description]]</p></div>
 </div>',
           'locked' => false,
           'properties' => 
@@ -1078,427 +2033,19 @@ $(document).ready(function(){
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div id="feed_content"></div>
-
-<script type="text/javascript">
-$(document).ready(function(){
-			$(\'#feed_content\').dcSocialStream({
-			feeds: {
-			
-			rss: {
-				id: \'[[++default_rss_feed]]\'
-			},
-			facebook: {
-				id: \'455528547892283\',
-				out: \'intro,thumb,text,user,share\'
-			},
-			
-			twitter: {
-				id: \'investableasia,#startup,#startuphk\',
-				thumb: true,
-				url: \'[[++assets_url]]lib/social_stream/twitter.php\'
-			},
-			
-			
-			google: {
-				id: \'101383478793760168461\',
-				api_key: \'AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg\'
-			}
-			
-		},
-		rotate: {
-			delay: 0
-		},
-		twitterId: \'investableasia\',
-		control: false,
-		filter: false,
-		wall: true,
-		cache: false,
-		max: \'limit\',
-		limit: 1,
-		iconPath: \'[[++assets_url]]lib/social_stream/images/dcsns-dark/\',
-		imagePath: \'[[++assets_url]]lib/social_stream/images/dcsns-dark/\'
-	});
-});
-
-		</script>
-<div class="section_content">
-[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]
+          'content' => '<div class="founder_profile">
+   <div class="profile_head">
+     <div class="col-xs-6 profile_name">
+        <div class="founder_title">[[%startups.founder? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+        <h3>[[+fullname]]</h3>
+     </div>
+     <div class="col-xs-6 profile_pic">
+        [[+photo]]
+     </div>
+     <div class="allclear"></div>   
+   </div>
+   <div class="profile_content"><p>[[+personal_description]]</p></div>
 </div>',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_about' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 20,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_about',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="about-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#about-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`about_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#about-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#about-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="about-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#about-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`about_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#about-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#about-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_team' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 31,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_team',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '<div class="team_intro section_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_team_type` &limit=`100` &showHidden=`1` &depth=`0` &sortby=`{"menuindex":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div class="team_intro section_intro">
-[[+content]]
-</div>
-
-
-[[!getResources? &parents=`[[+id]]` &tpl=`home_team_type` &limit=`100` &showHidden=`1` &depth=`0` &sortby=`{"menuindex":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_partners' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 59,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_partners',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '[[+content]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[+content]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_how' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 21,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_how',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_faqs' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 26,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_faqs',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '
-[[!getResources? &parents=`[[+id]]` &tpl=`home_faq_row` &limit=`100` &showHidden=`1` &includeContent=`1`  &sortby=`{"menuindex":"ASC"}`]]',
-        ),
-        'policies' => 
-        array (
-          'web' => 
-          array (
-          ),
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'home_contact' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 18,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'home_contact',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '<div id="contact_info" class="col-md-4">
-   [[+content]]
-  
-</div>
-<div id="map" class="col-md-8"></div>
-<div class="allclear"></div>
-
-<script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg">
-</script>
-
-<script type="text/javascript">
-      var gmap;
-      var marker;
-      function initialize() {
-        var latlng = new google.maps.LatLng([[+tv.lat]],[[+tv.lng]]);
-        var mapOptions = {
-          center: latlng,
-          zoom: 17
-        };
-      
-        gmap = new google.maps.Map(document.getElementById(\'map\'),
-            mapOptions);
-
-        marker =  new google.maps.Marker({
-            position: latlng,
-            map: gmap,
-            icon: "[[!++site_url]]assets/images/investable-icon.png",
-            title: \'Investable\'
-            });
-      }
-      google.maps.event.addDomListener(window, \'load\', initialize);
-    </script>',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div id="contact_info" class="col-md-4">
-   [[+content]]
-  
-</div>
-<div id="map" class="col-md-8"></div>
-<div class="allclear"></div>
-
-<script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD00CRyUKuvfuRoT6V-5QsFctGttGqFqYg">
-</script>
-
-<script type="text/javascript">
-      var gmap;
-      var marker;
-      function initialize() {
-        var latlng = new google.maps.LatLng([[+tv.lat]],[[+tv.lng]]);
-        var mapOptions = {
-          center: latlng,
-          zoom: 17
-        };
-      
-        gmap = new google.maps.Map(document.getElementById(\'map\'),
-            mapOptions);
-
-        marker =  new google.maps.Marker({
-            position: latlng,
-            map: gmap,
-            icon: "[[!++site_url]]assets/images/investable-icon.png",
-            title: \'Investable\'
-            });
-      }
-      google.maps.event.addDomListener(window, \'load\', initialize);
-    </script>',
         ),
         'policies' => 
         array (
@@ -2890,6 +3437,284 @@ if ($wf->_config[\'ph\']) {
         array (
         ),
       ),
+      'phpthumbof' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 22,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'phpthumbof',
+          'description' => 'A custom output filter that generates thumbnails securely with phpThumb.',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * phpThumbOf
+ *
+ * Copyright 2009-2012 by Shaun McCormick <shaun@modx.com>
+ *
+ * phpThumbOf is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option) any
+ * later version.
+ *
+ * phpThumbOf is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * phpThumbOf; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package phpthumbof
+ */
+/**
+ * A custom output filter for phpThumb
+ *
+ * @var modX $modx
+ * @var array $scriptProperties
+ * @var phpThumbOf $phpThumbOf
+ * @var string $input
+ * @var string|array $options
+ *
+ * @package phpthumbof
+ */
+if (empty($modx)) return \'\';
+if (!$modx->loadClass(\'modPhpThumb\',$modx->getOption(\'core_path\').\'model/phpthumb/\',true,true)) {
+    $modx->log(modX::LOG_LEVEL_ERROR,\'[phpThumbOf] Could not load modPhpThumb class.\');
+    return \'\';
+}
+if (empty($input)) {
+    $modx->log(modX::LOG_LEVEL_DEBUG,\'[phpThumbOf] Empty image path passed, aborting.\');
+    return \'\';
+}
+$modelPath = $modx->getOption(\'phpthumbof.core_path\',null,$modx->getOption(\'core_path\').\'components/phpthumbof/\').\'model/\';
+require_once $modelPath.\'phpthumbof/phpthumbof.class.php\';
+$phpThumbOf = new phpThumbOf($modx,$scriptProperties);
+
+$phpThumbOf->getCacheDirectory();
+$phpThumbOf->ensureCacheDirectoryIsWritable();
+
+$thumbnail = $phpThumbOf->createThumbnailObject();
+$thumbnail->setInput($input);
+$thumbnail->setOptions($options);
+$thumbnail->initializeService();
+return $thumbnail->render();',
+          'locked' => false,
+          'properties' => NULL,
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * phpThumbOf
+ *
+ * Copyright 2009-2012 by Shaun McCormick <shaun@modx.com>
+ *
+ * phpThumbOf is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option) any
+ * later version.
+ *
+ * phpThumbOf is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * phpThumbOf; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package phpthumbof
+ */
+/**
+ * A custom output filter for phpThumb
+ *
+ * @var modX $modx
+ * @var array $scriptProperties
+ * @var phpThumbOf $phpThumbOf
+ * @var string $input
+ * @var string|array $options
+ *
+ * @package phpthumbof
+ */
+if (empty($modx)) return \'\';
+if (!$modx->loadClass(\'modPhpThumb\',$modx->getOption(\'core_path\').\'model/phpthumb/\',true,true)) {
+    $modx->log(modX::LOG_LEVEL_ERROR,\'[phpThumbOf] Could not load modPhpThumb class.\');
+    return \'\';
+}
+if (empty($input)) {
+    $modx->log(modX::LOG_LEVEL_DEBUG,\'[phpThumbOf] Empty image path passed, aborting.\');
+    return \'\';
+}
+$modelPath = $modx->getOption(\'phpthumbof.core_path\',null,$modx->getOption(\'core_path\').\'components/phpthumbof/\').\'model/\';
+require_once $modelPath.\'phpthumbof/phpthumbof.class.php\';
+$phpThumbOf = new phpThumbOf($modx,$scriptProperties);
+
+$phpThumbOf->getCacheDirectory();
+$phpThumbOf->ensureCacheDirectoryIsWritable();
+
+$thumbnail = $phpThumbOf->createThumbnailObject();
+$thumbnail->setInput($input);
+$thumbnail->setOptions($options);
+$thumbnail->initializeService();
+return $thumbnail->render();',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'numberformat' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 75,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'numberformat',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 10,
+          'cache_type' => 0,
+          'snippet' => '$number = floatval($input);
+$optionsXpld = @explode(\'&\', $options);
+$optionsArray = array();
+foreach ($optionsXpld as $xpld) {
+    $params = @explode(\'=\', $xpld);
+    array_walk($params, create_function(\'&$v\', \'$v = trim($v);\'));
+    if (isset($params[1])) {
+        $optionsArray[$params[0]] = $params[1];
+    } else {
+        $optionsArray[$params[0]] = \'\';
+    }
+}
+$decimals = isset($optionsArray[\'decimals\']) ? $optionsArray[\'decimals\'] : null;
+$dec_point = isset($optionsArray[\'dec_point\']) ? $optionsArray[\'dec_point\'] : null;
+$thousands_sep = isset($optionsArray[\'thousands_sep\']) ? $optionsArray[\'thousands_sep\'] : null;
+$output = number_format($number, $decimals, $dec_point, $thousands_sep);
+return $output;',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '$number = floatval($input);
+$optionsXpld = @explode(\'&\', $options);
+$optionsArray = array();
+foreach ($optionsXpld as $xpld) {
+    $params = @explode(\'=\', $xpld);
+    array_walk($params, create_function(\'&$v\', \'$v = trim($v);\'));
+    if (isset($params[1])) {
+        $optionsArray[$params[0]] = $params[1];
+    } else {
+        $optionsArray[$params[0]] = \'\';
+    }
+}
+$decimals = isset($optionsArray[\'decimals\']) ? $optionsArray[\'decimals\'] : null;
+$dec_point = isset($optionsArray[\'dec_point\']) ? $optionsArray[\'dec_point\'] : null;
+$thousands_sep = isset($optionsArray[\'thousands_sep\']) ? $optionsArray[\'thousands_sep\'] : null;
+$output = number_format($number, $decimals, $dec_point, $thousands_sep);
+return $output;',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'getYouTubeId' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 56,
+          'source' => 2,
+          'property_preprocess' => false,
+          'name' => 'getYouTubeId',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 18,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * getYouTubeId
+ * 
+ * Created by Jason Carney (DashMedia.com.au) for use
+ * as a simple output modifier for MODX, all credit for
+ * RegEx String goes to the community at StackOverflow.com
+ *
+ * @package youTubeId
+ */
+/**
+ * @var string $input   - youtube URL to video
+ * 
+ * @returns string      - youTube ID
+ */
+$ytUrl = $input;
+//return $input;
+
+if(isset($ytUrl) && !empty($ytUrl)){
+    $pattern = \'#^(?:https?://)?(?:www\\.)?(?:youtu\\.be/|youtube\\.com(?:/embed/|/v/|/watch\\?v=|/watch\\?.+&v=))([\\w-]{11})(?:.+)?$#x\';
+    preg_match($pattern, $ytUrl, $matches);
+    return (isset($matches[1])) ? $matches[1] : false;
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * getYouTubeId
+ * 
+ * Created by Jason Carney (DashMedia.com.au) for use
+ * as a simple output modifier for MODX, all credit for
+ * RegEx String goes to the community at StackOverflow.com
+ *
+ * @package youTubeId
+ */
+/**
+ * @var string $input   - youtube URL to video
+ * 
+ * @returns string      - youTube ID
+ */
+$ytUrl = $input;
+//return $input;
+
+if(isset($ytUrl) && !empty($ytUrl)){
+    $pattern = \'#^(?:https?://)?(?:www\\.)?(?:youtu\\.be/|youtube\\.com(?:/embed/|/v/|/watch\\?v=|/watch\\?.+&v=))([\\w-]{11})(?:.+)?$#x\';
+    preg_match($pattern, $ytUrl, $matches);
+    return (isset($matches[1])) ? $matches[1] : false;
+}',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
       'Years' => 
       array (
         'fields' => 
@@ -2919,6 +3744,288 @@ return date(\'Y\');',
  * @package Bootstrap
  */
 return date(\'Y\');',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'isLoggedIn' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 39,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'isLoggedIn',
+          'description' => 'Checks to see if the user is logged in. If not, redirects to Unauthorized Page.',
+          'editor_type' => 0,
+          'category' => 16,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * isLoggedIn
+ *
+ * Copyright 2009-2011 by Shaun McCormick <shaun@modx.com>
+ *
+ * isLoggedIn is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * isLoggedIn is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * isLoggedIn; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx isLoggedIn Snippet. Will check to see if user is logged into the current
+ * or specific context. If not, redirects to unauthorized page.
+ *
+ * @package login
+ */
+/* setup default properties */
+$ctxs = !empty($ctxs) ? $ctxs : $modx->context->get(\'key\');
+if (!is_array($ctxs)) $ctxs = explode(\',\',$ctxs);
+
+if (!$modx->user->hasSessionContext($ctxs)) {
+    if (!empty($redirectTo)) {
+        $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : \'\';
+        $url = $modx->makeUrl($redirectTo,\'\',$redirectParams,\'full\');
+        $modx->sendRedirect($url);
+    } else {
+        $modx->sendUnauthorizedPage();
+ }
+   
+}
+
+return \'\';',
+          'locked' => false,
+          'properties' => 
+          array (
+            'contexts' => 
+            array (
+              'name' => 'contexts',
+              'desc' => 'prop_isloggedin.contexts_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'A comma-separated list of contexts to check authenticated status for. If not set, will default to current context.',
+              'area_trans' => '',
+            ),
+            'redirectparams' => 
+            array (
+              'name' => 'redirectparams',
+              'desc' => 'prop_isloggedin.redirectparams_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'If using redirectTo, a JSON object of REQUEST params to send with the redirect.',
+              'area_trans' => '',
+            ),
+            'redirectto' => 
+            array (
+              'name' => 'redirectto',
+              'desc' => 'prop_isloggedin.redirectto_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'The ID of a Resource to redirect to should the user not be logged in. Will default to the unauthorized_page.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * isLoggedIn
+ *
+ * Copyright 2009-2011 by Shaun McCormick <shaun@modx.com>
+ *
+ * isLoggedIn is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * isLoggedIn is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * isLoggedIn; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx isLoggedIn Snippet. Will check to see if user is logged into the current
+ * or specific context. If not, redirects to unauthorized page.
+ *
+ * @package login
+ */
+/* setup default properties */
+$ctxs = !empty($ctxs) ? $ctxs : $modx->context->get(\'key\');
+if (!is_array($ctxs)) $ctxs = explode(\',\',$ctxs);
+
+if (!$modx->user->hasSessionContext($ctxs)) {
+    if (!empty($redirectTo)) {
+        $redirectParams = !empty($redirectParams) ? $modx->fromJSON($redirectParams) : \'\';
+        $url = $modx->makeUrl($redirectTo,\'\',$redirectParams,\'full\');
+        $modx->sendRedirect($url);
+    } else {
+        $modx->sendUnauthorizedPage();
+ }
+   
+}
+
+return \'\';',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'Profile' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 37,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'Profile',
+          'description' => 'Displays Profile data for a User.',
+          'editor_type' => 0,
+          'category' => 16,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * Profile
+ *
+ * Copyright 2010 by Shaun McCormick <shaun@modx.com>
+ *
+ * Register is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * Register is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Register; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx Profile Snippet. Sets Profile data for a user to placeholders
+ *
+ * @package login
+ */
+require_once $modx->getOption(\'login.core_path\',null,$modx->getOption(\'core_path\').\'components/login/\').\'model/login/login.class.php\';
+$login = new Login($modx,$scriptProperties);
+
+$controller = $login->loadController(\'Profile\');
+return $controller->run($scriptProperties);',
+          'locked' => false,
+          'properties' => 
+          array (
+            'prefix' => 
+            array (
+              'name' => 'prefix',
+              'desc' => 'prop_profile.prefix_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'A string to prefix all placeholders for fields that will be set by this Snippet.',
+              'area_trans' => '',
+            ),
+            'user' => 
+            array (
+              'name' => 'user',
+              'desc' => 'prop_profile.user_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. Either a user ID or username. If set, will use this user rather than the currently logged in one.',
+              'area_trans' => '',
+            ),
+            'useExtended' => 
+            array (
+              'name' => 'useExtended',
+              'desc' => 'prop_profile.useextended_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => true,
+              'lexicon' => 'login:properties',
+              'area' => '',
+              'desc_trans' => 'Whether or not to set any extra fields in the form to the Profiles extended field. This can be useful for storing extra user fields.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * Profile
+ *
+ * Copyright 2010 by Shaun McCormick <shaun@modx.com>
+ *
+ * Register is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * Register is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Register; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package login
+ */
+/**
+ * MODx Profile Snippet. Sets Profile data for a user to placeholders
+ *
+ * @package login
+ */
+require_once $modx->getOption(\'login.core_path\',null,$modx->getOption(\'core_path\').\'components/login/\').\'model/login/login.class.php\';
+$login = new Login($modx,$scriptProperties);
+
+$controller = $login->loadController(\'Profile\');
+return $controller->run($scriptProperties);',
         ),
         'policies' => 
         array (
@@ -3670,7 +4777,7 @@ return $output;',
                 array (
                   'text' => 'string',
                   'value' => 'string',
-                  'name' => 'string',
+                  'name' => 'String',
                 ),
                 1 => 
                 array (
@@ -5032,73 +6139,72 @@ if($modx->user->hasSessionContext($ctxs)){
         array (
         ),
       ),
-      'parseChunk' => 
+      'get_connection_request_action' => 
       array (
         'fields' => 
         array (
-          'id' => 27,
+          'id' => 65,
           'source' => 1,
           'property_preprocess' => false,
-          'name' => 'parseChunk',
-          'description' => '&chunk, &contentid, &tvs, &showDefault',
+          'name' => 'get_connection_request_action',
+          'description' => ' $chunk, $getCount',
           'editor_type' => 0,
-          'category' => 9,
+          'category' => 15,
           'cache_type' => 0,
-          'snippet' => '/**
- * parseChunk
- *
- * DESCRIPTION
- *
- * Parse the content of an existing document into a chunk
- * 
- *
- * PROPERTIES:
- *
- * &chunk - required
- * &contentid - requierd
- * &tvs - list of TVs to process
- * &showDefault : 0/1
- *
- * USAGE:
- *
- * [[!parseChunk? &chunk=`CHUNK_NAME` &contentid=`DOCUMENT_ID` &tvs=`content,pagetitle,alias...` &showDefault=`1` ]]
- *
- */
+          'snippet' => '$config = $modx->getConfig();
+$user = $modx->getUser();
+$userid = $user->get("id");
 
-$page = $modx->getObject(\'modResource\', $contentid);
-$tvoutput = Array();
-
-$default =  "pagetitle,longtitle,content,alias"; 
-
-if($showDefault){
-   $tvoutput = $page->get($defaults);
+if(empty($chunk)){
+   $chunk = "connection_request_item";
 }
 
-if(!empty($tvs)){
-   $tv_list = explode(",",$tvs);
-  
-   foreach($tv_list as $v){
-      $tvvalue = $page->getTVValue($v);
-      //$tvoutput["output"] .= $v.": ".$tvvalue;
-      $tvoutput[] = Array($v=>$tvvalue);
+$query = "SELECT r.id as requestid, r.*, a.* FROM ext_connection_requests r LEFT JOIN ".$config["table_prefix"]."user_attributes a ON a.internalKey=r.from WHERE r.request_status=0 AND (r.to=\'".$userid."\')";
+
+$output = "";
+
+if($getCount==1){
+$output =0;
+ 
+}
+$result = $modx->query($query);
+//return $query;
+if (!is_object($result)) {
+   return "You have no connection request at this moment";
+}else{
+   while( $row = $result->fetch(PDO::FETCH_ASSOC)){
+      if($getCount==1){
+          $output++;
+      }else{
+         
+
+         
+         
+         $extended = json_decode($row["extended"]);
+         $placeholders = $row;      
+      
+         foreach($extended as $k=>$v){
+         $placeholders[$k] = $v;
+         }
+          $placeholders["userid"] = $row["internalKey"];
+         
+         
+        
+      // get user avatar - requires modAvatar snippet
+         $photo = $modx->runSnippet("modAvatar", array("userid"=>$row["from"]));
+         $placeholders["photo"] = $photo;
+
+         $rowOutput = $modx->getChunk($chunk, $placeholders);
+         $output .= $rowOutput;
+        
+       
+      }
+      
+
    }
 }
 
 
-
-
-
-$alltvs = "";
-
-foreach($tvoutput as $k=>$v){
-   $alltvs = $k ." contains ".$v."<br /><br />";
-
-}
-
-$tvoutput["output"] .= $tvs;
-
-
-$output = $modx->getChunk($chunk,$tvoutput);
 return $output;',
           'locked' => false,
           'properties' => 
@@ -5107,62 +6213,565 @@ return $output;',
           'moduleguid' => '',
           'static' => false,
           'static_file' => '',
-          'content' => '/**
- * parseChunk
- *
- * DESCRIPTION
- *
- * Parse the content of an existing document into a chunk
- * 
- *
- * PROPERTIES:
- *
- * &chunk - required
- * &contentid - requierd
- * &tvs - list of TVs to process
- * &showDefault : 0/1
- *
- * USAGE:
- *
- * [[!parseChunk? &chunk=`CHUNK_NAME` &contentid=`DOCUMENT_ID` &tvs=`content,pagetitle,alias...` &showDefault=`1` ]]
- *
- */
+          'content' => '$config = $modx->getConfig();
+$user = $modx->getUser();
+$userid = $user->get("id");
 
-$page = $modx->getObject(\'modResource\', $contentid);
-$tvoutput = Array();
-
-$default =  "pagetitle,longtitle,content,alias"; 
-
-if($showDefault){
-   $tvoutput = $page->get($defaults);
+if(empty($chunk)){
+   $chunk = "connection_request_item";
 }
 
-if(!empty($tvs)){
-   $tv_list = explode(",",$tvs);
-  
-   foreach($tv_list as $v){
-      $tvvalue = $page->getTVValue($v);
-      //$tvoutput["output"] .= $v.": ".$tvvalue;
-      $tvoutput[] = Array($v=>$tvvalue);
+$query = "SELECT r.id as requestid, r.*, a.* FROM ext_connection_requests r LEFT JOIN ".$config["table_prefix"]."user_attributes a ON a.internalKey=r.from WHERE r.request_status=0 AND (r.to=\'".$userid."\')";
+
+$output = "";
+
+if($getCount==1){
+$output =0;
+ 
+}
+$result = $modx->query($query);
+//return $query;
+if (!is_object($result)) {
+   return "You have no connection request at this moment";
+}else{
+   while( $row = $result->fetch(PDO::FETCH_ASSOC)){
+      if($getCount==1){
+          $output++;
+      }else{
+         
+
+         
+         
+         $extended = json_decode($row["extended"]);
+         $placeholders = $row;      
+      
+         foreach($extended as $k=>$v){
+         $placeholders[$k] = $v;
+         }
+          $placeholders["userid"] = $row["internalKey"];
+         
+         
+        
+      // get user avatar - requires modAvatar snippet
+         $photo = $modx->runSnippet("modAvatar", array("userid"=>$row["from"]));
+         $placeholders["photo"] = $photo;
+
+         $rowOutput = $modx->getChunk($chunk, $placeholders);
+         $output .= $rowOutput;
+        
+       
+      }
+      
+
    }
 }
 
 
+return $output;',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'getUserById' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 57,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'getUserById',
+          'description' => '&uid, &tpl [optional]',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => 'if(!empty($uid) || !is_numeric($uid)){
+   $config = $modx->getConfig();
+   $query = "SELECT a.*, u.username FROM ".$config["table_prefix"]."user_attributes a LEFT JOIN ".$config["table_prefix"]."users u ON a.internalKey =u.id WHERE u.active=1 AND a.internalKey=".$uid;
+   $result = $modx->query($query);
+   if (!is_object($result)) {
+       return false;
+   }
+   else {
+      $row = $result->fetch(PDO::FETCH_ASSOC);
+     // return json_encode($row);
+      
+      $extended = json_decode($row["extended"]);
+      $placeholders = $row;      
+      
+      foreach($extended as $k=>$v){
+         $placeholders[$k] = $v;
+      }
+      
+      // get user avatar - requires modAvatar snippet
+      $photo = $modx->runSnippet("modAvatar", array("userid"=>$row["internalKey"]));
 
+      $placeholders["photo"] = $photo;
+       if(!empty($tpl)){
+         return $modx->getChunk($tpl, $placeholders);
 
+      }else{
+         return $placeholders;
 
-$alltvs = "";
+      }
+     
+   }
 
-foreach($tvoutput as $k=>$v){
-   $alltvs = $k ." contains ".$v."<br /><br />";
+}else{
+   return false;
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => 'if(!empty($uid) || !is_numeric($uid)){
+   $config = $modx->getConfig();
+   $query = "SELECT a.*, u.username FROM ".$config["table_prefix"]."user_attributes a LEFT JOIN ".$config["table_prefix"]."users u ON a.internalKey =u.id WHERE u.active=1 AND a.internalKey=".$uid;
+   $result = $modx->query($query);
+   if (!is_object($result)) {
+       return false;
+   }
+   else {
+      $row = $result->fetch(PDO::FETCH_ASSOC);
+     // return json_encode($row);
+      
+      $extended = json_decode($row["extended"]);
+      $placeholders = $row;      
+      
+      foreach($extended as $k=>$v){
+         $placeholders[$k] = $v;
+      }
+      
+      // get user avatar - requires modAvatar snippet
+      $photo = $modx->runSnippet("modAvatar", array("userid"=>$row["internalKey"]));
 
+      $placeholders["photo"] = $photo;
+       if(!empty($tpl)){
+         return $modx->getChunk($tpl, $placeholders);
+
+      }else{
+         return $placeholders;
+
+      }
+     
+   }
+
+}else{
+   return false;
+}',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'modAvatar' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 58,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'modAvatar',
+          'description' => 'Get user photo',
+          'editor_type' => 0,
+          'category' => 19,
+          'cache_type' => 0,
+          'snippet' => '$output = \'\';
+
+// Check filters
+if(!$userid && !$username && !$email){
+    $modx->log(xPDO::LOG_LEVEL_ERROR, "You should set userid or username or email");
+    return $output;
 }
 
-$tvoutput["output"] .= $tvs;
+// Create query
+$where = array(
+    \'Profile.photo:!=\' => \'\',
+);
+$q = $modx->newQuery(\'modUser\');
+$q->join(\'modUserProfile\', \'Profile\');
+$q->select(array(
+    \'modUser.id\',
+    \'modUser.username\',
+    \'Profile.photo\',
+    \'Profile.email\',
+    \'Profile.fullname\',
+));
+$q->limit(1);
+
+if($userid){
+    $where[\'modUser.id\'] = $userid;
+}
+if($username){
+    $where[\'modUser.username\'] = $username;
+}
+if($email){
+    $where[\'Profile.email\'] = $email;
+}
+$q->where($where);
+
+if(!$q->prepare() || !$q->stmt->execute()){
+    return $output;
+}
+
+// get photo
+$data = $q->stmt->fetch(PDO::FETCH_ASSOC);
+
+// get mediasource id
+if(!$sourceid = $modx->getOption(\'modavatar.default_media_source\', null)){
+    $sourceid = $modx->getOption(\'default_media_source\', null, 1);
+}
+// get full path
+if($source = $modx->getObject(\'sources.modMediaSource\', $sourceid) AND $source->initialize()){
+    $data[\'photo\'] = $source->getObjectUrl($data[\'photo\']);
+}
+
+if($data["photo"] == "/"){
+   $data["photo"] = "/assets/images/default_profile.png";
+}
+if($tpl){
+    return $modx->getChunk($tpl, $data);
+}
+return $data[\'photo\'];',
+          'locked' => false,
+          'properties' => 
+          array (
+            'email' => 
+            array (
+              'name' => 'email',
+              'desc' => 'Find user by email',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => NULL,
+              'area' => '',
+              'desc_trans' => 'Find user by email',
+              'area_trans' => '',
+            ),
+            'tpl' => 
+            array (
+              'name' => 'tpl',
+              'desc' => 'If set tpl, output will be return via chunk',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'modAvatar.output_tpl',
+              'lexicon' => NULL,
+              'area' => '',
+              'desc_trans' => 'If set tpl, output will be return via chunk',
+              'area_trans' => '',
+            ),
+            'userid' => 
+            array (
+              'name' => 'userid',
+              'desc' => 'Find user by id',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => NULL,
+              'area' => '',
+              'desc_trans' => 'Find user by id',
+              'area_trans' => '',
+            ),
+            'username' => 
+            array (
+              'name' => 'username',
+              'desc' => 'Find user by username',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => NULL,
+              'area' => '',
+              'desc_trans' => 'Find user by username',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '$output = \'\';
+
+// Check filters
+if(!$userid && !$username && !$email){
+    $modx->log(xPDO::LOG_LEVEL_ERROR, "You should set userid or username or email");
+    return $output;
+}
+
+// Create query
+$where = array(
+    \'Profile.photo:!=\' => \'\',
+);
+$q = $modx->newQuery(\'modUser\');
+$q->join(\'modUserProfile\', \'Profile\');
+$q->select(array(
+    \'modUser.id\',
+    \'modUser.username\',
+    \'Profile.photo\',
+    \'Profile.email\',
+    \'Profile.fullname\',
+));
+$q->limit(1);
+
+if($userid){
+    $where[\'modUser.id\'] = $userid;
+}
+if($username){
+    $where[\'modUser.username\'] = $username;
+}
+if($email){
+    $where[\'Profile.email\'] = $email;
+}
+$q->where($where);
+
+if(!$q->prepare() || !$q->stmt->execute()){
+    return $output;
+}
+
+// get photo
+$data = $q->stmt->fetch(PDO::FETCH_ASSOC);
+
+// get mediasource id
+if(!$sourceid = $modx->getOption(\'modavatar.default_media_source\', null)){
+    $sourceid = $modx->getOption(\'default_media_source\', null, 1);
+}
+// get full path
+if($source = $modx->getObject(\'sources.modMediaSource\', $sourceid) AND $source->initialize()){
+    $data[\'photo\'] = $source->getObjectUrl($data[\'photo\']);
+}
+
+if($data["photo"] == "/"){
+   $data["photo"] = "/assets/images/default_profile.png";
+}
+if($tpl){
+    return $modx->getChunk($tpl, $data);
+}
+return $data[\'photo\'];',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'get_company_investors' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 77,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'get_company_investors',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => 'if(empty($companyid)){
+   return false;
+}else{
+$config = $modx->getConfig();
+$user = $modx->getUser();
 
 
-$output = $modx->getChunk($chunk,$tvoutput);
-return $output;',
+$query = "SELECT * FROM ext_support_company WHERE companyid=".$companyid." AND username != \'\' AND userid != \'\' GROUP BY userid ORDER by username";
+
+$result = $modx->query($query);
+
+
+if(is_object($result)){
+   if($getCount == 1){
+   return $result->rowCount();
+   }else{
+      $output = "";
+      while($row = $result->fetch(PDO::FETCH_ASSOC)   ){
+        $rowOutput["name"] = $row["username"];
+        $rowOutput["id"] = $row["userid"];
+        $output .= $modx->getChunk("user_name_item", $rowOutput);
+      }
+      return $output;
+   }
+   
+}else{
+   return false;
+}
+
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => 'if(empty($companyid)){
+   return false;
+}else{
+$config = $modx->getConfig();
+$user = $modx->getUser();
+
+
+$query = "SELECT * FROM ext_support_company WHERE companyid=".$companyid." AND username != \'\' AND userid != \'\' GROUP BY userid ORDER by username";
+
+$result = $modx->query($query);
+
+
+if(is_object($result)){
+   if($getCount == 1){
+   return $result->rowCount();
+   }else{
+      $output = "";
+      while($row = $result->fetch(PDO::FETCH_ASSOC)   ){
+        $rowOutput["name"] = $row["username"];
+        $rowOutput["id"] = $row["userid"];
+        $output .= $modx->getChunk("user_name_item", $rowOutput);
+      }
+      return $output;
+   }
+   
+}else{
+   return false;
+}
+
+}',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'get_company_followers' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 78,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'get_company_followers',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 9,
+          'cache_type' => 0,
+          'snippet' => 'if(empty($companyid)){
+   return false;
+}else{
+$config = $modx->getConfig();
+$user = $modx->getUser();
+
+
+$query = "SELECT * FROM ext_favourite_company WHERE companyid=".$companyid." AND username != \'\' AND userid != \'\' GROUP BY userid ORDER by username";
+
+$result = $modx->query($query);
+
+
+if(is_object($result)){
+   if($getCount == 1){
+   return $result->rowCount();
+   }else{
+      $output = "";
+      while($row = $result->fetch(PDO::FETCH_ASSOC)   ){
+        $rowOutput["name"] = $row["username"];
+        $rowOutput["id"] = $row["userid"];
+        $output .= $modx->getChunk("user_name_item", $rowOutput);
+      }
+      return $output;
+   }
+   
+}else{
+   return false;
+}
+
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => 'if(empty($companyid)){
+   return false;
+}else{
+$config = $modx->getConfig();
+$user = $modx->getUser();
+
+
+$query = "SELECT * FROM ext_favourite_company WHERE companyid=".$companyid." AND username != \'\' AND userid != \'\' GROUP BY userid ORDER by username";
+
+$result = $modx->query($query);
+
+
+if(is_object($result)){
+   if($getCount == 1){
+   return $result->rowCount();
+   }else{
+      $output = "";
+      while($row = $result->fetch(PDO::FETCH_ASSOC)   ){
+        $rowOutput["name"] = $row["username"];
+        $rowOutput["id"] = $row["userid"];
+        $output .= $modx->getChunk("user_name_item", $rowOutput);
+      }
+      return $output;
+   }
+   
+}else{
+   return false;
+}
+
+}',
         ),
         'policies' => 
         array (
@@ -5671,22 +7280,22 @@ return $output;',
     ),
     'modTemplateVar' => 
     array (
-      'lat' => 
+      'content_image' => 
       array (
         'fields' => 
         array (
-          'id' => 3,
+          'id' => 5,
           'source' => 1,
           'property_preprocess' => false,
-          'type' => 'text',
-          'name' => 'lat',
-          'caption' => 'Latitutde',
-          'description' => 'Latitude value of Google Maps Coordinates',
+          'type' => 'image',
+          'name' => 'content_image',
+          'caption' => 'Image',
+          'description' => '',
           'editor_type' => 0,
           'category' => 9,
           'locked' => false,
           'elements' => '',
-          'rank' => 151,
+          'rank' => 10,
           'display' => 'default',
           'default_text' => '',
           'properties' => 
@@ -5723,22 +7332,128 @@ return $output;',
           'is_stream' => true,
         ),
       ),
-      'lng' => 
+      'rewards' => 
       array (
         'fields' => 
         array (
+          'id' => 38,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'rewards',
+          'caption' => 'Rewards',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 35,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
           'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'industry' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 25,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'listbox-multiple',
+          'name' => 'industry',
+          'caption' => 'Industry',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '@SELECT `industry` FROM `ext_industries` ORDER BY `industry` ASC',
+          'rank' => 12,
+          'display' => 'delim',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'listWidth' => '',
+            'title' => '',
+            'typeAhead' => 'false',
+            'typeAheadDelay' => '250',
+            'listEmptyText' => '',
+            'stackItems' => 'false',
+          ),
+          'output_properties' => 
+          array (
+            'delimiter' => ', ',
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'country' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 40,
           'source' => 1,
           'property_preprocess' => false,
           'type' => 'text',
-          'name' => 'lng',
-          'caption' => 'Longitude',
-          'description' => 'Longitude value of Google Maps Coordinates',
+          'name' => 'country',
+          'caption' => 'Country',
+          'description' => '',
           'editor_type' => 0,
-          'category' => 9,
+          'category' => 20,
           'locked' => false,
           'elements' => '',
-          'rank' => 152,
+          'rank' => 0,
           'display' => 'default',
           'default_text' => '',
           'properties' => 
@@ -5749,6 +7464,883 @@ return $output;',
             'allowBlank' => 'true',
             'maxLength' => '',
             'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'stage' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 32,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'listbox',
+          'name' => 'stage',
+          'caption' => 'Stage',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '@SELECT stage FROM `ext_stage` ORDER BY id ASC',
+          'rank' => 10,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'listWidth' => '',
+            'title' => '',
+            'typeAhead' => 'false',
+            'typeAheadDelay' => '250',
+            'forceSelection' => 'false',
+            'listEmptyText' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'raised' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 13,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'raised',
+          'caption' => 'Raised',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 21,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'goal' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 12,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'goal',
+          'caption' => 'Goal',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 20,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'equity' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 27,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'equity',
+          'caption' => 'Equity Offered',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 33,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'premoney' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 28,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'premoney',
+          'caption' => 'Pre Money',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 30,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'postmoney' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 29,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'postmoney',
+          'caption' => 'Post Money',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 31,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'invested_by_nest' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 39,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'checkbox',
+          'name' => 'invested_by_nest',
+          'caption' => 'Invested By Nest',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => 'Yes',
+          'rank' => 0,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'columns' => '1',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'invested_by_angellist' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 41,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'checkbox',
+          'name' => 'invested_by_angellist',
+          'caption' => 'Invested By Angel List',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 21,
+          'locked' => false,
+          'elements' => 'Yes',
+          'rank' => 0,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'columns' => '1',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'youtube' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 23,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'youtube',
+          'caption' => 'YouTube Video Link',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 5,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'maxLength' => '',
+            'minLength' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'business_model' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 15,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'business_model',
+          'caption' => 'Business Model / Monetization',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 31,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'product_description' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 14,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'product_description',
+          'caption' => 'Product Description',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 33,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'projections' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 35,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'projections',
+          'caption' => '3-Year Projections',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 34,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'registered_ip' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 36,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'registered_ip',
+          'caption' => 'Registered IP',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 41,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'mobile_app' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 37,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'mobile_app',
+          'caption' => 'Mobile App',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 42,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'use_of_funds' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 19,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'use_of_funds',
+          'caption' => 'Use of Funds',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 48,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => '1',
+            'showNone' => '1',
+            'parents' => '',
+            'depth' => '10',
+            'includeParent' => '1',
+            'limitRelatedContext' => '0',
+            'where' => '',
+            'limit' => '0',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'news' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 18,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'richtext',
+          'name' => 'news',
+          'caption' => 'News / Press / Testimonials',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 35,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'founder' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 22,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'listbox-multiple',
+          'name' => 'founder',
+          'caption' => 'Founder(s)',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 20,
+          'locked' => false,
+          'elements' => '@SELECT u.username AS name,u.id FROM `[[+PREFIX]]users` u LEFT JOIN `[[+PREFIX]]member_groups` g ON u.id = g.member WHERE u.active = 1 AND g.user_group=2 AND g.role=4',
+          'rank' => 1,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'listWidth' => '',
+            'title' => '',
+            'typeAhead' => 'false',
+            'typeAheadDelay' => '250',
+            'listEmptyText' => '',
+            'stackItems' => 'false',
           ),
           'output_properties' => 
           array (

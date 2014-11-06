@@ -321,4 +321,5 @@
   'formit.recaptcha_private_key' => '',
   'formit.recaptcha_use_ssl' => '',
   'modavatar.default_media_source' => '1',
+  'default_rss_feed' => 'http://www.marketing-interactive.com/feed,http://feeds.feedburner.com/entrepreneur/latest?format=xml,http://feeds.feedburner.com/TechCrunch/',
 );
