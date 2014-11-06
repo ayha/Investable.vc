@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	/* main nav animation */
 	$(".navbar-nav>li>a").click(function(e){
-		if($(".member_content").length ==0){
+		if($("#home_content").length ==1){
 		e.preventDefault();
 		var alias = $(this).data("alias");
 		scrollToSection(alias);
@@ -156,7 +156,7 @@ $(document).ready(function(){
     				 
     				if(status=="success" && xhr.responseText=="1"){  //success
     				   
-    				  // form.html("Message Sent.");
+    				  
     				  form.hide();
     				  form.parent().children(".form_message").show();
     				}else{
@@ -166,6 +166,42 @@ $(document).ready(function(){
     			}
     		})    	
     });
+    
+    $(".member_tools a.tool_button").each(function(){
+    	
+    	$(this).qtip({ // Grab some elements to apply the tooltip to
+	    	content: {
+	        	text: $(this).attr("title")
+	    	},
+   			 position: {
+		        my: 'top center',  // Position my top left...
+		        at: 'bottom center', // at the bottom right of...
+		       
+		    },
+		    style: {
+       			classes: 'qtip-dark qtip-shadow'
+    		}
+	    	
+		});
+	});
+	
+	$(".reward_badge").each(function(){
+		$(this).qtip({ // Grab some elements to apply the tooltip to
+	    	content: {
+	        	text: $(this).children(".reward_content").html()
+	    	},
+   			 position: {
+		        my: 'bottom left',  // Position my top left...
+		        at: 'left center', // at the bottom right of...
+		       
+		    },
+		    style: {
+       			classes: 'qtip-light qtip-shadow'
+    		}
+	    	
+		});
+	});
+	
 });
 
 // function definitions
@@ -208,4 +244,79 @@ function scrollToSection(target_section){
             	}
             }
 
+function insertParam(key, value)
+{
+    key = encodeURI(key); value = encodeURI(value);
 
+    var kvp = document.location.search.substr(1).split('&');
+
+    var i=kvp.length; var x; while(i--) 
+    {
+        x = kvp[i].split('=');
+
+        if (x[0]==key)
+        {
+            x[1] = value;
+            kvp[i] = x.join('=');
+            break;
+        }
+    }
+
+    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
+
+    //this will reload the page, it's likely better to store this until finished
+    document.location.search = kvp.join('&'); 
+}
+
+// LINKEDIN LOGIN
+
+ // 2. Runs when the JavaScript framework is loaded
+  function onLinkedInLoad() {
+    //IN.Event.on(IN, "auth", onLinkedInAuth);
+  }
+
+  // 2. Runs when the viewer has authenticated
+  function onLinkedInAuth() {
+    IN.API.Profile("me").fields(["id","firstName","lastName","emailAddress", "summary"]).result(linkedin_login);
+  }
+
+  // 2. Runs when the Profile() API call returns successfully
+  function linkedin_login(profiles) {
+    /*
+    member = profiles.values[0];
+     console.log(member);
+    document.getElementById("profiles").innerHTML = 
+      "<p id=\"" + member.id + "\">Hello " +  member.firstName + " " + member.lastName + " " + member.emailAddress+"</p>";
+      */
+     member = profiles.values[0];
+     console.log(member);
+     $.ajax("processors/linkedin-login-check.html", {
+     	type: "POST",
+     	data: {"email": member.emailAddress, "token":member.id},
+     	complete: function(xhr,status){
+     	//console.log(xhr.responseText);
+     		if(xhr.responseText == "login"){
+     			linkedin_login_attempt(member.emailAddress, member.id);
+     		}else if(xhr.responseText = "register"){
+     			
+     			
+     		}
+     	}
+     	
+     }) ; 
+  }
+  
+function linkedin_login_attempt(email, token){
+	$.ajax("/en/member/login.html",{
+		type: "POST",
+		data: {"username": email, "password": token },
+		complete: function(xhr, status){
+			console.log(xhr.responseText);
+		}
+		
+	})
+}
+
+function linkedin_regsiter_attemp(username, firstname, lastname, summary, token, photo){	
+
+}

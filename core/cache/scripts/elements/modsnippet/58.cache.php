@@ -47,6 +47,10 @@ if(!$sourceid = $modx->getOption(\'modavatar.default_media_source\', null)){
 if($source = $modx->getObject(\'sources.modMediaSource\', $sourceid) AND $source->initialize()){
     $data[\'photo\'] = $source->getObjectUrl($data[\'photo\']);
 }
+
+if($data["photo"] == "/"){
+   $data["photo"] = "/assets/images/default_profile.png";
+}
 if($tpl){
     return $modx->getChunk($tpl, $data);
 }

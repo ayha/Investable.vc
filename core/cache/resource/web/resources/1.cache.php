@@ -17,9 +17,9 @@
     'isfolder' => 0,
     'introtext' => '',
     'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
-<h1 class="site-tagline" style="text-align: center;">Curated. Scalable. Diversified. Efficient. Transparent. User-friendly. Invest in Asia. No fees. Be part of it.</h1>
+<h1 class="site-tagline" style="text-align: center;">Invest in Asia. Curated. Scalable. Diversified. Efficient. No fees. <br />Be part of it.</h1>
 <blockquote>
-<h2 style="text-align: center;"><a href="[[~10]]">Get involved</a> in the startup landscape in Asia</h2>
+<h2 style="text-align: center;">Connects professional investors to curated startups</h2>
 </blockquote>',
     'richtext' => 1,
     'template' => 2,
@@ -29,7 +29,7 @@
     'createdby' => 1,
     'createdon' => 1413180619,
     'editedby' => 1,
-    'editedon' => 1415027212,
+    'editedon' => 1415161636,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -118,6 +118,22 @@
 <!-- End Share This -->
 
 
+
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
+
+<!-- qtip2 -->
+<link href="/assets/lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/assets/lib/qtip2/jquery.qtip.min.js"></script>
+<!-- end qtip2 -->
+
 <script src="/assets/lib/js/investable.js"></script>
 
 
@@ -140,7 +156,7 @@
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
+           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Investment Opportunities</a> 
            <a class="btn logout_button" href="en/index.html?service=logout" title="Logout" id="[[+alias]]">Logout</a> 
          `]]
 
@@ -159,8 +175,8 @@
 	  <a class="navbar-brand" href="http://v2.investable.vc/">Investable.vc</a>
 	</div>
 	<div class="collapse navbar-collapse">
-
-	  <ul class="nav navbar-nav">
+           
+            <ul class="nav navbar-nav">
 	<li  class="first">
 	<a href="[[*url]]#news"  data-alias="news">The Press</a>
 	
@@ -199,11 +215,14 @@
 
 </ul>
 
+          
 	</div><!--/.nav-collapse -->
   </div>
 </div>
 		<div class="container main_content" id="home_content">
-		   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:!=":0, "AND:template:!=":36}` ]]
+                   
+                   [[!getResources? &parents=`2`  &tpl=`home_section` &sortby=`{"menuindex":"ASC","id":"ASC"}` &limit=`0` &depth=`0` &showHidden=`1` &includeContent=`1` &hideContainers=`0` &includeTVs=`1` &where=`{"template:NOT IN":[0,36]}` ]]
+                 
 		</div>
 		<div id="footer">
 	<div class="container">
@@ -223,12 +242,11 @@
 
 <!-- include hidden elements on the page -->
 <div class="hidden">
-
+[[!checkLogin:is=`0`:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
-
+`]]
 </div>
-
 	</body>
 </html>',
     '_isForward' => false,
@@ -316,6 +334,22 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <!-- End Share This -->
 
 
+
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
+
+<!-- qtip2 -->
+<link href="/assets/lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/assets/lib/qtip2/jquery.qtip.min.js"></script>
+<!-- end qtip2 -->
+
 <script src="/assets/lib/js/investable.js"></script>
 
 
@@ -324,6 +358,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     '[[UltimateParent? &topLevel=`1`]]' => 2,
     '[[~43]]' => 'en/member/dashboard.html',
     '[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Dashboard',
+    '[[%investable.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Investment Opportunities',
     '[[~1? &service=logout]]' => 'en/index.html?service=logout',
     '[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Logout',
     '[[UltimateParent?  &topLevel=`1`]]' => 2,
@@ -334,7 +369,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`
 		&innerRowTpl=`Wayfinder.innerRowTpl`
-		&rowTpl=`Wayfinder.rowTpl`                    
+		&rowTpl=`Wayfinder.rowTpl`
+                                
 	  ]]' => '<ul class="nav navbar-nav">
 	<li  class="first">
 	<a href="[[*url]]#news"  data-alias="news">The Press</a>
@@ -389,7 +425,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`2` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Dashboard</a> 
+           <a class="btn profile_button" href="en/member/dashboard.html" title="Dashboard" id="[[+alias]]">Investment Opportunities</a> 
            <a class="btn logout_button" href="en/index.html?service=logout" title="Logout" id="[[+alias]]">Logout</a> 
          `]]
 
@@ -408,8 +444,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="http://v2.investable.vc/">Investable.vc</a>
 	</div>
 	<div class="collapse navbar-collapse">
-
-	  <ul class="nav navbar-nav">
+           
+            <ul class="nav navbar-nav">
 	<li  class="first">
 	<a href="[[*url]]#news"  data-alias="news">The Press</a>
 	
@@ -448,6 +484,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 </ul>
 
+          
 	</div><!--/.nav-collapse -->
   </div>
 </div>',
@@ -470,19 +507,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- include hidden elements on the page -->
 <div class="hidden">
-
+[[!checkLogin:is=`0`:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
-
-</div>
-',
+`]]
+</div>',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
     '[[~11]]' => 'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html',
-    '[[~34]]' => 'en/news/techcrunch2.html',
-    '[[~35]]' => 'en/news/techcrunch3.html',
     '[[~17]]' => 'en/misc/legal-documents.html',
-    '[[~15]]' => 'en/misc/terms-and-conditions.html',
+    '[[~15]]' => 'en/misc/terms.html',
     '[[~16]]' => 'en/misc/privacy-policies.html',
   ),
   'sourceCache' => 
@@ -494,7 +528,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         'fields' => 
         array (
           'id' => 4,
-          'source' => 0,
+          'source' => 1,
           'property_preprocess' => false,
           'name' => 'Head',
           'description' => '',
@@ -566,6 +600,22 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <!-- End Share This -->
 
 
+
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
+
+<!-- qtip2 -->
+<link href="[[++assets_url]]lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="[[++assets_url]]lib/qtip2/jquery.qtip.min.js"></script>
+<!-- end qtip2 -->
+
 <script src="[[++assets_url]]lib/js/investable.js"></script>
 
 
@@ -575,8 +625,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'properties' => 
           array (
           ),
-          'static' => false,
-          'static_file' => '',
+          'static' => true,
+          'static_file' => 'assets/chunks/head.html',
           'content' => '<meta charset="[[++modx_charset]]">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -642,6 +692,22 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <!-- End Share This -->
 
 
+
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
+
+<!-- qtip2 -->
+<link href="[[++assets_url]]lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="[[++assets_url]]lib/qtip2/jquery.qtip.min.js"></script>
+<!-- end qtip2 -->
+
 <script src="[[++assets_url]]lib/js/investable.js"></script>
 
 
@@ -656,6 +722,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'source' => 
         array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
       'Navbar' => 
@@ -685,7 +759,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="[[~43]]" title="[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
+           <a class="btn profile_button" href="[[~43]]" title="[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
            <a class="btn logout_button" href="[[~1? &service=logout]]" title="[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
          `]]
 
@@ -704,16 +778,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="[[++site_url]]">[[++site_name]]</a>
 	</div>
 	<div class="collapse navbar-collapse">
-
-	  [[Wayfinder?
+           
+            [[Wayfinder?
 		&startId=`[[UltimateParent?  &topLevel=`1`]]`
 		&level=`1`
 		&outerTpl=`Wayfinder.outerTpl`
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`
 		&innerRowTpl=`Wayfinder.innerRowTpl`
-		&rowTpl=`Wayfinder.rowTpl`                    
+		&rowTpl=`Wayfinder.rowTpl`
+                                
 	  ]]
+          
 	</div><!--/.nav-collapse -->
   </div>
 </div>',
@@ -738,7 +814,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
          [[!checkLogin:is=`0`:then=`
          [[!getResources? &parents=`[[UltimateParent? &topLevel=`1`]]` &depth=`3` &tpl=`joinus_buttons`  &showHidden=`1`  &sortby=`{"menuindex":"ASC"}` &where=`{"template:=":12, "OR:template:=":13}`]]
          `:else=`
-           <a class="btn profile_button" href="[[~43]]" title="[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
+           <a class="btn profile_button" href="[[~43]]" title="[[%investable.dashboard? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.portfolio? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
            <a class="btn logout_button" href="[[~1? &service=logout]]" title="[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]" id="[[+alias]]">[[%investable.logout? &topic=`default` &namespace=`investable` &language=`en`]]</a> 
          `]]
 
@@ -757,16 +833,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	  <a class="navbar-brand" href="[[++site_url]]">[[++site_name]]</a>
 	</div>
 	<div class="collapse navbar-collapse">
-
-	  [[Wayfinder?
+           
+            [[Wayfinder?
 		&startId=`[[UltimateParent?  &topLevel=`1`]]`
 		&level=`1`
 		&outerTpl=`Wayfinder.outerTpl`
 		&innerTpl=`Wayfinder.innerTpl`
 		&parentRowTpl=`Wayfinder.parentRowTpl`
 		&innerRowTpl=`Wayfinder.innerRowTpl`
-		&rowTpl=`Wayfinder.rowTpl`                    
+		&rowTpl=`Wayfinder.rowTpl`
+                                
 	  ]]
+          
 	</div><!--/.nav-collapse -->
   </div>
 </div>',
@@ -811,12 +889,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- include hidden elements on the page -->
 <div class="hidden">
-
+[[!checkLogin:is=`0`:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
-
-</div>
-',
+`]]
+</div>',
           'locked' => false,
           'properties' => 
           array (
@@ -841,12 +918,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 <!-- include hidden elements on the page -->
 <div class="hidden">
-
+[[!checkLogin:is=`0`:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
-
-</div>
-',
+`]]
+</div>',
         ),
         'policies' => 
         array (

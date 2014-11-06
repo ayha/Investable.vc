@@ -36,14 +36,14 @@
  	
  }
  .carousel-caption p {
-    margin-bottom: 20px;
- 	font-size:1em;
+    margin-bottom: 5px;
+ 	font-size:1.05em;
   	color:#fff;
  }
  
   .carousel-caption ul li {
-    margin-bottom: 10px;
- 	font-size:1em;
+    margin-bottom: 5px;
+ 	font-size:1.05em;
  	color:#fff;
   
   }
@@ -60,7 +60,7 @@
 }
 
 #about-slide{
-	height:650px;
+	height:500px;
 	
 }
 
@@ -70,7 +70,7 @@
 
 #about-slide .item{
 	background-color:#B63B68;
-	height:650px;
+	height:500px;
 	
 }
 
@@ -85,7 +85,7 @@
 
 
 #about-slide .carousel-inner > .item > img {
-	height:650px;
+	height:500px;
 	
 }
 

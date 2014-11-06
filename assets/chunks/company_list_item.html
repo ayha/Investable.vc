@@ -6,24 +6,30 @@
 			[[+tv.country]]
 		</div>
 		`]]
+		<div class="company_badges">[[+tv.youtube:ne=``:then=`<div class="startup_badge video_badge"><a href="[[+tv.youtube]]" target="_blank" class="watch_video  fancybox.iframe">[[%startups.watch_live_pitch? &topic=`default` &namespace=`investable` &language=`en`]]</a></div>
+			`]][[+tv.rewards:ne=``:then=`<div class="startup_badge reward_badge">[[%startups.rewards? &topic=`default` &namespace=`investable` &language=`en`]]<div class="hidden reward_content">[[+tv.rewards]]</div></div>
+			`]]
+			
+			
+		</div>
 	</div>
 	<div class="startup_quickinfo col-md-9 col-xs-7">
 		<h3>[[+longtitle]]</h3>
+		<div class="industry">[[+tv.industry]]</div>
 		<div class="short_intro">[[+introtext]]
-			<a href="[[~[[+id]]]]" class="seefullpitch">[[%startups.see_full_pitch? &topic=`default` &namespace=`investable` &language=`en`]]</a>
+			<p><a href="[[~[[+id]]]]" class="seefullpitch">[[%startups.see_full_pitch? &topic=`default` &namespace=`investable` &language=`en`]]</a></p>
 		</div>
-		<div class="company_badges">
-			[[+tv.youtube:ne=``:then=`
-			   <div class="startup_badge video_badge"><a href="[[+tv.youtube]]" target="_blank" class="watch_video  fancybox.iframe">Watch Video</a></div>
-			`]]
-			
-			[[+tv.rewards:ne=``:then=`
-				<div class="startup_badge reward_badge">Rewards</div>
-			`]]
-			
+		
+		<div class="investment_badges">
 			[[+tv.invested_by_nest:ne=``:then=`
-				<div class="startup_badge nest_badge">Invested by </div>
+				<div class="startup_badge nest_badge">[[%startups.invested_by? &topic=`default` &namespace=`investable` &language=`en`]]</div>
 			`]]
+			
+			[[+tv.invested_by_angellist:ne=``:then=`
+				<div class="startup_badge angellist_badge">[[%startups.invested_by? &topic=`default` &namespace=`investable` &language=`en`]]</div>
+			`]]
+			
+			
 			
 		</div>
 		<div class="quickfacts">
@@ -44,7 +50,7 @@
 			</div>
 			`]]
 			<div class="col-md-2 col-xs-6 fact_item round">
-				<span class="fact_number">[[+tv.round]]</span><span class="fact_title">[[%startups.round? &topic=`default` &namespace=`investable` &language=`en`]]</span>
+				<span class="fact_number">[[+tv.stage]]</span><span class="fact_title">[[%startups.stage? &topic=`default` &namespace=`investable` &language=`en`]]</span>
 			</div>
 			<div class="col-md-2 col-xs-6 fact_item timeleft">
 				<span class="fact_number"></span><span class="fact_title">[[%startups.days_left? &topic=`default` &namespace=`investable` &language=`en`]]</span>

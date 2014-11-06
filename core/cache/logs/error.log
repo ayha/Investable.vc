@@ -6696,3 +6696,188 @@ Array
 [2014-11-04 18:18:09] (ERROR @ /index.php) No foreign key definition for parentClass: modUser using relation alias: profile
 [2014-11-04 18:56:52] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-11-04 18:57:28] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 22:47:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:01:40] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:04:57] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:11:05] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:11:44] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:13:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:14:55] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:19:04] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:24:41] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:33:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:43:57] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:46:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:49:28] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:50:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:51:33] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-04 23:54:42] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:55:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-04 23:55:40] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 00:06:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:19:39] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:20:10] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:24:43] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:24:53] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:34:34] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:34:41] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 09:43:13] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-05 09:43:13] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-05 10:07:09] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 10:07:09] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 10:07:09] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 12' at line 1
+)
+
+[2014-11-05 10:08:32] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 10:08:32] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 10:08:32] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 13' at line 1
+)
+
+[2014-11-05 10:22:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 10:24:40] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 10:25:01] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 10:26:12] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 10:32:26] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 10:32:26] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 10:32:26] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 14' at line 1
+)
+
+[2014-11-05 10:38:43] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 10:42:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:04:28] (ERROR @ /index.php) Could not cache resource 1
+[2014-11-05 11:36:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:41:29] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:43:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:43:07] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:43:30] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 11:44:28] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:01:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:01:55] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:03:41] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:05:43] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:16:42] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:17:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:19:03] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:19:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:26:23] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:27:16] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:35:35] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:41:35] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:42:20] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:44:01] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:44:01] (ERROR @ /connectors/index.php) Could not cache context settings for web.
+[2014-11-05 12:45:35] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:47:52] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:49:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:49:32] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:50:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:54:29] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 12:57:26] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 14:28:35] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 14:28:35] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 14:28:35] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 15' at line 1
+)
+
+[2014-11-05 14:37:49] (ERROR @ /connectors/system/phpthumb.php) phpThumb was unable to generate a thumbnail for: /var/www/vhosts/v2.investable.vc/html/core/cache/phpthumb/v2.investable.vc__src384c9ca8dfabc61aa43559f48278ac9f_par5df3dad6621628fd102555d4b8000f6e_dat0.jpeg
+[2014-11-05 14:37:49] (ERROR @ /connectors/system/phpthumb.php) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 572
+[2014-11-05 14:37:49] (ERROR @ /connectors/system/phpthumb.php) phpThumb was unable to generate a thumbnail for: /var/www/vhosts/v2.investable.vc/html/core/cache/phpthumb/v2.investable.vc__src384c9ca8dfabc61aa43559f48278ac9f_par5df3dad6621628fd102555d4b8000f6e_dat0.jpeg
+[2014-11-05 14:37:49] (ERROR @ /connectors/system/phpthumb.php) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 572
+[2014-11-05 14:38:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 14:38:17] (ERROR @ /index.php) Could not cache resource 1
+[2014-11-05 14:54:01] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-05 14:54:01] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-05 15:08:35] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-05 15:08:35] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-05 15:49:52] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 15:53:50] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 15:55:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 15:57:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 15:57:34] (ERROR @ /index.php) Could not cache resource 1
+[2014-11-05 16:01:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:07:28] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:08:58] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:09:40] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:12:03] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 16:12:03] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 16:12:03] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 11' at line 1
+)
+
+[2014-11-05 16:14:18] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:15:16] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-05 16:16:56] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:17:18] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:18:16] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:18:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:39:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:40:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:41:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 16:42:01] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-05 18:48:59] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 18:48:59] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 18:48:59] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 9' at line 1
+)
+
+[2014-11-05 18:49:08] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 18:49:08] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 18:49:08] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 10' at line 1
+)
+
+[2014-11-05 18:49:14] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-05 18:49:14] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-05 18:49:14] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 6' at line 1
+)
+
+[2014-11-05 19:54:27] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-05 19:54:27] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-06 09:50:53] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 09:55:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 09:55:46] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 09:56:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 12:30:31] (ERROR @ /index.php) `en/team/investable-team/emmanuelle-norchet.html` is not a valid integer and may not be passed to makeUrl()
+[2014-11-06 12:30:31] (ERROR @ /index.php) Attempted to redirect to an empty URL.
+[2014-11-06 12:48:44] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 12:59:43] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 13:08:26] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-06 13:11:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!

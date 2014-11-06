@@ -44,8 +44,8 @@
     ),
     6 => 
     array (
-      0 => 13,
-      1 => 26,
+      0 => 26,
+      1 => 13,
       2 => 27,
     ),
     8 => 
@@ -107,6 +107,9 @@
     array (
       0 => 37,
       1 => 55,
+      2 => 83,
+      3 => 90,
+      4 => 91,
     ),
     38 => 
     array (
@@ -122,6 +125,11 @@
       9 => 80,
       10 => 81,
       11 => 82,
+      12 => 84,
+      13 => 86,
+      14 => 87,
+      15 => 88,
+      16 => 89,
     ),
     76 => 
     array (
@@ -154,8 +162,8 @@
     'en/how/equity-b-shares.html' => 20,
     'en/how/equity-a-shares.html' => 21,
     'en/stories/foodie.html' => 12,
-    'en/about/why-investable.html' => 13,
     'en/about/what-is-investable.html' => 26,
+    'en/about/why-investable.html' => 13,
     'en/about/becoming-a-member.html' => 27,
     'en/member/join-us.html' => 9,
     'en/member/login.html' => 10,
@@ -171,7 +179,7 @@
     'en/member/member-newsfeed.html' => 53,
     'en/member/message-center.html' => 52,
     'en/member/connections.html' => 54,
-    'en/misc/terms-and-conditions.html' => 15,
+    'en/misc/terms.html' => 15,
     'en/misc/privacy-policies.html' => 16,
     'en/misc/legal-documents.html' => 17,
     'en/faqs/q1.html' => 23,
@@ -199,7 +207,10 @@
     'en/team/investable-team/jess-cheung.html' => 33,
     'en/startup-companies/bitspark.html' => 37,
     'en/startup-companies/foodie.html' => 55,
-    'processors/login-action.html' => 39,
+    'en/startup-companies/shangrila-farms.html' => 83,
+    'en/startup-companies/infonation.html' => 90,
+    'en/startup-companies/playto.html' => 91,
+    'processors/login-action/' => 39,
     'processors/investor-register-action.html' => 40,
     'processors/startup-register-action.html' => 41,
     'processors/send-message-action.html' => 56,
@@ -211,6 +222,11 @@
     'processors/favourite-company-action.html' => 80,
     'processors/support-company-action.html' => 81,
     'processors/follow-company-action.html' => 82,
+    'processors/linkedin-login-action.html' => 84,
+    'processors/linkedin-register-action.html' => 86,
+    'processors/linkedin-login-check.html' => 87,
+    'processors/success.html' => 88,
+    'processors/fail.html' => 89,
     'en/team/advisory-board/simon-squibb.html' => 77,
     'en/team/advisory-board/lawrence-morgan.html' => 78,
   ),

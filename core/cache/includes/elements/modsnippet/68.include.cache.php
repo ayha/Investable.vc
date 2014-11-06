@@ -1,6 +1,12 @@
 <?php
-$q = "SELECT * FROM ext_stage ORDER BY stage ASC";
+$config = $modx->getConfig();
+
+$q = "SELECT s.* FROM ext_stage s WHERE hidden !='1' ORDER BY s.sort_order ASC, s.stage ASC";
 $result = $modx->query($q);
+$selected = "";
+if(isset($_GET["stage"])){
+   $selected = $_GET["stage"];
+}
 
 if (!is_object($result)) {
    return false;
@@ -10,6 +16,9 @@ if (!is_object($result)) {
       $rowOutput = Array();
       $rowOutput["value"] = $row["stage"];
       $rowOutput["display_text"] = $row["stage"];
+      if($row["stage"] == $selected){
+         $rowOutput["selected"] = "selected";
+      }
       $output .= $modx->getChunk("option_item", $rowOutput);
    }
    return $output;

@@ -17,7 +17,7 @@ img{
 	
 } 
 
-a:link, a:hover, a:active, a:visited{
+a, a:link, a:hover, a:active, a:visited{
 	color:#a40a42;
 	text-decoration:none;
 	
@@ -118,10 +118,11 @@ a.btn:hover{
 
 a.navbar-brand{
 	text-indent:-9999px;
-	background:url(../../../images/investable-logo-small.png) 25px top no-repeat transparent;
-	width:220px;
-	height:45px;
-	margin-top:10px;
+	background:url(../../../images/investable-logo-small.png) 15px top no-repeat transparent;
+
+	width:205px;
+	height:35px;
+	margin-top:20px;
 }
 
 .navbar-nav{
@@ -185,7 +186,7 @@ h1{
 
 h2{
 	font-size:1.1em;
-	padding:5px 10px;
+	padding:5px 10px 5px 0;
 	background-color:#ffffff;	
 	display:inline-block;
 	line-height:1.2em;
@@ -193,6 +194,10 @@ h2{
 	position:relative;
 	margin:0;
 	text-transform:uppercase;
+}
+
+.section_header h2{
+	padding:5px 10px;
 }
 
 h3{
@@ -537,12 +542,15 @@ label{
 .member_tools a.tool_button{
 	position:relative;
 	display:inline-block;
-	width:24px;
+	width:36px;
 	
 	margin-left:10px;
 	
 }
 
+.member_tools a.tool_button .member_tool_title{
+	display:none;
+}
 
 .member_tools a.tool_button span.count{
 	position:absolute;
@@ -622,11 +630,13 @@ h2.module_head {
 
 
 .startup_item .startup_logo{
-	height:150px;
+	height:180px;
 	border:1px solid #ccc;
 	background-color:#fff;
 	
 }
+
+
 
 .startup_item .founded_in{
 	display:block;
@@ -646,22 +656,27 @@ a.seefullpitch{
 }
 
 .company_badges{
-	text-align:right;
+	text-align:left;
 	
-	padding: 10px 5px;
+	padding: 10px 0px;
+}
+
+.project_logo .company_badges{
+	text-align:left;
+	
 }
 
 .startup_badge{
 	display:inline-block;
-	margin-left:15px;
+	margin:5px 10px 0 0;
 	padding:7px 10px;
 	border:2px solid #73072e;
 	background-color:#73072e;
 	font-size:0.7em;
-	
+	cursor:pointer;
 	text-transform:uppercase;
 	color:#fff;
-	margin-bottom:5px;
+	
 	-webkit-border-radius: 7px;
 -moz-border-radius: 7px;
 border-radius: 7px;  	
@@ -695,11 +710,29 @@ border-radius: 7px;
 	background-repeat:no-repeat;
 }  
 
+.investment_badges{
+	text-align:right;
+	
+}
+
+.investment_badges .startup_badge{
+	
+	margin:0 15px 10px 0;
+}
+
 .nest_badge{
 	padding-right:75px;
 	background-image:url(/assets/images/nest_logo_white_small.png);
 	background-position: right center;
 	background-repeat:no-repeat;
+}
+
+.angellist_badge{
+	padding-right:103px;
+	background-image:url(/assets/images/angellist_logo_white_small.png);
+	background-position: right center;
+	background-repeat:no-repeat;
+	
 }
 
 .startup_item .startup_quickinfo{
@@ -746,13 +779,19 @@ border-radius: 7px;
 
 .startup_item h3{
   margin:0;
-
-  margin-bottom:10px;
+  margin-bottom:5px;
+  padding:0;
   font-size:1.2em;
   text-transform: uppercase;
 } 
 
-
+.startup_item .industry{
+	color:#a40a42;
+	font-size:0.9em;
+	
+	margin-bottom:15px;
+	
+}
 
 .startup_item .short_intro{
 	font-size:0.9em;
@@ -1017,6 +1056,27 @@ border-radius: 7px;
 	font-size: 1em;
 }
 
+.testimonial{
+	background:#ededed;
+	font-size:1em;
+	font-style:italic;
+	font-weight:bold;
+	padding:20px;
+	margin-bottom:15px;
+}
+
+
+.testimonial_from{
+	font-size:0.85em;
+	font-style:normal;
+	margin-top:10px;
+	max-width:350px;
+	
+}
+
+.testimonial_from .title{
+	font-weight:normal;
+}
 
 #feed_content{
 	width:100%;
