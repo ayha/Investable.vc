@@ -25,7 +25,7 @@
 	padding: 0;
 }
 .dcsns-loading {
-	background: url(../images/loading_light.gif) no-repeat 0 0;
+	background: url(images/loading_light.gif) no-repeat 0 0;
 	height: 24px;
 	padding: 6px 0 0 30px;
 	position: absolute;
@@ -125,7 +125,7 @@
 	float: left;
 	padding: 7px 0 0 15px;
 	line-height: 12px;
-	background: url(../images/profile.png) no-repeat 0 7px;
+	background: url(images/profile.png) no-repeat 0 7px;
 }
 .stream li .meta {
 	display: block;
@@ -140,25 +140,25 @@
 	line-height: 12px;
 }
 .meta span.shares {
-	background: url(../images/shares.png) no-repeat 0 0;
+	background: url(images/shares.png) no-repeat 0 0;
 	padding-left: 20px;
 }
 .meta span.views {
-	background: url(../images/views.png) no-repeat 0 0;
+	background: url(images/views.png) no-repeat 0 0;
 	padding-left: 18px;
 }
 .meta span.likes {
-	background: url(../images/likes.png) no-repeat 0 0;
+	background: url(images/likes.png) no-repeat 0 0;
 	padding-left: 16px;
 }
 .meta span.comments {
-	background: url(../images/comments.png) no-repeat 0 0;
+	background: url(images/comments.png) no-repeat 0 0;
 }
 .meta span.users {
-	background: url(../images/users.png) no-repeat 0 0;
+	background: url(images/users.png) no-repeat 0 0;
 }
 .meta span.videos {
-	background: url(../images/videos.png) no-repeat 0 0;
+	background: url(images/videos.png) no-repeat 0 0;
 	padding-left: 16px;
 }
 .stream li .section-meta {
@@ -211,7 +211,7 @@
 	height: 16px;
 	float: left;
 	margin: 0 2px 0 0;
-	background: url(../images/share.png) no-repeat 0 0;
+	background: url(images/share.png) no-repeat 0 0;
 }
 .stream li .section-share a.share-twitter {
 	background-position: 0 -16px;
@@ -314,7 +314,7 @@
 	height: 22px;
 	float: left;
 	margin: 0 0 0 2px;
-	background: url(../images/controls.png) no-repeat 0 0;
+	background: url(images/controls.png) no-repeat 0 0;
 }
 .dcsns .controls .prev {
 	background-position: -44px 0;
@@ -546,7 +546,7 @@
 }
 /* lastfm */
 .stream li.dcsns-lastfm .section-title {
-	background: url(../images/tracks.png) no-repeat 0 0;
+	background: url(images/tracks.png) no-repeat 0 0;
 	padding-left: 17px;
 	margin-bottom: 0;
 }
@@ -569,7 +569,7 @@
 }
 .stream li.dcsns-tumblr .track {
 	display: block;
-	background: url(../images/tracks.png) no-repeat 0 5px;
+	background: url(images/tracks.png) no-repeat 0 5px;
 	padding: 5px 0 0 17px;
 	margin-bottom: 0;
 }

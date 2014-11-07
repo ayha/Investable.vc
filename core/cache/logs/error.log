@@ -7159,3 +7159,805 @@ Array
 [2014-11-06 18:13:14] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
 [2014-11-06 18:13:14] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
 [2014-11-06 18:13:14] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-06 23:24:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 15) PHP warning: json_decode() expects parameter 1 to be string, array given
+[2014-11-06 23:50:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:25] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:50:32] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 33) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:51:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:54:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:15] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:55:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:56:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:57:43] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:20] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:58:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:59:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:59:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:59:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-06 23:59:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:00:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 32) PHP warning: in_array() expects parameter 2 to be array, null given
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:27:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 00:28:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(/assets/images/members/uploads/1415291326_): failed to open stream: No such file or directory
+[2014-11-07 00:28:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(): Unable to move '/tmp/phpQeGjpL' to '/assets/images/members/uploads/1415291326_'
+[2014-11-07 00:31:58] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(/assets/images/members/uploads/1415291518_investment_icon_64.png): failed to open stream: No such file or directory
+[2014-11-07 00:31:58] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(): Unable to move '/tmp/phpGwmD8j' to '/assets/images/members/uploads/1415291518_investment_icon_64.png'
+[2014-11-07 00:52:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(/assets/images/members/uploads/1415292739_investment_icon_64.png): failed to open stream: No such file or directory
+[2014-11-07 00:52:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(): Unable to move '/tmp/phpWSyeTs' to '/assets/images/members/uploads/1415292739_investment_icon_64.png'
+[2014-11-07 00:54:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(/assets/images/members/1415292841_investment_icon_64.png): failed to open stream: No such file or directory
+[2014-11-07 00:54:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 14) PHP warning: move_uploaded_file(): Unable to move '/tmp/phpCyBOIx' to '/assets/images/members/1415292841_investment_icon_64.png'
+[2014-11-07 01:10:08] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/81.include.cache.php : 53) PHP warning: mkdir(): File exists
+[2014-11-07 01:12:06] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-07 09:52:39] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 10:06:46] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-07 10:06:46] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-07 10:06:46] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 5' at line 1
+)
+
+[2014-11-07 10:41:32] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-07 10:41:32] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-07 10:41:32] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 362' at line 1
+)
+
+[2014-11-07 10:41:48] (ERROR @ /index.php) modUser: Attempt to set NOT NULL field username to NULL
+[2014-11-07 10:41:48] (ERROR @ /index.php) modUserProfile: Attempt to set NOT NULL field email to NULL
+[2014-11-07 10:43:12] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-07 10:43:12] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-07 10:43:12] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 363' at line 1
+)
+
+[2014-11-07 10:55:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modparser.class.php : 279) Recoverable error: Object of class modProcessorResponse could not be converted to string
+[2014-11-07 10:55:49] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modparser.class.php : 279) Recoverable error: Object of class modProcessorResponse could not be converted to string
+[2014-11-07 10:55:55] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modparser.class.php : 279) Recoverable error: Object of class modProcessorResponse could not be converted to string
+[2014-11-07 10:56:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/model/modx/modparser.class.php : 279) Recoverable error: Object of class modProcessorResponse could not be converted to string
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:56:21] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:00] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:57:56] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:31] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:58:44] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:12] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 10:59:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/74.include.cache.php : 68) PHP warning: json_encode(): recursion detected
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:46:16] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:50:05] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-07 11:50:05] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-07 11:50:05] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 364' at line 1
+)
+
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 11:59:37] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:02:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-07 12:02:13] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-07 12:02:19] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:12:40] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/58.include.cache.php : 50) PHP warning: strpos() expects at least 2 parameters, 1 given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:13:24] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:14:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:03] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:29] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:21:30] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:22:19] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 12:33:46] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:34:35] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:22] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:35:33] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 13:36:05] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:13:01] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 16) PHP warning: Invalid argument supplied for foreach()
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:16:41] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:19:04] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:26:02] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/80.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-07 14:46:37] (ERROR @ /connectors/index.php) Could not get table class for class: modAccess
+[2014-11-07 14:46:37] (ERROR @ /connectors/index.php) Could not get table name for class: modAccess
+[2014-11-07 14:46:37] (ERROR @ /connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 365' at line 1
+)
+

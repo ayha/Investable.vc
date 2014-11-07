@@ -56,7 +56,7 @@
   'emailsender' => 'alex@investable.vc',
   'emailsubject' => 'Welcome to Investable',
   'enable_dragdrop' => '1',
-  'error_page' => '42',
+  'error_page' => '93',
   'failed_login_attempts' => '5',
   'fe_editor_lang' => 'en',
   'feed_modx_news' => 'http://feeds.feedburner.com/modx-announce',

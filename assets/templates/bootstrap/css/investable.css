@@ -42,6 +42,11 @@ h1, h2, h3, h4,h5,h6{
 	
 }
 
+select[multiple]{
+	height:75px;
+	width:150px;
+}
+
 
 .navbar-top{
 	background: #333333;
@@ -1160,7 +1165,7 @@ border-radius: 7px;
 	}
 	
 	.connection_list{
-		display:none;
+	
 	}
 	
 	#my_connections .connection_list{

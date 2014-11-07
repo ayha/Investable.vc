@@ -29,6 +29,7 @@
 				`? &getCount=`1`]]
 				<div id="my_connections">
 					<h2>[[%connection.your_connections? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+					
   				    <div class="connection_list">
   				    [[!get_my_connections? &chunk=`connection_item`]]
   				    <div class="allclear"></div>
@@ -38,6 +39,9 @@
 				</div>
 				<div id="add_connections">
 					<h2>[[%connection.add_connection? &topic=`default` &namespace=`investable` &language=`en`]]</h2>
+					<div class="add_connection_cta">
+						[[%connections.connect_to_see_investments? &topic=`default` &namespace=`investable` &language=`en`]]
+					</div>
 					<div class="connection_list">
   				    [[!get_more_connections? &chunk=`new_connection_item`]]
   				    <div class="allclear"></div>

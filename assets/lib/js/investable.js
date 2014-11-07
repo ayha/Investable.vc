@@ -202,7 +202,11 @@ $(document).ready(function(){
 		});
 	});
 	
-	
+	$("a.login_with_linkedin").click(function(e){
+		e.preventDefault();
+		// IN.Event.on(IN, "auth", onLinkedInAuth);
+		IN.User.authorize(onLinkedInAuth);
+	});
 	
 });
 
@@ -274,38 +278,35 @@ function insertParam(key, value)
 
  // 2. Runs when the JavaScript framework is loaded
   function onLinkedInLoad() {
-    //IN.Event.on(IN, "auth", onLinkedInAuth);
+  
+  	$("a.login_with_linkedin").show();
+   
   }
 
   // 2. Runs when the viewer has authenticated
   function onLinkedInAuth() {
-    IN.API.Profile("me").fields(["id","firstName","lastName","emailAddress", "summary"]).result(linkedin_login);
+    IN.API.Profile("me").fields(["id","firstName","lastName","emailAddress", "summary", "pictureUrl", "publicProfileUrl"]).result(linkedin_login);
   }
 
   // 2. Runs when the Profile() API call returns successfully
   function linkedin_login(profiles) {
-    /*
-    member = profiles.values[0];
-     console.log(member);
-    document.getElementById("profiles").innerHTML = 
-      "<p id=\"" + member.id + "\">Hello " +  member.firstName + " " + member.lastName + " " + member.emailAddress+"</p>";
-      */
+   
      member = profiles.values[0];
-     console.log(member);
+     //console.log(member);
+    
      $.ajax("processors/linkedin-login-check.html", {
      	type: "POST",
-     	data: {"email": member.emailAddress, "token":member.id},
+     	data: member,
      	complete: function(xhr,status){
-     	//console.log(xhr.responseText);
-     		if(xhr.responseText == "login"){
-     			linkedin_login_attempt(member.emailAddress, member.id);
-     		}else if(xhr.responseText = "register"){
-     			
-     			
+     
+     		if(xhr.responseText != "failed"){
+     			//linkedin_login_attempt(member.emailAddress, member.id);
+     			window.location.href=xhr.responseText;
      		}
      	}
      	
      }) ; 
+    
   }
   
 function linkedin_login_attempt(email, token){
@@ -320,5 +321,5 @@ function linkedin_login_attempt(email, token){
 }
 
 function linkedin_regsiter_attemp(username, firstname, lastname, summary, token, photo){	
-
+	
 }

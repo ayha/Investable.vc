@@ -46,12 +46,21 @@ if(!$sourceid = $modx->getOption('modavatar.default_media_source', null)){
 }
 // get full path
 if($source = $modx->getObject('sources.modMediaSource', $sourceid) AND $source->initialize()){
-    $data['photo'] = $source->getObjectUrl($data['photo']);
-}
+    // check if the photo is an external url
+     if($data["photo"] == ""){
+        $data["photo"] = "/assets/images/default_profile.png";
 
-if($data["photo"] == "/"){
-   $data["photo"] = "/assets/images/default_profile.png";
-}
+    }else if(strpos($data["photo"], "http://")!== FALSE || strpos($data["photo"], "https://") !== FALSE){
+      
+ 
+    }else{
+       $data['photo'] = $source->getObjectUrl($data['photo']);
+    }
+
+    
+
+}   
+
 if($tpl){
     return $modx->getChunk($tpl, $data);
 }

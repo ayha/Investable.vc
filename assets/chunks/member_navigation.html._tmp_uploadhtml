@@ -23,5 +23,5 @@
   <a href="[[~50]]" id="update_profile"  class="tool_button" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]">
   		<img src="/assets/images/profile_icon_36.png" title="[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]" />
   		<span class="member_tool_title">[[%member.update_profile? &topic=`default` &namespace=`investable` &language=`en`]]</span>
-  </a> 
+  </a>
 </div>
