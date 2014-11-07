@@ -21,6 +21,8 @@
 <h1 class="site-tagline" style="text-align: center;">Connects professional investors to curated startups</h1>
 <blockquote>
 <h2 style="text-align: center;">Disruptive. Scalable. Curated. Transparent. Diversified. Opportunities. No fees. Be Part of It. Fund it.</h2>
+<h2 style="text-align: center;"><a href="[[~9]]">NOT A MEMBER YET? REGISTER NOW</a></h2>
+<p> </p>
 </blockquote>',
     'richtext' => 1,
     'template' => 2,
@@ -30,7 +32,7 @@
     'createdby' => 1,
     'createdon' => 1413180619,
     'editedby' => 1,
-    'editedon' => 1415257371,
+    'editedon' => 1415353154,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -61,7 +63,8 @@
     '_content' => '<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Investable.vc - Home</title>
@@ -88,6 +91,7 @@
 <script src="/assets/components/bootstrap/vendor/js/html5shiv.js"></script>
 <script src="/assets/components/bootstrap/vendor/js/respond.min.js"></script>
 <![endif]-->
+
 
 
 <!-- Video JS -->
@@ -120,14 +124,6 @@
 
 
 
-<!-- LinkedIn -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-  api_key: 75o8vtonqq7441
-  onLoad: onLinkedInLoad
-   authorize: true
-</script>
-
-<!-- End LinkedIn -->
 
 
 <!-- qtip2 -->
@@ -135,6 +131,12 @@
 <script type="text/javascript" src="/assets/lib/qtip2/jquery.qtip.min.js"></script>
 <!-- end qtip2 -->
 
+<script src="/assets/lib/js/investable.js"></script>
+
+
+
+<base href="[[!++site_url]]" />
+		
 <!-- social media wall -->
 <link rel="stylesheet" type="text/css" href="/assets/lib/social_stream/dcsns_wall.css" media="all" />
 <link rel="stylesheet" type="text/css" href="/assets/lib/social_stream/dcsns_light.css" media="all" />
@@ -143,11 +145,7 @@
 
 <!-- end social media wall -->
 
-<script src="/assets/lib/js/investable.js"></script>
 
-
-
-<base href="[[!++site_url]]" />
 	</head>
 	<body>
 		 
@@ -255,9 +253,20 @@
 [[!checkLogin:is=``:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   //authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
 `]]
 
 </div>
+[[!log_user_visits?]]
+
 		
 			
 	</body>
@@ -289,7 +298,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
 </style>`]]' => '',
-    '[[$Head]]' => '<meta charset="UTF-8">
+    '[[$Head]]' => '
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Investable.vc - Home</title>
@@ -316,6 +326,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <script src="/assets/components/bootstrap/vendor/js/html5shiv.js"></script>
 <script src="/assets/components/bootstrap/vendor/js/respond.min.js"></script>
 <![endif]-->
+
 
 
 <!-- Video JS -->
@@ -348,28 +359,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 
-<!-- LinkedIn -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-  api_key: 75o8vtonqq7441
-  onLoad: onLinkedInLoad
-   authorize: true
-</script>
-
-<!-- End LinkedIn -->
 
 
 <!-- qtip2 -->
 <link href="/assets/lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
 <script type="text/javascript" src="/assets/lib/qtip2/jquery.qtip.min.js"></script>
 <!-- end qtip2 -->
-
-<!-- social media wall -->
-<link rel="stylesheet" type="text/css" href="/assets/lib/social_stream/dcsns_wall.css" media="all" />
-<link rel="stylesheet" type="text/css" href="/assets/lib/social_stream/dcsns_light.css" media="all" />
-<script type="text/javascript" src="/assets/lib/social_stream/jquery.social.stream.1.5.4.js"></script>
-<script type="text/javascript" src="/assets/lib/social_stream/jquery.social.stream.wall.1.3.js"></script>
-
-<!-- end social media wall -->
 
 <script src="/assets/lib/js/investable.js"></script>
 
@@ -531,12 +526,23 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 [[!checkLogin:is=``:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   //authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
 `]]
 
-</div>',
+</div>
+[[!log_user_visits?]]
+',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
-    '[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]' => '<h3><a href="en/member/join-us.html">Become a member</a> to get more updated industry news.</h3>',
+    '[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]' => '<h3 align="center" style="margin:15px auto;"><a href="en/member/join-us.html">Become a member</a> to get more updated industry news.</h3>',
     '[[~17]]' => 'en/misc/legal-documents.html',
     '[[~15]]' => 'en/misc/terms.html',
     '[[~16]]' => 'en/misc/privacy-policies.html',
@@ -557,7 +563,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'editor_type' => 0,
           'category' => 3,
           'cache_type' => 0,
-          'snippet' => '<meta charset="[[++modx_charset]]">
+          'snippet' => '
+<meta charset="[[++modx_charset]]">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>[[++site_name]] - [[*pagetitle]]</title>
@@ -593,6 +600,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <![endif]-->
 
 
+
 <!-- Video JS -->
 
 <link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen" />
@@ -623,28 +631,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 
-<!-- LinkedIn -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-  api_key: 75o8vtonqq7441
-  onLoad: onLinkedInLoad
-   authorize: true
-</script>
-
-<!-- End LinkedIn -->
 
 
 <!-- qtip2 -->
 <link href="[[++assets_url]]lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
 <script type="text/javascript" src="[[++assets_url]]lib/qtip2/jquery.qtip.min.js"></script>
 <!-- end qtip2 -->
-
-<!-- social media wall -->
-<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_wall.css" media="all" />
-<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_light.css" media="all" />
-<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.1.5.4.js"></script>
-<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.wall.1.3.js"></script>
-
-<!-- end social media wall -->
 
 <script src="[[++assets_url]]lib/js/investable.js"></script>
 
@@ -657,7 +649,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           ),
           'static' => true,
           'static_file' => 'assets/chunks/head.html',
-          'content' => '<meta charset="[[++modx_charset]]">
+          'content' => '
+<meta charset="[[++modx_charset]]">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>[[++site_name]] - [[*pagetitle]]</title>
@@ -693,6 +686,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <![endif]-->
 
 
+
 <!-- Video JS -->
 
 <link href="[[++assets_url]]lib/video-js/video-js.css" rel="stylesheet" media="screen" />
@@ -723,28 +717,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 
-<!-- LinkedIn -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-  api_key: 75o8vtonqq7441
-  onLoad: onLinkedInLoad
-   authorize: true
-</script>
-
-<!-- End LinkedIn -->
 
 
 <!-- qtip2 -->
 <link href="[[++assets_url]]lib/qtip2/jquery.qtip.min.css" rel="stylesheet" media="screen" />
 <script type="text/javascript" src="[[++assets_url]]lib/qtip2/jquery.qtip.min.js"></script>
 <!-- end qtip2 -->
-
-<!-- social media wall -->
-<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_wall.css" media="all" />
-<link rel="stylesheet" type="text/css" href="[[++assets_url]]lib/social_stream/dcsns_light.css" media="all" />
-<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.1.5.4.js"></script>
-<script type="text/javascript" src="[[++assets_url]]lib/social_stream/jquery.social.stream.wall.1.3.js"></script>
-
-<!-- end social media wall -->
 
 <script src="[[++assets_url]]lib/js/investable.js"></script>
 
@@ -902,7 +880,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         'fields' => 
         array (
           'id' => 3,
-          'source' => 0,
+          'source' => 1,
           'property_preprocess' => false,
           'name' => 'Footer',
           'description' => '',
@@ -930,15 +908,26 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 [[!checkLogin:is=``:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   //authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
 `]]
 
-</div>',
+</div>
+[[!log_user_visits?]]
+',
           'locked' => false,
           'properties' => 
           array (
           ),
-          'static' => false,
-          'static_file' => '',
+          'static' => true,
+          'static_file' => 'assets/chunks/footer.html',
           'content' => '<div id="footer">
 	<div class="container">
 		<p class="text-muted pull-right">
@@ -960,9 +949,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 [[!checkLogin:is=``:then=`
 [[!Login? &loginTpl=`login_form` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`43` &logoutResourceId=`42`]]
 
+<!-- LinkedIn -->
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: 75o8vtonqq7441
+  onLoad: onLinkedInLoad
+   //authorize: true
+</script>
+
+<!-- End LinkedIn -->
+
 `]]
 
-</div>',
+</div>
+[[!log_user_visits?]]
+',
         ),
         'policies' => 
         array (
@@ -972,6 +972,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'source' => 
         array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
       'home_index' => 
@@ -5666,6 +5674,60 @@ return $output;',
         ),
         'source' => 
         array (
+        ),
+      ),
+      'log_user_visits' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 83,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'log_user_visits',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 15,
+          'cache_type' => 0,
+          'snippet' => '$table = "ext_user_visits";
+$user = $modx->getUser();
+$userid = $user->get("id");
+$url = $_SERVER[\'REQUEST_URI\'];
+$ip_addr = $_SERVER[\'REMOTE_ADDR\'];
+
+$q = "INSERT INTO ".$table." (userid, visited_path, ip_address) VALUES (\'".$userid."\', \'".$url."\',\'".$ip_addr."\')";
+$result = $modx->query($q);',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '$table = "ext_user_visits";
+$user = $modx->getUser();
+$userid = $user->get("id");
+$url = $_SERVER[\'REQUEST_URI\'];
+$ip_addr = $_SERVER[\'REMOTE_ADDR\'];
+
+$q = "INSERT INTO ".$table." (userid, visited_path, ip_address) VALUES (\'".$userid."\', \'".$url."\',\'".$ip_addr."\')";
+$result = $modx->query($q);',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
     ),

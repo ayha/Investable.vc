@@ -55,27 +55,27 @@
 					
 					<div class="form_header">Investment Preferences</div>
 					<div class="form_section">
-						<div class="form_row"><label>Industries</label>
+						<div class="form_row"><label>Industries</label><span class="note">Hold CTRL (Command on MAC) key to select multiple</span><br />
 						<select  multiple name="investment_industries[]" id="investment_industries">
 						   [[!get_industry_list? &source=`user`]]
 						</select>
-						<br /> (Hold CTRL key to select multiple)
+						<br />
 						<br />Other
 						<input type="text" name="other_industry" id="other_industry" value="[[+other_industry]]" placeholder="Other" />
 						</div>	
 						
-						<div class="form_row"><label>Stage</label>
+						<div class="form_row"><label>Stage</label><span class="note">Hold CTRL (Command on MAC) key to select multiple</span><br />
 						<select multiple name="investment_stage[]" id="investment_stage">
 						   [[!get_stage_list? &source=`user`]]
 						</select>
-						<br /> (Hold CTRL key to select multiple)
+						<br /> 
 						</div>	
 						
-						<div class="form_row"><label>Level of Involvement</label>[[+investment_involvement]]
+						<div class="form_row"><label>Level of Involvement</label><span class="note">Hold CTRL (Command on MAC) key to select multiple</span><br />
 						<select multiple name="investment_involvement[]" id="investment_involvement" >
 						  [[!get_involvement_list? &source=`user`]]
 						</select>
-						<br /> (Hold CTRL key to select multiple)
+						<br />
 						</div>	
 						
 						<div class="form_row"><label>Risk Appetite</label><input type="text" name="risk_appetite" id="risk_appetite" placeholder="Risk Appetite" value="[[+risk_appetite]]" /></div>

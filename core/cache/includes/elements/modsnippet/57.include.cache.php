@@ -1,15 +1,17 @@
 <?php
-if(!empty($uid) || !is_numeric($uid)){
+if(!empty($uid) && is_numeric($uid)){
    $config = $modx->getConfig();
-   $query = "SELECT a.*, u.username FROM ".$config["table_prefix"]."user_attributes a LEFT JOIN ".$config["table_prefix"]."users u ON a.internalKey =u.id WHERE u.active=1 AND a.internalKey=".$uid;
+   $user = $uid;
+   
+   $query = "SELECT a.*, u.username FROM ".$config["table_prefix"]."user_attributes a LEFT JOIN ".$config["table_prefix"]."users u ON a.internalKey =u.id WHERE u.active=1 AND a.internalKey =".$user;
    $result = $modx->query($query);
    if (!is_object($result)) {
        return false;
    }
    else {
+      $output = "";
       $row = $result->fetch(PDO::FETCH_ASSOC);
-     // return json_encode($row);
-      
+    
       $extended = json_decode($row["extended"]);
       $placeholders = $row;      
       
@@ -22,13 +24,14 @@ if(!empty($uid) || !is_numeric($uid)){
 
       $placeholders["photo"] = $photo;
        if(!empty($tpl)){
-         return $modx->getChunk($tpl, $placeholders);
+         $output = $modx->getChunk($tpl, $placeholders);
+         return $output;
 
       }else{
          return $placeholders;
 
       }
-     
+      
    }
 
 }else{

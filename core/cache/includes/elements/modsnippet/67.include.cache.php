@@ -19,7 +19,7 @@ if(isset($_GET["industry"])){
 
 
 
-$q = "SELECT DISTINCT c.id as companyid FROM ".$config["table_prefix"]."site_content c LEFT JOIN ".$config["table_prefix"]."site_tmplvar_contentvalues tv ON tv.contentid = c.id WHERE c.parent=".$parentid;
+$q = "SELECT DISTINCT c.id as companyid FROM ".$config["table_prefix"]."site_content c LEFT JOIN ".$config["table_prefix"]."site_tmplvar_contentvalues tv ON tv.contentid = c.id WHERE c.parent=".$parentid . " AND published='1' AND deleted ='0'";
 
 if(!empty($industry)){
    $q .= " AND (tv.tmplvarid=".$industrytv." AND tv.value LIKE '%".$industry."%')";

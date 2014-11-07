@@ -111,6 +111,11 @@
       2 => 83,
       3 => 90,
       4 => 91,
+      5 => 94,
+      6 => 95,
+      7 => 96,
+      8 => 97,
+      9 => 98,
     ),
     38 => 
     array (
@@ -213,6 +218,11 @@
     'en/startup-companies/shangrila-farms.html' => 83,
     'en/startup-companies/infonation.html' => 90,
     'en/startup-companies/playto.html' => 91,
+    'en/startup-companies/go-n-live.html' => 94,
+    'en/startup-companies/ezeecube.html' => 95,
+    'en/startup-companies/tabby.html' => 96,
+    'en/startup-companies/foodquest.html' => 97,
+    'en/startup-companies/grip-gear.html' => 98,
     'processors/login-action/' => 39,
     'processors/investor-register-action.html' => 40,
     'processors/startup-register-action.html' => 41,

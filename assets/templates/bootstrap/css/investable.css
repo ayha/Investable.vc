@@ -903,6 +903,13 @@ border-radius: 7px;
 	
 }
 
+.founder_profile{
+   padding-bottom:15px;
+   margin-bottom:15px;
+   border-bottom:1px solid #a40a42;	
+
+}
+
 .founder_profile .profile_name{
 	margin-top:20px;
 }
@@ -1121,6 +1128,12 @@ border-radius: 7px;
 #feed_content{
 	width:100%;
 	
+}
+
+.note{
+	font-size:0.8em;
+	color:#666;
+	font-style:italic;
 }
 
 /* end member area */
