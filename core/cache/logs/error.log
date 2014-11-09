@@ -8083,3 +8083,6 @@ Array
 [2014-11-07 17:35:37] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-11-07 17:36:07] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-11-07 17:39:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-09 00:32:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-09 01:32:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-09 02:09:20] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!

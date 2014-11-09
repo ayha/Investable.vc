@@ -12,7 +12,7 @@
   'connection.your_connections' => 'Your Connections',
   'connections.connect_to_see_investments' => 'Connect with other investors to see what they have invested in',
   'connections.no_connection' => 'You are not connected to anyone yet!',
-  'get_more_news' => '<h3 align="center" style="margin:15px auto;"><a href="[[~9]]">Become a member</a> to get more updated industry news.</h3>',
+  'get_more_news' => '<h3 align="center" style="margin:15px auto;">Not yet a member? <a href="[[~9]]">Register now</a>  to get access to more industry news</h3>',
   'investable.backtohome' => '&laquo; Back to home',
   'investable.dashboard' => 'Dashboard',
   'investable.iam_investor' => 'I am a professional investor',

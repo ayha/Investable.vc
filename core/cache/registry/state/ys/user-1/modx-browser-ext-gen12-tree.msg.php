@@ -1,2 +1,2 @@
 <?php
-return '/Files/assets/images/startups';
+return '/Files/assets/images';

@@ -189,7 +189,7 @@
     'en/member/connections.html' => 54,
     'en/misc/terms.html' => 15,
     'en/misc/privacy-policies.html' => 16,
-    'en/misc/legal-documents.html' => 17,
+    'en/misc/legal-document.html' => 17,
     'en/faqs/q1.html' => 23,
     'en/faqs/q15.html' => 73,
     'en/faqs/q2.html' => 24,

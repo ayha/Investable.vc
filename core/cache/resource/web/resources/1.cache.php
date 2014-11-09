@@ -16,7 +16,7 @@
     'parent' => 2,
     'isfolder' => 0,
     'introtext' => '',
-    'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/demo_day_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/demo_day.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/demo_day_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
+    'content' => '<p><video id="introvid" width="100%" height="400" class="video-js vjs-default-skin  vjs-big-play-centered" controls="controls" preload="auto" poster="[[!++site_url]]assets/images/investable_video_poster.png" data-setup="{&quot;example_option&quot;:true}"><source src="[[!++site_url]]assets/images/investable-v1.mp4" type="video/mp4" /><object id="introvid" width="100%" height="400" data="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="assets/components/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/%5B%5B%21++site_url%5D%5Dassets/images/investable-v1.mp4&amp;poster=/%5B%5B%21++site_url%5D%5Dassets/images/investable_video_poster.png" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /></object></video></p>
 <!--<h1 class="site-tagline" style="text-align: center;">Invest in Asia. Curated. Scalable. Diversified. Efficient. No fees. <br />Be part of it.</h1>-->
 <h1 class="site-tagline" style="text-align: center;">Connects professional investors to curated startups</h1>
 <blockquote>
@@ -32,7 +32,7 @@
     'createdby' => 1,
     'createdon' => 1413180619,
     'editedby' => 1,
-    'editedon' => 1415353154,
+    'editedon' => 1415470160,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -542,10 +542,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 ',
     '[[~9]]' => 'en/member/join-us.html',
     '[[~10]]' => 'en/member/login.html',
-    '[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]' => '<h3 align="center" style="margin:15px auto;"><a href="en/member/join-us.html">Become a member</a> to get more updated industry news.</h3>',
-    '[[~17]]' => 'en/misc/legal-documents.html',
+    '[[%get_more_news? &topic=`default` &namespace=`investable` &language=`en`]]' => '<h3 align="center" style="margin:15px auto;">Not yet a member? <a href="en/member/join-us.html">Register now</a>  to get access to more industry news</h3>',
+    '[[~17]]' => 'en/misc/legal-document.html',
     '[[~15]]' => 'en/misc/terms.html',
     '[[~16]]' => 'en/misc/privacy-policies.html',
+    '[[%login? &topic=`default` &namespace=`login` &language=`en`]]' => 'Login',
+    '[[%investable.login_with_linkedin? &topic=`default` &namespace=`investable` &language=`en`]]' => 'Login with LinkedIn',
+    '[[%login.username]]' => 'Username',
+    '[[%login.password]]' => 'Password',
+    '[[~44]]' => 'en/member/forgot-password.html',
+    '[[%login.forgot_password]]' => 'Forgot your password?',
   ),
   'sourceCache' => 
   array (
@@ -732,9 +738,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -867,9 +870,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -966,9 +966,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1005,9 +1002,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1136,9 +1130,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1207,9 +1198,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1256,9 +1244,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1295,9 +1280,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1323,52 +1305,21 @@ $(document).ready(function(){
           'editor_type' => 0,
           'category' => 9,
           'cache_type' => 0,
-          'snippet' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
+          'snippet' => '<div class="section_content">
+   [[+content]]
+</div>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '
-    <!-- Carousel
-    ================================================== -->
-    <div id="howitworks-slide" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`@INLINE <li data-target="#howitworks-slide" data-slide-to="[[+idx:subtract=`1`]]" class="[[+idx:is=`1`:then=`active`]]"></li>` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-        
-      </ol>
-      <div class="carousel-inner">
-        
-       [[!getResources? &parents=`[[+id]]` &limit=`10` &tpl=`how_carousel_item` &includeContent=`1` &showHidden=`1` &sortby=`{"menuindex":"ASC","id":"ASC"}`]]
-       
-      </div>
-      <a class="left carousel-control" href="#howitworks-slide" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#howitworks-slide" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->',
+          'content' => '<div class="section_content">
+   [[+content]]
+</div>',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1407,9 +1358,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1510,9 +1458,6 @@ $(document).ready(function(){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1526,45 +1471,92 @@ $(document).ready(function(){
           'is_stream' => true,
         ),
       ),
-      'lgnLogoutTpl' => 
+      'login_form' => 
       array (
         'fields' => 
         array (
-          'id' => 36,
-          'source' => 0,
+          'id' => 33,
+          'source' => 1,
           'property_preprocess' => false,
-          'name' => 'lgnLogoutTpl',
+          'name' => 'login_form',
           'description' => '',
           'editor_type' => 0,
-          'category' => 16,
+          'category' => 10,
           'cache_type' => 0,
-          'snippet' => '<div class="loginMessage">[[+errors]]</div>
-<br />
-<div class="loginLogin">
-    <div class="loginRegister">
-        <a href="[[+logoutUrl]]" title="[[+actionMsg]]">[[+actionMsg]]</a>
-    </div>
+          'snippet' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
+  
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+     
+      <div class="form_section">
+         
+         <a class="btn login_with_linkedin" href="#" style="display:none;">[[%investable.login_with_linkedin? &topic=`default` &namespace=`investable` &language=`en`]]</a>
+          <div id="profiles"></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
+      
+      </div>
+   </form>
+
+
 </div>',
           'locked' => false,
-          'properties' => NULL,
-          'static' => false,
-          'static_file' => '',
-          'content' => '<div class="loginMessage">[[+errors]]</div>
-<br />
-<div class="loginLogin">
-    <div class="loginRegister">
-        <a href="[[+logoutUrl]]" title="[[+actionMsg]]">[[+actionMsg]]</a>
-    </div>
+          'properties' => 
+          array (
+          ),
+          'static' => true,
+          'static_file' => 'assets/chunks/login_form.html',
+          'content' => '<div id="login_form_wrapper">
+   <div class="form_header">[[%login? &topic=`default` &namespace=`login` &language=`en`]]</div>
+  
+   <form name="login_form"  action="[[~10]]" method="post" >
+       <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+       <input class="loginLoginValue" type="hidden" name="service" value="login" />
+     
+      <div class="form_section">
+         
+         <a class="btn login_with_linkedin" href="#" style="display:none;">[[%investable.login_with_linkedin? &topic=`default` &namespace=`investable` &language=`en`]]</a>
+          <div id="profiles"></div>
+      </div>
+      <div class="form_section">
+      <div class="form_row"> <div class="loginMessage">[[+errors]]</div></div>
+<div class="form_row"><input type="text" name="username" placeholder="[[%login.username]]" /></div>
+      <div class="form_row"><input type="password" name="password" placeholder="[[%login.password]]" /></div>
+      </div>
+      <div class="form_section submit">
+         <div class="form_row">[[+login.recaptcha_html]]</div>
+         <div class="form_row"><input type="submit" name="login_submit" value="[[+actionMsg]]" /></div>
+         <div class="form_row"><a href="[[~44]]">[[%login.forgot_password]]</a></div>
+      
+      </div>
+   </form>
+
+
 </div>',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
     ),
@@ -1940,9 +1932,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2078,9 +2067,6 @@ return $id;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2890,9 +2876,6 @@ if ($wf->_config[\'ph\']) {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2930,9 +2913,6 @@ return date(\'Y\');',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -4840,9 +4820,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5032,9 +5009,6 @@ if($modx->user->hasSessionContext($ctxs)){
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5174,9 +5148,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5668,9 +5639,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5714,9 +5682,6 @@ $result = $modx->query($q);',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5769,9 +5734,6 @@ $result = $modx->query($q);',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -5821,9 +5783,6 @@ $result = $modx->query($q);',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
