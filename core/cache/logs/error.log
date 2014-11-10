@@ -8086,3 +8086,88 @@ Array
 [2014-11-09 00:32:24] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-11-09 01:32:02] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
 [2014-11-09 02:09:20] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 16:14:54] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-09 18:46:56] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 09:41:53] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 09:42:14] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 09:57:03] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:00:54] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:01:08] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:02:51] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:03:07] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:03:36] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:03:47] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:03:51] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:04:10] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:04:27] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:10:53] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:12:32] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:16:30] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:19:58] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:21:17] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-10 10:27:08] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/69.include.cache.php : 35) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:28:18] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/68.include.cache.php : 37) PHP warning: in_array() expects parameter 2 to be array, string given
+[2014-11-10 10:30:29] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-10 10:33:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:35:22] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:38:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:40:37] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:40:55] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:44:17] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 10:48:39] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-10 10:55:11] (ERROR @ /connectors/index.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2014-11-10 10:58:56] (ERROR @ /connectors/system/phpthumb.php) phpThumb was unable to generate a thumbnail for: /var/www/vhosts/v2.investable.vc/html/core/cache/phpthumb/v2.investable.vc__src19f0ae16a2880c4ee58ca197c8045c30_paradf896d45f319fa323d889e84ccb98c5_dat0.jpeg
+[2014-11-10 10:58:56] (ERROR @ /connectors/system/phpthumb.php) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 572
+[2014-11-10 11:00:15] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 11:02:05] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 11:02:31] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 11:02:39] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 11:06:03] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 11:06:35] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 12:40:11] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:40:11] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 12:42:13] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:42:13] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 12:42:51] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:42:51] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 12:42:59] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:42:59] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 12:43:28] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:43:28] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 12:45:34] (ERROR @ /var/www/vhosts/v2.investable.vc/html/core/cache/includes/elements/modsnippet/57.include.cache.php : 18) PHP warning: Invalid argument supplied for foreach()
+[2014-11-10 12:45:34] (ERROR @ /index.php) You should set userid or username or email
+[2014-11-10 13:16:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:17:11] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:18:21] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:19:00] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:19:50] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:20:48] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:21:04] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!
+[2014-11-10 13:21:33] (ERROR @ /connectors/index.php) [OnDocFormSave] Plugin failed!

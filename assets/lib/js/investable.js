@@ -63,6 +63,7 @@ $(document).ready(function(){
     
     $("a.connect_button").click(function(e){
         e.preventDefault();
+        /*
          $("#send_message_form")[0].reset();
         $("#send_message_form #action_type").val("connect");
         $("#send_message_form").attr("action", $("#send_message_form #connect_action_page").val());
@@ -74,14 +75,49 @@ $(document).ready(function(){
 		modal: false,
 		closeBtn: true
 		});
+		*/
+		
+		var msg_url = $("#send_message_form #connect_action_page").val();
+    	//console.log(url);
+    	var msg_from = $("#send_message_form").children("input#sender_id").val();
+    	var msg_to = $(this).data("uid");
+    	var msg_subject  = "Please connect with me";
+    	var msg = "Please connect with me";
+    	var form = $(this).parent().parent();
+    	$.ajax(msg_url,
+    		{
+    			cache: false,
+    			type: 'post',
+    			data: {from: msg_from, to: msg_to, subject:msg_subject, message: msg},
+    			complete: function(xhr, status){
+    				 
+    				if(status=="success" && xhr.responseText=="1"){  //success
+    				   
+    				  
+    				  $("#send_message_form").hide();
+    				  $("#send_message_form").parent().children(".form_message").show();
+    				  $.fancybox.open({
+						href:"#send_message_wrapper",
+						modal: false,
+						closeBtn: true
+						});
+    				  
+    				  
+    				}else{
+    				   alert("There was a problem sending the message. Please try again.");
+    				}
+    			
+    			}
+    		})    	
+		
+		
     });
     
     $("a.approve_connect_button").click(function(e){
     	e.preventDefault();
     	var url=$(this).parent().parent().parent().data("url");
-    	//url += "?requestid="+$(this).data("rid")+"&hash="+$(this).data("hash");
     	var send_data = {"requestid":$(this).data("rid"), "hash":$(this).data("hash")};
-    	//console.log(url);
+    	
     	$.ajax(url, {
     		   cache:false,
     		   type:"POST",
@@ -242,12 +278,12 @@ function scrollToSection(target_section){
             	
             	var percentage = Math.ceil(raised*100/goal);
             	
-            	if(percentage <70){ // hide the percentage
-            		$("#"+company).find(".quickfacts").children(".percentage").remove();
+            	//if(percentage <70){ // hide the percentage
+            	//	$("#"+company).find(".quickfacts").children(".percentage").remove();
             		
-            	}else{
-            		$("#"+company).find(".quickfacts").children(".percentage").children(".fact_number").html(percentage+"%");
-            	}
+            	//}else{
+            	   $("#"+company).find(".quickfacts").children(".percentage").children(".fact_number").html(percentage+"%");
+            	//}
             }
 
 function insertParam(key, value)

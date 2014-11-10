@@ -7,9 +7,9 @@ $database_server = 'localhost';
 $database_user = 'invest_modx';
 $database_password = 'invest+123';
 $database_connection_charset = 'utf8';
-$dbase = 'investable_modx';
+$dbase = 'investable_dev_modx';
 $table_prefix = 'modx_';
-$database_dsn = 'mysql:host=localhost;dbname=investable_modx;charset=utf8';
+$database_dsn = 'mysql:host=localhost;dbname=investable_dev_modx;charset=utf8';
 $config_options = array (
 );
 $driver_options = array (

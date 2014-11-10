@@ -17,6 +17,7 @@
 			<div class="member_content">
 				 <div class="startup_filters">
 				 	<span class="filter_title">[[%member.filter_by? &topic=`default` &namespace=`investable` &language=`en`]]:</span>
+				 	
 				 	<select name="startup_stage" id="startup_stage">
 				 		<option value="">All Stages</option>
 				 		[[get_stage_list]]
@@ -27,6 +28,7 @@
 				 	</select>
 				 
 				 </div>
+				 <div class="note" style="text-align:right">[[%investable.all_currencies? &topic=`default` &namespace=`investable` &language=`en`]]</div>
 				 <div class="startup_list">
 				    [[!get_startup_list?]]
 				    <div class="allclear"></div>

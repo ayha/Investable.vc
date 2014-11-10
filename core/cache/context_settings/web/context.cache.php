@@ -25,6 +25,7 @@
       10 => 14,
       11 => 36,
       12 => 93,
+      13 => 101,
     ),
     3 => 
     array (
@@ -65,6 +66,7 @@
       11 => 53,
       12 => 52,
       13 => 54,
+      14 => 100,
     ),
     14 => 
     array (
@@ -116,6 +118,7 @@
       7 => 96,
       8 => 97,
       9 => 98,
+      10 => 99,
     ),
     38 => 
     array (
@@ -162,6 +165,7 @@
     'en/misc/' => 14,
     'en/startup-companies/' => 36,
     'en/404.html' => 93,
+    'en/site-update-in-progress.html' => 101,
     'en/news/techcrunch-hong-kong-incubator-nest-launches-an-equity-crowdfunding-platform-for-startups.html' => 11,
     'en/news/techcrunch2.html' => 34,
     'en/news/techcrunch3.html' => 35,
@@ -187,6 +191,7 @@
     'en/member/member-newsfeed.html' => 53,
     'en/member/message-center.html' => 52,
     'en/member/connections.html' => 54,
+    'en/member/investor-quick-profile.html' => 100,
     'en/misc/terms.html' => 15,
     'en/misc/privacy-policies.html' => 16,
     'en/misc/legal-document.html' => 17,
@@ -223,6 +228,7 @@
     'en/startup-companies/tabby.html' => 96,
     'en/startup-companies/foodquest.html' => 97,
     'en/startup-companies/grip-gear.html' => 98,
+    'en/startup-companies/prive.html' => 99,
     'processors/login-action/' => 39,
     'processors/investor-register-action.html' => 40,
     'processors/startup-register-action.html' => 41,

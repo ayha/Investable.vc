@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		[[$Navbar]]
-		<div class="container main_content">
+		<div class="container main_content" data-uid="[[+id]]">
 
 			<div class="page-header">
 				<h1>[[%investable.startup_opportunities? &topic=`default` &namespace=`investable` &language=`en`]]</h1>
@@ -15,6 +15,7 @@
 				<div class="allclear"></div>
 			</div>
 			<div class="member_content">
+				 <div class="note" style="text-align:right">[[%investable.all_currencies? &topic=`default` &namespace=`investable` &language=`en`]]</div>
 				<div class="quick_facts">
 					<div class="project_logo col-md-4">
 						<div class="logo_holder" style="background-image:url([[*content_image:phpthumbof=`w=500&h=300`]]);"></div>
@@ -87,6 +88,7 @@
 							</div>
 							<div class="allclear"></div>
 						</div>
+						
 						<div class="investment_badges">
 							[[*invested_by_nest:ne=``:then=`
 								<div class="startup_badge nest_badge">[[%startups.invested_by? &topic=`default` &namespace=`investable` &language=`en`]]</div>
@@ -127,6 +129,25 @@
 							[[*mobile_app:ne=``:then=`<h3>[[%startups.mobile_app? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*mobile_app]]`]]
 							[[*use_of_funds:ne=``:then=`<h3>[[%startups.use_of_funds? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*use_of_funds]]`]]
 							[[*news:ne=``:then=`<h3>[[%startups.news_press? &topic=`default` &namespace=`investable` &language=`en`]]</h3>[[*news]]`]]
+							<div class="company_investors">
+								[[!get_company_investors:ne=`0`:then=`
+								 <h3>[[%startups.investors_invested_in? &topic=`default` &namespace=`investable` &language=`en`]] [[*longtitle]]</h3>
+								  <div class="investor_list user_list">[[!get_company_investors? &companyid=`[[*id]]` &getCount=`0`]]
+								  	<div class="allclear"></div>
+								  	</div>
+								`? &getCount=`1`  &companyid=`[[*id]]` ]]
+								
+							</div>
+							
+					        <div class="company_followers">
+					        	
+					        	[[!get_company_followers:ne=`0`:then=`
+					        	    <h3>[[%startups.investors_following? &topic=`default` &namespace=`investable` &language=`en`]] [[*longtitle]]</h3>
+								   <div class="follower_list user_list">[[!get_company_followers?  &getCount=`0`  &companyid=`[[*id]]` ]]
+								   	<div class="allclear"></div>
+								   	</div>
+								`? &getCount=`1`  &companyid=`[[*id]]` ]]
+					        </div>
 							
 						</div>
 					</div>
@@ -179,12 +200,12 @@
 				var investment_raised = $("#raised").data("value");
 				
 				percentage_raised = Math.ceil(investment_raised*100/investment_goal);
-				if(percentage_raised >70){
+				//if(percentage_raised >70){
 					$("#raised .status_number").html(percentage_raised + "%");
-				}else{
-					$("#raised").remove();
-				}
-				//$(".project_chart h3 .funded_percentage").html(percentage_raised +"%"); 
+				//}else{
+				//	$("#raised").remove();
+				//}
+				
 				
 				setInterval(function(){
 					update_countdown($("#countdown").data("target_date"));
