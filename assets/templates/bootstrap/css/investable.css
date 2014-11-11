@@ -948,7 +948,7 @@ border-radius: 7px;
 
 .company_details h3{
 	font-size:1.1em;
-	text-transform:none;
+	text-transform:uppercase;
 }
 
 .company_details h4{
