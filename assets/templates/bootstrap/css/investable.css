@@ -931,6 +931,32 @@ border-radius: 7px;
 	font-style:italic;
 }
 
+.company_pitch_video{
+	margin-bottom:15px;
+	
+}
+
+.company_description{
+
+	 
+}
+
+.company_details h2{
+	font-size:1.2em;
+	text-transform:uppercase;
+}
+
+.company_details h3{
+	font-size:1.1em;
+	text-transform:none;
+}
+
+.company_details h4{
+	font-size:1em;
+	text-transform:none
+	;
+}
+
 .floating_content{
 	display:block;
 	position:absolute;
@@ -963,6 +989,9 @@ border-radius: 7px;
     background-position: 5px center;
     
 }
+
+
+
 
 .quick_support .support_company a.support_button{
 	-webkit-box-shadow: none;
