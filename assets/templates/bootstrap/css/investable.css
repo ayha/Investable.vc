@@ -139,7 +139,7 @@ a.navbar-brand{
 	color:#666666;
 	font-family:'Oswald', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size:0.78em;
-	padding: 10px 8px;
+	padding: 10px 7px;
 	text-transform:uppercase;
 	text-decoration:none;
 }
@@ -1183,7 +1183,7 @@ border-radius: 7px;
 	
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	
 	.container>.navbar-collapse{
 		margin-left:-30px;
@@ -1192,7 +1192,7 @@ border-radius: 7px;
 	
 	.navbar-nav{
 		margin-left:0;
-		
+		 
 	}
 	
 	.navbar-nav>li>a{
